@@ -1,0 +1,33 @@
+At this point, we can move on to the fundamental question:
+What is Java?
+
+Java is a high-level, object-oriented programming language designed to be platform-independent.
+However, this definition alone is not sufficient.
+To truly understand Java, we need to unpack what this definition really means.
+
+First of all, Java is a high-level programming language.
+This means that when developing software with Java, we focus on the problem itself and the solution logic — not on hardware details.
+Memory addresses, processor architecture, and low-level hardware instructions are abstracted away from the developer.
+This makes Java both safer and more readable.
+
+One of Java’s most important characteristics is that it is built around object-oriented programming.
+In Java, programs are designed using classes, objects, and the relationships between them.
+This approach allows real-world entities to be represented directly in software.
+
+Another critical aspect of Java is its platform independence.
+A Java program does not run directly on the operating system, but on the Java Virtual Machine, or JVM.
+Thanks to this architecture, the same Java code can run on Windows, Linux, or macOS without any modification.
+
+This concept gave rise to Java’s famous slogan:
+“Write once, run anywhere.”
+
+Java also provides a secure and robust structure by design.
+There is no direct memory access, memory management is handled automatically, and code is verified before execution.
+This makes Java an ideal choice, especially for large-scale and long-lived projects.
+
+Because of these features, Java is widely used in:
+– Enterprise applications,
+– Web-based systems,
+– Server-side software.
+
+In short, Java is a powerful programming language that represents modern software development principles by prioritizing security, portability, and sustainability.

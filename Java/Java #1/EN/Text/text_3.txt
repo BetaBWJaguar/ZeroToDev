@@ -1,0 +1,33 @@
+So far, we have discussed what Java is and why it is such a powerful language.
+Now, let’s clearly define what this training course will provide you.
+
+This Java course is not focused solely on teaching specific code fragments.
+Its primary goal is to help you build a solid programming foundation.
+
+The aim is to develop a perspective where you understand what you are doing while writing Java code — and why you are doing it that way.
+
+Throughout the course, you will first learn Java’s core concepts.
+Starting with variables, data types, and the basic building blocks of programs, you will gradually grasp the logic of the Java language.
+
+Next, we will introduce control structures.
+You will learn how programs make decisions, under which conditions certain code blocks execute, and how operations are repeated.
+Using if statements, loops, and similar mechanisms, you will clearly understand Java’s control flow.
+
+As the course progresses, we will move on to methods.
+Methods will show you how to write more organized, readable, and reusable code.
+This stage forms the foundation of structured thinking in software development.
+
+After that, we will explore the heart of Java: object-oriented programming, or OOP.
+Concepts such as classes, objects, encapsulation, and inheritance will help you understand how large and sustainable software systems are designed.
+
+Throughout all these topics, we will not rely on theory alone.
+We will write Java programs, run them, and analyze the results together.
+This ensures that what you learn does not remain abstract, but turns directly into practice.
+
+By the end of this course, you will have:
+– The ability to understand Java programs,
+– The skills to write your own Java code,
+– An object-oriented way of thinking,
+– A strong foundation for advanced Java and framework topics.
+
+In short, this course aims to turn you into not just someone who learns Java, but someone who starts software development consciously and confidently.

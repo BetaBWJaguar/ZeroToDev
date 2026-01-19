@@ -1,0 +1,33 @@
+Merhaba ve Java Temelleri eğitimine hoş geldiniz.
+
+Bu eğitim serisinde, yazılım dünyasında onlarca yıldır ayakta kalmayı başarmış, milyonlarca sistemin temelini oluşturan ve bugün hâlâ aktif olarak kullanılan Java programlama dilini birlikte keşfedeceğiz.
+
+Java, yalnızca bir programlama dili değildir.
+Java, aynı zamanda bir felsefe, bir mimari yaklaşım ve büyük ölçekli yazılımların nasıl inşa edilmesi gerektiğine dair güçlü bir bakış açısı sunar.
+
+Bu sunumun temel amacı; Java’yı sadece “kod yazılan bir dil” olarak değil, neden ortaya çıktığını, hangi sorunları çözmek için tasarlandığını ve neden bu kadar yaygınlaştığını anlayarak öğrenmenizi sağlamaktır.
+
+Eğitim boyunca;
+– Java’nın temel kavramlarını,
+– Nesne yönelimli programlamanın Java’daki yerini,
+– Java ile program yazma ve çalıştırma sürecini,
+– Ve en önemlisi, yazılım geliştirme mantığını
+adım adım ele alacağız.
+
+Bu noktada şunu özellikle vurgulamak gerekir:
+Java öğrenmek, sadece Java öğrenmek değildir.
+Java öğrenmek; disiplinli kod yazmayı, okunabilirlik kavramını, uzun vadeli düşünmeyi ve sürdürülebilir yazılım geliştirmeyi öğrenmektir.
+
+Sunum akışımız oldukça net.
+Öncelikle Java nedir? sorusuna cevap vereceğiz.
+Ardından bu eğitim sürecinde neler öğreneceğinizi ve hangi konulara hâkim olacağınızı konuşacağız.
+Son olarak da Java’nın nasıl ortaya çıktığını, yani tarihsel arka planını ele alarak bu dilin neden bu kadar güçlü bir konuma geldiğini anlayacağız.
+
+Bu eğitim;
+– Yazılıma yeni başlayanlar için sağlam bir başlangıç,
+– Temeli olanlar için ise bilgileri netleştiren ve oturtan bir rehber niteliğindedir.
+
+Eğer amacınız sadece kod ezberlemek değil, gerçekten yazılım mantığını kavramak ise, bu seri tam olarak bunun için hazırlandı.
+
+Şimdi, sözü daha fazla uzatmadan…
+Java dünyasına birlikte ilk adımı atalım.

@@ -1,0 +1,32 @@
+Hello and welcome to the Java Fundamentals course.
+
+In this training series, we will explore together the Java programming language — a language that has stood strong for decades, forms the backbone of millions of systems, and is still actively used today.
+
+Java is not just a programming language.
+Java is also a philosophy, an architectural approach, and a powerful perspective on how large-scale software systems should be built.
+
+The main goal of this presentation is not to teach Java merely as a language used to write code, but to help you understand why it was created, which problems it was designed to solve, and why it became so widely adopted.
+
+Throughout this course, we will gradually cover:
+– The fundamental concepts of Java,
+– The role of object-oriented programming in Java,
+– The process of writing and running Java programs,
+– And most importantly, the mindset behind software development.
+
+At this point, one thing should be emphasized clearly:
+Learning Java is not just about learning Java.
+Learning Java means learning disciplined coding, readability, long-term thinking, and sustainable software development.
+
+The structure of this presentation is very clear.
+First, we will answer the question: What is Java?
+Then, we will clarify what you will learn throughout this course.
+Finally, we will explore how Java emerged by looking at its historical background and understanding why it became so powerful.
+
+This course serves as:
+– A solid starting point for beginners,
+– And a clarifying guide for those who already have some background.
+
+If your goal is not just to memorize code, but to truly understand the logic of software development, this series is designed exactly for you.
+
+Now, without further delay…
+Let’s take our first step into the world of Java together.

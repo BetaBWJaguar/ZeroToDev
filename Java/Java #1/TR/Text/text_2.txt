@@ -1,0 +1,35 @@
+Bu noktada artık temel soruya geçebiliriz:
+Java nedir?
+
+Java, platformdan bağımsız olacak şekilde tasarlanmış, yüksek seviyeli ve nesne yönelimli bir programlama dilidir.
+Ancak bu tanım tek başına yeterli değildir.
+Java’yı gerçekten anlamak için, bu tanımın içini biraz doldurmamız gerekir.
+
+Öncelikle Java, yüksek seviyeli bir programlama dilidir.
+Yani Java ile yazılım geliştirirken, donanımın detaylarıyla değil, doğrudan problemle ve çözüm mantığıyla ilgileniriz.
+Bellek adresleri, işlemci mimarisi ya da düşük seviyeli donanım komutları geliştiricinin omuzlarından alınmıştır.
+Bu da Java’yı hem daha güvenli hem de daha okunabilir hâle getirir.
+
+Java’nın en önemli özelliklerinden biri, nesne yönelimli programlama yaklaşımını merkeze almasıdır.
+Java’da programlar; sınıflar, nesneler ve bu nesneler arasındaki ilişkiler üzerinden tasarlanır.
+Bu yaklaşım, gerçek dünyadaki varlıkları yazılıma birebir yansıtmayı mümkün kılar.
+
+Bir başka kritik nokta ise Java’nın platformdan bağımsız olmasıdır.
+Java’da yazılan bir program, doğrudan işletim sistemine değil, Java Sanal Makinesi, yani JVM üzerinde çalışır.
+Bu sayede aynı Java kodu; Windows’ta, Linux’ta ya da macOS’te hiçbir değişiklik yapılmadan çalıştırılabilir.
+
+Bu yaklaşım, Java’nın meşhur sloganını ortaya çıkarmıştır:
+“Bir kez yaz, her yerde çalıştır.”
+
+Java ayrıca tasarımı gereği güvenli ve sağlam bir yapı sunar.
+Doğrudan bellek erişimi yoktur, bellek yönetimi otomatik olarak gerçekleştirilir ve kodlar çalıştırılmadan önce denetlenir.
+Bu da Java’yı özellikle büyük ve uzun ömürlü projeler için ideal bir seçenek hâline getirir.
+
+Tüm bu özellikler sayesinde Java;
+– Kurumsal uygulamalarda,
+– Web tabanlı sistemlerde,
+– Sunucu tarafı yazılımlarda
+yaygın olarak kullanılmaktadır.
+
+Kısacası Java;
+güvenliği, taşınabilirliği ve sürdürülebilirliği ön planda tutan, modern yazılım geliştirme anlayışını temsil eden güçlü bir programlama dilidir.

@@ -1,0 +1,32 @@
+Bu noktaya kadar Java’nın ne olduğunu ve neden bu kadar güçlü bir dil olduğunu konuştuk.
+Şimdi ise bu eğitim sürecinin size tam olarak ne kazandıracağını netleştirelim.
+
+Bu Java kursu, yalnızca belirli kod parçalarını öğretmeyi değil, sağlam bir programlama temeli oluşturmayı hedefler.
+Amacımız; Java ile yazılım geliştirirken ne yaptığınızı bilen, neden o şekilde yazdığınızı anlayan bir bakış açısı kazandırmaktır.
+
+Eğitim süresince öncelikle Java’nın temel kavramlarını öğreneceksiniz.
+Değişkenler, veri tipleri ve programın yapı taşları gibi konularla başlayarak, Java dilinin mantığını adım adım kavrayacaksınız.
+
+Ardından kontrol yapıları devreye girecek.
+Programların nasıl karar verdiğini, hangi koşullarda hangi kodların çalıştığını ve işlemlerin nasıl tekrarlandığını öğreneceğiz.
+if yapıları, döngüler ve benzeri mekanizmalar sayesinde, Java’nın akış kontrolünü net bir şekilde anlayacaksınız.
+
+Eğitim ilerledikçe metotlar konusuna geçeceğiz.
+Metotlar sayesinde kodu nasıl daha düzenli, daha okunabilir ve tekrar kullanılabilir hâle getirebileceğimizi göreceğiz.
+Bu aşama, yazılım geliştirmede düzenli düşünmenin temelini oluşturur.
+
+Sonrasında ise Java’nın kalbinde yer alan nesne yönelimli programlama, yani OOP kavramlarıyla tanışacağız.
+Sınıflar, nesneler, kapsülleme, kalıtım ve benzeri kavramlar; büyük ve sürdürülebilir yazılımların nasıl tasarlandığını anlamanızı sağlayacak.
+
+Tüm bu konular boyunca sadece teoriyle yetinmeyeceğiz.
+Java programları yazacak, çalıştıracak ve sonuçlarını birlikte inceleyeceğiz.
+Böylece öğrendikleriniz soyut kalmayacak, doğrudan uygulamaya dönüşecek.
+
+Bu eğitimin sonunda;
+– Java programlarını anlayabilen,
+– Kendi programlarını yazabilen,
+– Nesne yönelimli düşünce yapısına sahip,
+– Daha ileri Java ve framework konularına hazır
+bir temel kazanmış olacaksınız.
+
+Kısacası bu kurs, sizi sadece Java öğrenen biri değil; yazılım geliştirmeye bilinçli bir şekilde başlayan biri hâline getirmeyi amaçlıyor.
