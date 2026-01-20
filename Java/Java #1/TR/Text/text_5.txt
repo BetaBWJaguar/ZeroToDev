@@ -1,0 +1,42 @@
+“Java’nın neden bu kadar önemli olduğunu anlayabilmek için, önce Java’dan önce yazılım dünyasının nasıl bir yerde olduğuna bakmamız gerekiyor.
+
+1990’lı yılların başında yazılım geliştirmek bugünkü gibi rahat değildi.
+Ortak bir standart yoktu.
+Her bilgisayar, her işletim sistemi ve her işlemci neredeyse kendi dünyasında yaşıyordu.
+
+Bir yazılım geliştirici bir program yazdığında, o program genellikle sadece tek bir makinede çalışıyordu.
+Aynı yazılımı başka bir bilgisayara taşımak çoğu zaman mümkün değildi.
+Bu da şu anlama geliyordu:
+Aynı fikir, aynı uygulama, ama defalarca yeniden yazılan kodlar.
+
+Bu durum yazılım dünyasında büyük bir kaosa yol açtı.
+Zaman kaybı vardı.
+Maliyet yüksekti.
+Bakım zorlaşmıştı.
+Ve en önemlisi, yazılımlar sürdürülebilir değildi.
+
+O dönemin en yaygın kullanılan dilleri olan C ve C++, performans açısından çok güçlüydü.
+Ancak bu güç beraberinde ciddi sorunlar da getiriyordu.
+Bu diller doğrudan donanıma bağımlı çalışıyordu.
+Her işletim sistemi için ayrı ayrı derleme yapılması gerekiyordu.
+
+Bellek yönetimi tamamen geliştiricinin sorumluluğundaydı.
+Yanlış bir bellek işlemi, programın çökmesine veya güvenlik açıklarına yol açabiliyordu.
+Buffer overflow gibi problemler çok yaygındı.
+
+Kısacası şunu söyleyebiliriz:
+Bir sistem, bir yazılım demekti.
+Windows için yazılan bir program, Linux’ta çalışmazdı.
+Farklı işlemciler, farklı derleyiciler gerektirirdi.
+
+İşte bu noktada çok temel bir soru ortaya çıktı:
+“Yazılım neden donanıma bu kadar bağımlı olmak zorunda?”
+
+Java’dan önce bu sorunun net bir cevabı yoktu.
+Ama bu soru, Java’nın doğmasına neden olan en büyük itici güç oldu.
+
+Java, yazılım dünyasına şunu söyledi:
+Kod, platformdan bağımsız olmalı.
+Yazılım, donanıma değil, mantığa odaklanmalı.
+
+Ve böylece, yazılım geliştirmede yepyeni bir dönem başladı.”

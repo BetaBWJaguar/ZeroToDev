@@ -1,0 +1,53 @@
+“Bu slaytta Java’nın tarihine, yani bu dilin neden ve nasıl ortaya çıktığına yakından bakıyoruz.
+
+Java’nın hikâyesi, aslında bir teknolojik ihtiyaçtan doğuyor.
+1990’lı yılların başına gittiğimizde, bilgisayar dünyası bugünkü gibi standart değildi.
+Her cihaz farklıydı, her sistem farklıydı ve yazılımlar taşınabilir değildi.
+
+O dönemde bir yazılım geliştiriciyseniz, ciddi bir problemle karşı karşıyaydınız.
+Bir program yazıyordunuz, ama o program sadece tek bir makinede çalışıyordu.
+Başka bir bilgisayara geçtiğinizde, her şeyi yeniden yazmanız gerekiyordu.
+
+Sun Microsystems bünyesinde çalışan James Gosling ve ekibi, tam olarak bu sorunu fark etti.
+Sorun şuydu:
+Donanımlar sürekli değişiyordu ama yazılımlar bu değişime ayak uyduramıyordu.
+
+1991 yılında bu problemi çözmek için Oak adlı bir proje başlatıldı.
+Oak’ın ilk hedefi internet değildi.
+Asıl hedef, o dönem yükselişte olan akıllı cihazlardı:
+televizyonlar, set-top box’lar ve gömülü sistemler.
+
+Bu cihazların ortak bir problemi vardı.
+Donanımları birbirinden çok farklıydı ama aynı yazılım mantığına ihtiyaç duyuyorlardı.
+İşte Oak’ın arkasındaki temel fikir burada doğdu:
+Kod, donanıma bağımlı olmamalıydı.
+
+Ancak zamanla bir gerçek ortaya çıktı.
+Akıllı televizyon pazarı beklenen gibi büyümedi.
+Oak projesi ticari olarak başarısız olma riskiyle karşı karşıya kaldı.
+Hatta proje neredeyse iptal edilecekti.
+
+Tam bu noktada dünyada çok daha büyük bir şey oluyordu.
+İnternet hızla yayılıyordu.
+Web tarayıcıları popülerleşiyordu.
+Ve herkesin erişebileceği, güvenli ve taşınabilir yazılımlara ihtiyaç doğuyordu.
+
+Gosling ve ekibi çok kritik bir farkındalık yaşadı:
+Sorun cihazlar değil, platformlardı.
+Ve çözüm, her platformda çalışabilecek tek bir yazılımdı.
+
+Oak bu yeni ihtiyaca mükemmel uyuyordu.
+Platformdan bağımsızdı.
+Güvenlik odaklıydı.
+Donanıma doğrudan bağlı değildi.
+
+1995 yılında Oak yeniden doğdu.
+Adı değiştirildi ve Java olarak dünyaya tanıtıldı.
+Java, internet çağı için tasarlanmış bir dil olarak sahneye çıktı.
+
+Ve beraberinde çok güçlü bir felsefe getirdi:
+Bir kez yaz, her yerde çalıştır.
+
+Bu felsefe, sadece bir slogan değildi.
+Yazılım geliştirme biçimini kökten değiştiren bir yaklaşımdı.
+Java’nın bugün hâlâ güçlü olmasının temel nedeni de işte bu bakış açısıdır.”
