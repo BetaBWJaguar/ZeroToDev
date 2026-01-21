@@ -1,0 +1,42 @@
+“To understand why Java is so important, we first need to look at what the software world was like before Java.
+
+In the early 1990s, software development was not as comfortable as it is today.
+There was no common standard.
+Every computer, every operating system, and almost every processor lived in its own separate world.
+
+When a software developer wrote a program, that program usually ran on only a single machine.
+Moving the same software to another computer was often not possible.
+This meant one thing:
+The same idea, the same application, but code rewritten over and over again.
+
+This situation caused major chaos in the software world.
+There was a loss of time.
+Costs were high.
+Maintenance became difficult.
+And most importantly, software was not sustainable.
+
+The most widely used languages of that era, C and C++, were extremely powerful in terms of performance.
+However, that power also came with serious problems.
+These languages were tightly coupled to hardware.
+Separate compilation was required for each operating system.
+
+Memory management was entirely the developer’s responsibility.
+A single mistake in memory handling could cause a program to crash or lead to security vulnerabilities.
+Problems like buffer overflows were very common.
+
+In short, we can say this:
+One system meant one piece of software.
+A program written for Windows would not run on Linux.
+Different processors required different compilers.
+
+At this point, a very fundamental question emerged:
+“Why does software have to be so dependent on hardware?”
+
+Before Java, there was no clear answer to this question.
+But this question became the biggest driving force behind the birth of Java.
+
+Java told the software world something revolutionary:
+Code should be platform-independent.
+Software should focus on logic, not hardware.
+
+And thus, a brand-new era in software development began.”

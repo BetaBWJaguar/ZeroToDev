@@ -1,0 +1,53 @@
+“In this slide, we take a closer look at the history of Java—why and how this language came into existence.
+
+Java’s story actually begins with a technological need.
+When we go back to the early 1990s, the computer world was not standardized like it is today.
+Every device was different, every system was different, and software was not portable.
+
+If you were a software developer at that time, you were facing a serious problem.
+You wrote a program, but it only worked on a single machine.
+When you moved to another computer, you had to rewrite everything from scratch.
+
+James Gosling and his team at Sun Microsystems recognized this exact problem.
+The issue was clear:
+Hardware was constantly changing, but software couldn’t keep up with that change.
+
+In 1991, a project called Oak was launched to solve this problem.
+Oak’s original target was not the internet.
+Its main focus was the smart devices that were emerging at the time:
+televisions, set-top boxes, and embedded systems.
+
+These devices shared a common problem.
+Their hardware was very different from one another, yet they required the same software logic.
+This is where the core idea behind Oak was born:
+Code should not be dependent on hardware.
+
+Over time, however, a reality became clear.
+The smart TV market did not grow as expected.
+The Oak project faced the risk of commercial failure.
+In fact, the project was almost canceled.
+
+At that very moment, something much bigger was happening in the world.
+The internet was spreading rapidly.
+Web browsers were becoming popular.
+And there was a growing need for secure, portable software that everyone could access.
+
+Gosling and his team had a critical realization:
+The problem wasn’t devices—it was platforms.
+And the solution was a single piece of software that could run on every platform.
+
+Oak was a perfect fit for this new need.
+It was platform-independent.
+It was security-focused.
+It was not directly tied to hardware.
+
+In 1995, Oak was reborn.
+Its name was changed, and it was introduced to the world as Java.
+Java stepped onto the stage as a language designed for the internet era.
+
+And it brought with it a powerful philosophy:
+Write once, run anywhere.
+
+This philosophy was not just a slogan.
+It was an approach that fundamentally changed the way software was developed.
+And this perspective is the main reason why Java remains powerful even today.”
