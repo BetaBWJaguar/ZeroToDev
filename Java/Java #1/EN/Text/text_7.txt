@@ -1,0 +1,38 @@
+The Oak Project was technically successful.
+However, commercially, things did not go as expected.
+
+By 1994, the smart TV market did not receive the anticipated interest.
+The devices planned for Oak did not become widespread.
+And the project was almost shelved.
+
+At exactly this point, something very important was happening in the world:
+The Internet was growing.
+
+Web browsers were rapidly becoming popular.
+For the first time, people began accessing the same content from different computers.
+But the code written for the web was still platform-dependent.
+
+This is where the realization that changed Oak’s destiny emerged:
+“The future is not televisions… it is the web.”
+
+The features Oak already had were perfect for the Internet:
+It was platform-independent.
+It was secure.
+It was lightweight and efficient.
+It was not directly tied to hardware.
+
+As a result, Oak changed direction.
+From devices to browsers,
+from a closed project to an open technology.
+
+Along with this transformation, Oak’s name also changed.
+Its new name: Java.
+
+And in 1995, Java was officially introduced to the world.
+
+Java was no longer just a language.
+It was a universal platform designed for the Internet era.
+
+From that moment on, Java’s journey began.
+And this journey permanently established the philosophy of
+“Write Once, Run Anywhere” in the software world.

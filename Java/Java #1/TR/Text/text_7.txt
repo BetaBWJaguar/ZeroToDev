@@ -1,0 +1,37 @@
+“Oak Projesi teknik olarak başarılıydı.
+Ama ticari olarak işler beklendiği gibi gitmedi.
+
+1994 yılına gelindiğinde, akıllı televizyon pazarı beklenen ilgiyi görmedi.
+Oak için planlanan cihazlar yaygınlaşmadı.
+Ve proje neredeyse rafa kaldırılmak üzereydi.
+
+Tam bu noktada dünyada çok önemli bir şey oluyordu:
+İnternet büyüyordu.
+
+Web tarayıcıları hızla yayılıyordu.
+İnsanlar ilk kez farklı bilgisayarlardan aynı içeriğe erişmeye başlıyordu.
+Ama web için yazılan kodlar hâlâ platforma bağımlıydı.
+
+İşte Oak’ın kaderini değiştiren farkındalık burada doğdu:
+‘Gelecek televizyonlar değil… web.’
+
+Oak’ın sahip olduğu özellikler, web için mükemmeldi:
+Platformdan bağımsızdı.
+Güvenliydi.
+Küçük ve verimliydi.
+Doğrudan donanıma bağlı değildi.
+
+Böylece Oak, yön değiştirdi.
+Cihazlardan tarayıcılara,
+kapalı projeden açık bir teknolojiye dönüştü.
+
+Bu dönüşümle birlikte Oak’ın adı da değişti.
+Yeni adı: Java.
+
+Ve 1995 yılında Java, dünyaya resmen tanıtıldı.
+
+Java artık sadece bir dil değildi.
+İnternet çağı için tasarlanmış, evrensel bir platformdu.
+
+Bu andan itibaren Java’nın yolculuğu başladı.
+Ve bu yolculuk, yazılım dünyasında ‘Bir Kez Yaz, Her Yerde Çalıştır’ felsefesini kalıcı hâle getirdi.”

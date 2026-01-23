@@ -1,0 +1,27 @@
+“Java’nın hikâyesi aslında Java adıyla başlamadı.
+1991 yılına gittiğimizde, Sun Microsystems içinde küçük ama oldukça vizyoner bir ekip vardı. Bu ekibin başında ise James Gosling bulunuyordu.
+
+O dönemde ekip, geleceğin bilgisayarlar değil, ‘akıllı cihazlar’ olacağını düşünüyordu.
+Televizyonlar, set-top box’lar, ev elektroniği cihazları…
+Ama ortada çok büyük bir problem vardı.
+
+Bu cihazların her biri farklı donanıma sahipti.
+Her biri için ayrı ayrı yazılım geliştirmek gerekiyordu.
+Bu hem zaman kaybıydı, hem de sürdürülebilir değildi.
+
+İşte bu noktada Oak Projesi ortaya çıktı.
+Oak’ın temel amacı çok netti:
+Donanıma bağlı olmayan, güvenli, küçük ve her yerde çalışabilecek bir programlama dili oluşturmak.
+
+Oak, basit bir sözdizimine sahip olmalıydı.
+Bellek yönetimini geliştiricinin omzundan almalıydı.
+Ve en önemlisi:
+Aynı kod, farklı cihazlarda çalışabilmeliydi.
+
+Bu fikir o dönem için oldukça radikaldi.
+Çünkü yazılım dünyası, donanıma bağımlı dillerle doluydu.
+
+Oak Projesi aslında bir dilin değil, bir felsefenin doğuşuydu:
+‘Aynı kod, her yerde çalışmalı.’
+
+Bu düşünce, ileride yazılım dünyasını kökten değiştirecek bir devrimin ilk adımıydı.”

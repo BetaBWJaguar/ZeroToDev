@@ -1,0 +1,27 @@
+The story of Java did not actually begin with the name Java.
+When we go back to the year 1991, there was a small but highly visionary team within Sun Microsystems. At the head of this team was James Gosling.
+
+At that time, the team believed that the future was not computers, but “smart devices.”
+Televisions, set-top boxes, home electronics devices…
+But there was a very big problem.
+
+Each of these devices had different hardware.
+Software had to be developed separately for each one.
+This was both a waste of time and not sustainable.
+
+This is where the Oak Project emerged.
+The core goal of Oak was very clear:
+To create a programming language that was hardware-independent, secure, lightweight, and capable of running everywhere.
+
+Oak needed to have a simple syntax.
+It had to remove memory management from the developer’s responsibility.
+And most importantly:
+The same code had to run on different devices.
+
+This idea was quite radical for its time.
+Because the software world was full of hardware-dependent languages.
+
+The Oak Project was not the birth of a language, but the birth of a philosophy:
+“The same code should run everywhere.”
+
+This way of thinking was the very first step of a revolution that would later fundamentally change the software world.
