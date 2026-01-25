@@ -1,0 +1,109 @@
+Şimdi Java’nın kalbine, özüne, felsefesine geliyoruz.
+Sadece bir teknik özellik değil…
+Bir dünya görüşü.
+Bir yazılım anlayışı.
+Bir paradigma.
+
+Write Once, Run Anywhere.
+
+Bu cümle basit görünüyor.
+Ama arkasında devrimsel bir fikir var.
+
+1990’ların yazılım dünyasını hayal edin.
+Bir program yazıyorsunuz…
+Ama bu program sadece tek bir sistemde çalışıyor.
+
+Windows için ayrı kod,
+Linux için ayrı kod,
+Mac için ayrı kod…
+
+Aynı mantık.
+Aynı algoritma.
+Aynı iş.
+Ama farklı sistemler için tekrar tekrar yazılan yazılım.
+
+Bu hem zaman kaybı…
+Hem para kaybı…
+Hem de insan kaynağı israfı.
+
+Ve Java şunu söylüyor:
+
+“Kodu bir kere yaz.
+Sistemlere uyarlama işini ben yapayım.”
+
+Java’da yazdığınız kod, doğrudan işletim sistemine gitmez.
+Makine diline çevrilmez.
+Donanıma bağlanmaz.
+
+Önce bytecode’a dönüştürülür.
+
+Bu bytecode, özel bir sanal ortamda çalışır:
+Java Virtual Machine – JVM
+
+İşte Java’nın gerçek gücü burada başlar.
+
+Windows → JVM
+Linux → JVM
+Mac → JVM
+Sunucu sistemleri → JVM
+Bulut sistemleri → JVM
+
+Her yerde JVM vardır.
+Ve JVM, bytecode’u bulunduğu sisteme uygun şekilde çalıştırır.
+
+Bu ne demek?
+
+Kod işletim sistemine değil, JVM’ye yazılır.
+JVM, sistemi soyutlar.
+Donanım görünmez olur.
+İşletim sistemi görünmez olur.
+Geriye sadece iş mantığı kalır.
+
+Geliştirici artık şunu düşünmez:
+
+Bu Linux mu?
+
+Bu Windows mu?
+
+Bu ARM mi?
+
+Bu x86 mı?
+
+Geliştirici şunu düşünür:
+
+Problem ne?
+
+Çözüm ne?
+
+Algoritma ne?
+
+Sistem nasıl tasarlanmalı?
+
+Java, geliştiriciyi donanımdan koparır.
+Sistemi soyutlar.
+Karmaşıklığı gizler.
+Odak noktasını değiştirir.
+
+Donanım odaklı düşünceden → problem odaklı düşünceye geçiştir bu.
+
+Ve bu yüzden Java sadece bir dil değildir.
+Bir mimari düşünme biçimidir.
+
+Bu felsefe sayesinde:
+
+Büyük sistemler yönetilebilir olur
+
+Kod taşınabilir olur
+
+Uzun ömürlü projeler mümkün olur
+
+Küresel yazılımlar geliştirilebilir hale gelir
+
+Java’nın dünya çapında yayılmasının sebebi performans değil…
+Popülerlik değil…
+Moda değil…
+
+Bu felsefedir.
+
+Write Once, Run Anywhere =
+Tek kod + sınırsız platform + sürdürülebilir yazılım.

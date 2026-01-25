@@ -1,0 +1,99 @@
+Ve şimdi bu felsefenin sonuçlarını görüyoruz.
+
+Java artık sadece bir dil değildir.
+Artık bireysel projelerin dili değildir.
+Artık küçük uygulamaların aracı değildir.
+
+Java, kurumsal dünyaya girmiştir.
+
+1990’ların sonu…
+İnternet büyüyor.
+Şirketler dijitalleşiyor.
+Veri miktarı artıyor.
+Kullanıcı sayıları patlıyor.
+
+Ve yeni bir dünya doğuyor:
+
+Online bankacılık
+
+E-ticaret
+
+Global şirket ağları
+
+Web tabanlı sistemler
+
+Dağıtık mimariler
+
+7/24 çalışan platformlar
+
+Bu dünya artık şunu istiyor:
+
+🔹 Sürekli çalışan sistemler
+🔹 Çökmeden çalışan altyapılar
+🔹 Güvenli veri yönetimi
+🔹 Büyük kullanıcı yüklerini kaldırabilen yazılımlar
+🔹 Çok sunuculu mimariler
+🔹 Farklı sistemlerle entegre çalışan platformlar
+
+Ve burada Java devreye giriyor.
+
+Neden?
+
+Çünkü Java:
+
+Platform bağımsız
+
+Güvenli
+
+Nesne yönelimli
+
+Modüler
+
+Ölçeklenebilir
+
+Dağıtık sistemlere uygun
+
+Ağ tabanlı mimariye doğal uyumlu
+
+Java, kurumsal dünyanın teknik ihtiyaçlarıyla doğal olarak uyumlu bir dildi.
+
+Bu yüzden bankalar Java’yı seçti.
+Bu yüzden sigorta sistemleri Java’ya geçti.
+Bu yüzden devlet sistemleri Java kullandı.
+Bu yüzden büyük şirket altyapıları Java üzerine kuruldu.
+
+Java artık:
+
+Web siteleri değil
+
+Uygulamalar değil
+
+Programlar değil
+
+Sistemler üretmeye başladı.
+
+Kurumsal sistemler…
+Finans sistemleri…
+Veritabanı altyapıları…
+Dağıtık servisler…
+Sunucu mimarileri…
+Büyük ölçekli platformlar…
+
+Java’nın rolü değişti.
+
+Artık:
+Bir dil değil → bir altyapı
+Bir araç değil → bir ekosistem
+Bir teknoloji değil → bir standart
+
+Java, enterprise dünyasının omurgası haline geldi.
+
+Ve bu aşama şunu başlattı:
+Framework’ler doğdu
+Sunucu mimarileri gelişti
+Kurumsal mimari kavramı oluştu
+Microservice altyapılarının temeli atıldı
+Cloud sistemlerinin yolu açıldı
+
+Yani Java, sadece bugünü değil…
+geleceğin yazılım mimarisini de şekillendirdi.

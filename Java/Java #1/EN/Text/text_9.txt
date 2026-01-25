@@ -1,0 +1,101 @@
+And now, we begin to see the results of this philosophy.
+
+Java is no longer just a language.
+It is no longer the language of individual projects.
+It is no longer a tool for small applications.
+
+Java has entered the enterprise world.
+
+Late 1990s…
+The internet is growing.
+Companies are going digital.
+Data volumes are increasing.
+User numbers are exploding.
+
+And a new world is born:
+
+Online banking
+
+E-commerce
+
+Global corporate networks
+
+Web-based systems
+
+Distributed architectures
+
+24/7 running platforms
+
+This new world demands:
+
+🔹 Always-on systems
+🔹 Infrastructure that does not crash
+🔹 Secure data management
+🔹 Software capable of handling massive user loads
+🔹 Multi-server architectures
+🔹 Platforms that integrate with different systems
+
+And this is where Java steps in.
+
+Why?
+
+Because Java is:
+
+Platform-independent
+
+Secure
+
+Object-oriented
+
+Modular
+
+Scalable
+
+Well-suited for distributed systems
+
+Naturally compatible with network-based architectures
+
+Java aligned naturally with the technical needs of the enterprise world.
+
+That’s why banks chose Java.
+That’s why insurance systems moved to Java.
+That’s why government systems used Java.
+That’s why large corporate infrastructures were built on Java.
+
+Java no longer began to produce:
+
+Websites
+
+Applications
+
+Programs
+
+—but systems.
+
+Enterprise systems…
+Financial systems…
+Database infrastructures…
+Distributed services…
+Server architectures…
+Large-scale platforms…
+
+Java’s role changed.
+
+It became:
+
+Not just a language → but an infrastructure
+Not just a tool → but an ecosystem
+Not just a technology → but a standard
+
+Java became the backbone of the enterprise world.
+
+And this stage triggered major transformations:
+
+Frameworks were born
+Server architectures evolved
+The concept of enterprise architecture emerged
+The foundations of microservice infrastructures were laid
+The path toward cloud systems was opened
+
+In other words, Java did not just shape the present…
+It shaped the future of software architecture as well.
