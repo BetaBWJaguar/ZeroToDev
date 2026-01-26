@@ -1,0 +1,62 @@
+Now we reach a major turning point in Java’s journey.
+
+This is the moment when Java stopped being just a promising programming language
+and started becoming a global enterprise standard.
+
+In the late 1990s, the world was changing very fast.
+
+The Internet was expanding rapidly.
+Websites were no longer simple static pages.
+Companies were moving their business online.
+
+And with that shift, new problems appeared.
+
+Organizations needed systems that could:
+– Run 24 hours a day
+– Handle thousands or even millions of users
+– Work reliably across different operating systems
+– And remain secure against constant threats
+
+At the time, many existing technologies struggled with these demands.
+
+Java, however, was perfectly positioned.
+
+Because of the Java Virtual Machine, applications could run on different platforms without modification.
+Because of its object-oriented design, large systems could be structured and maintained more easily.
+And because Java was designed with security in mind, it became a safer choice for internet-facing systems.
+
+This combination made Java extremely attractive to enterprises.
+
+As a result, Java quickly entered:
+– Web application development
+– Database-driven systems
+– Large corporate platforms
+
+Companies began to trust Java for their most critical software.
+
+Another key advantage was scalability.
+
+Java applications could grow alongside the business.
+Small applications could evolve into massive enterprise systems without changing the core technology.
+
+This is where Java truly separated itself from many competitors.
+
+It was not just fast.
+It was not just portable.
+It was reliable.
+
+And reliability is everything in enterprise environments.
+
+By the end of the 1990s, Java had become the preferred language for:
+– Enterprise servers
+– Business applications
+– Multi-tier architectures
+
+Java was no longer just a language developers liked.
+It became a language companies depended on.
+
+This moment marked the beginning of Java’s long relationship with enterprise software —
+a relationship that continues even today in cloud systems and large-scale platforms.
+
+And in the next slides, we will see how this enterprise adoption exploded in the early 2000s
+and how Java became the backbone of modern enterprise technology.

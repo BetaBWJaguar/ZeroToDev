@@ -1,0 +1,58 @@
+Şimdi Java’nın uzun ömürlü olmasının arkasındaki en önemli nedenlerden birine geliyoruz.
+
+Java, hiçbir zaman tek seferlik bir programlama dili olarak tasarlanmadı.
+Daha en başından itibaren, zamanla gelişecek bir dil olması hedeflendi.
+
+Java 1995 yılında resmi olarak tanıtıldığında, bu bir bitiş noktası değildi.
+Aksine, bu sadece bir başlangıçtı.
+
+Sun Microsystems çok kritik bir karar aldı:
+Java, sürüm sürüm gelişecekti…
+ama geçmişi asla bozmayacaktı.
+
+Bu karar, Java’yı diğer birçok dilden ayıran temel nokta oldu.
+
+Çünkü birçok programlama dilinde yeni sürümler çıktığında,
+eski kodlar çalışmaz hale gelir.
+Geliştiriciler, aynı yazılımları tekrar tekrar yazmak zorunda kalır.
+
+Java ise tamamen farklı bir yol seçti.
+
+Java’nın temel felsefesi şuydu:
+
+“Dili geliştir, ama çalışan kodu asla kırma.”
+
+Bu yüzden Java sürümleri hiçbir zaman baştan yazım olmadı.
+Her yeni sürüm, bir öncekinin üzerine inşa edildi.
+
+Yeni özellikler eklendi,
+performans artırıldı,
+güvenlik güçlendirildi,
+ama eski kodlar çalışmaya devam etti.
+
+Bu yaklaşım özellikle büyük sistemler için hayati öneme sahipti.
+
+Bankalar, devlet sistemleri, büyük kurumsal yazılımlar…
+Bunlar her birkaç yılda bir yeniden yazılamaz.
+
+Java tam olarak bu ihtiyaca cevap verdi.
+
+Java sürümleri sayesinde:
+– Yıllar önce yazılmış kodlar
+– Bugün hâlâ çalışabiliyor
+– Modern sistemlerde hâlâ kullanılabiliyor
+
+İşte bu yüzden Java, kısa vadeli çözümlerin değil,
+uzun vadeli ve sürdürülebilir sistemlerin dili haline geldi.
+
+Java’nın sürüm mantığı bize şunu söylüyor:
+Bir kere yaz,
+zamanla geliştir,
+ama asla çöpe atma.
+
+Bu istikrarlı evrim anlayışı, Java’yı sadece bir dil değil,
+aynı zamanda güvenilir bir teknoloji ekosistemi yaptı.
+
+Bir sonraki slaytlarda,
+Java’nın bu güçlü sürüm yapısının onu nasıl kurumsal dünyaya taşıdığını
+ve enterprise sistemlerin temeli haline getirdiğini göreceğiz.

@@ -1,0 +1,63 @@
+Şimdi Java’nın hikâyesinde çok kritik bir dönüm noktasına geliyoruz.
+
+Bu nokta, Java’nın sadece geliştiricilerin ilgisini çeken bir dil olmaktan çıkıp
+kurumsal dünyanın vazgeçilmez teknolojilerinden biri haline geldiği dönemdir.
+
+1990’ların sonlarına doğru, dünya çok hızlı bir şekilde değişiyordu.
+
+İnternet yaygınlaşıyordu.
+Web siteleri artık sadece bilgi gösteren sayfalar olmaktan çıkmıştı.
+Şirketler işlerini dijital ortama taşımaya başlamıştı.
+
+Ve bu dönüşüm, beraberinde büyük sorunlar getirdi.
+
+Şirketlerin artık şunlara ihtiyacı vardı:
+– 7 gün 24 saat çalışan sistemler
+– Aynı anda binlerce kullanıcıyı destekleyen yapılar
+– Farklı işletim sistemlerinde sorunsuz çalışan uygulamalar
+– Güvenli, kararlı ve ölçeklenebilir yazılımlar
+
+O dönemde birçok teknoloji bu talepleri karşılamakta zorlanıyordu.
+
+Java ise tam bu noktada öne çıktı.
+
+Java Virtual Machine sayesinde uygulamalar farklı platformlarda aynı şekilde çalışabiliyordu.
+Nesne yönelimli yapısı, büyük ve karmaşık sistemlerin daha düzenli şekilde geliştirilmesini sağlıyordu.
+Ve Java, en başından itibaren güvenlik odaklı tasarlandığı için internet ortamına çok uygundu.
+
+Bu özellikler, Java’yı şirketler için ideal bir seçenek haline getirdi.
+
+Sonuç olarak Java hızla şu alanlara girdi:
+– Web uygulamaları
+– Veritabanı tabanlı sistemler
+– Kurumsal yazılım platformları
+
+Şirketler Java’ya güvenmeye başladı.
+
+Bir diğer çok önemli avantaj ise ölçeklenebilirlikti.
+
+Java ile geliştirilen küçük bir uygulama,
+zamanla büyüyerek büyük bir kurumsal sisteme dönüşebiliyordu.
+Üstelik bunu yaparken teknoloji değiştirmek gerekmiyordu.
+
+Bu, Java’yı rakiplerinden ayıran en önemli farklardan biriydi.
+
+Java sadece hızlı değildi.
+Sadece taşınabilir değildi.
+Aynı zamanda güvenilirdi.
+
+Ve kurumsal dünyada en önemli şey güvendir.
+
+1990’ların sonuna gelindiğinde Java:
+– Kurumsal sunucularda
+– Çok katmanlı mimarilerde
+– İş kritik uygulamalarda
+
+standart haline gelmişti.
+
+Java artık sadece geliştiricilerin sevdiği bir dil değildi.
+Şirketlerin işlerini emanet ettiği bir teknoloji olmuştu.
+
+Bu dönem, Java’nın enterprise dünyasıyla olan uzun yolculuğunun başlangıcıydı.
+Ve bu yolculuk, ilerleyen slaytlarda göreceğimiz gibi
+2000’li yıllarda büyük bir patlama yaşayacaktı.
