@@ -1,0 +1,60 @@
+In this slide, we move into the modern era of Java.
+Java is no longer just a language for traditional enterprise servers.
+It has become one of the key players in the cloud-native world.
+
+When we talk about modern Java, the first technology that comes to mind is Spring Boot.
+
+Spring Boot drastically simplified application development.
+In the past, starting a web application required extensive configuration and setup.
+With Spring Boot, you can start a production-ready application with just a few lines of code and a single main method.
+
+Another major shift in this era is the widespread use of REST APIs.
+Java applications are no longer only responsible for generating web pages.
+They now act as services that communicate with other systems.
+
+For example:
+
+A mobile app
+A web frontend
+An IoT device
+
+All of them can connect to a Java-based REST service.
+
+The biggest architectural change of this period is the transition from monolithic systems to microservices.
+
+Instead of building one large application, systems are now divided into many small, independent services.
+Java — especially with Spring Boot — provides an excellent foundation for building and managing microservices.
+
+Cloud technologies have also accelerated Java’s evolution:
+
+Docker → Runs applications inside containers
+
+Kubernetes → Manages and scales those containers
+
+Java applications are no longer tied to a single server.
+They now run in distributed, scalable cloud environments across the world.
+
+At the language level, Java 8 and later versions introduced modern programming features such as:
+
+Lambda Expressions → More concise and functional-style code
+
+Streams API → Powerful data processing over collections
+
+A shift toward functional programming concepts
+
+These features made Java code more expressive, less verbose, and easier to maintain.
+
+The core message of this era is:
+
+Java is no longer just an “enterprise language”
+It is a foundation of cloud computing, microservices, and modern backend systems
+
+Today, Java powers:
+
+Banking systems
+E-commerce platforms
+Cloud services
+Big data pipelines
+Real-time distributed systems
+
+Java continues to run quietly in the background of the modern digital world — scalable, reliable, and constantly evolving.

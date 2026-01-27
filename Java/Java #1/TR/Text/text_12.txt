@@ -1,0 +1,55 @@
+Bu dönem, Java tarihinin “Framework Devrimi” olarak adlandırılabilir.
+
+2005’ten önce kurumsal Java geliştirmek mümkündü ama oldukça zordu.
+Projeler büyüktü, yapılandırmalar karmaşıktı ve geliştiriciler devasa XML dosyalarıyla uğraşmak zorundaydı.
+Yani yazılımcılar iş mantığı geliştirmek yerine çoğu zaman sistem ayarlarıyla vakit kaybediyordu.
+
+Tam da bu noktada Java dünyasında büyük bir değişim başladı.
+
+Bu dönemin en önemli kırılma noktası Spring Framework’ün yükselişidir.
+Spring, Java uygulamalarının geliştirilme şeklini kökten değiştirdi.
+
+Spring’in getirdiği en önemli kavramlardan biri Inversion of Control (IoC) yani Kontrolün Tersine Çevrilmesi kavramıdır.
+Bu ne demek?
+
+Eskiden bir sınıf, ihtiyaç duyduğu nesneleri kendisi üretirdi.
+Spring ile birlikte bu sorumluluk framework’e geçti.
+Nesneleri Spring oluşturur ve yönetir.
+Bu da bileşenler arasında gevşek bağlılık (loose coupling) sağlar.
+Sonuç olarak sistemler daha esnek ve bakımı daha kolay hale gelir.
+
+Bir diğer devrimsel kavram ise Dependency Injection (DI) yani Bağımlılık Enjeksiyonudur.
+Artık bir sınıfın ihtiyaç duyduğu nesneler dışarıdan verilir.
+Bu yaklaşım sayesinde kod daha test edilebilir, daha modüler ve daha okunabilir olur.
+
+Aynı dönemde veritabanı tarafında da büyük bir kolaylık geldi:
+Hibernate ve JPA (Java Persistence API).
+
+Eskiden veritabanı işlemleri için çok fazla SQL yazmak gerekiyordu.
+Hibernate ile birlikte Java nesneleri doğrudan veritabanı tablolarına eşlenebildi.
+Buna ORM – Object Relational Mapping denir.
+Yani nesneler ile ilişkisel veritabanları arasında bir köprü kuruldu.
+
+Kurumsal Java ayrıca Annotation yapıları sayesinde sadeleşti.
+Uzun XML konfigürasyonları yerine artık şu etiketler kullanılmaya başlandı:
+
+@Service
+@Repository
+@Autowired
+
+Böylece konfigürasyon kodun içine taşındı ve uygulamalar daha okunabilir hale geldi.
+
+Bu dönemi şekillendiren diğer önemli teknolojiler:
+
+JSF (JavaServer Faces) → Bileşen tabanlı arayüz geliştirme
+
+Maven → Proje bağımlılıklarını ve derleme sürecini standartlaştırdı
+
+Bu dönemin özeti şudur:
+
+2005 öncesi: Kurumsal Java = karmaşık, uzun, bakımı zor
+2005 sonrası: Kurumsal Java = modüler, sade, framework destekli
+
+Bu dönemle birlikte Java geliştiricileri büyük sistemleri daha hızlı, daha temiz ve daha az zahmetle geliştirebilir hale geldi.
+
+Java artık sadece güçlü değil, aynı zamanda gerçekten geliştirici dostu bir platform haline geldi.

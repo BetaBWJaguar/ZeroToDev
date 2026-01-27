@@ -1,0 +1,64 @@
+Bu slaytta artık modern Java dönemine geçiyoruz.
+Java artık sadece klasik kurumsal sunucularda çalışan bir dil değil.
+Bulut tabanlı sistemlerin de ana oyuncularından biri haline geldi.
+
+Modern Java denince akla gelen ilk teknoloji: Spring Boot.
+
+Spring Boot, uygulama geliştirme sürecini inanılmaz derecede kolaylaştırdı.
+Eskiden bir web uygulamasını başlatmak için çok sayıda ayar yapmak gerekiyordu.
+Spring Boot sayesinde birkaç satır kod ve tek bir main metodu ile çalışan bir uygulama ayağa kaldırılabiliyor.
+
+Bu dönemde bir diğer büyük değişim REST API’lerin yaygınlaşmasıdır.
+Java artık sadece web sayfası üretmiyor.
+Aynı zamanda başka sistemlerle konuşan servisler geliştiriyor.
+
+Örneğin:
+
+Bir mobil uygulama
+Bir web arayüzü
+Bir IoT cihazı
+
+Hepsi Java ile yazılmış bir REST servise bağlanabilir.
+
+Bu dönemin en büyük mimari değişimi ise monolitik sistemlerden mikroservislere geçiştir.
+
+Eskiden tek parça büyük uygulamalar varken,
+artık sistemler küçük, bağımsız servislerden oluşuyor.
+Java ve özellikle Spring Boot bu mimari için mükemmel bir altyapı sağladı.
+
+Bulut teknolojileri de Java’nın dönüşümünü hızlandırdı:
+
+Docker → Uygulamaları konteyner içinde çalıştırma
+
+Kubernetes → Bu konteynerleri yönetme ve ölçeklendirme
+
+Java uygulamaları artık tek bir sunucuya bağlı değil.
+Dünya genelinde dağıtık, ölçeklenebilir bulut sistemlerinde çalışabiliyor.
+
+Dil seviyesinde de büyük yenilikler geldi.
+Java 8 ve sonrası sürümler modern programlama özelliklerini Java’ya kazandırdı:
+
+Lambda Expressions → Daha kısa ve fonksiyonel kod
+
+Streams API → Koleksiyonlar üzerinde güçlü veri işleme
+
+Fonksiyonel programlama yaklaşımı
+
+Bu yenilikler sayesinde Java kodu daha ifade edilebilir, daha az tekrarlı ve daha okunabilir hale geldi.
+
+Bu dönemin ana mesajı şudur:
+
+Java artık sadece “kurumsal bir dil” değil
+Bulutun, mikroservislerin ve modern backend dünyasının temel taşlarından biri
+
+Bugün Java;
+
+Bankacılık sistemlerinde
+E-ticaret altyapılarında
+Bulut servislerinde
+Büyük veri platformlarında
+Gerçek zamanlı dağıtık sistemlerde
+
+arka planda güvenilir şekilde çalışmaya devam ediyor.
+
+Java değişiyor, gelişiyor ve modern dünyanın altyapısında yer almaya devam ediyor.

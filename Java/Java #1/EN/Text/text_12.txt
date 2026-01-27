@@ -1,0 +1,51 @@
+This period can be called the “Framework Revolution” in Java history.
+
+Before 2005, enterprise Java development was powerful but very complicated.
+Projects were large, configurations were complex, and developers had to deal with huge XML files.
+Instead of focusing on business logic, programmers were spending too much time on system setup and configuration.
+
+And that’s exactly when a major transformation began in the Java ecosystem.
+
+The most important turning point of this era was the rise of the Spring Framework.
+Spring fundamentally changed how Java applications were built.
+
+One of Spring’s biggest innovations was the concept of Inversion of Control (IoC).
+What does that mean?
+
+Before Spring, classes were responsible for creating the objects they needed.
+With Spring, the framework itself manages object creation.
+This leads to loose coupling between components, which makes applications more flexible and easier to maintain.
+
+Another revolutionary idea introduced by Spring is Dependency Injection (DI).
+Instead of creating dependencies inside a class, they are now provided from the outside.
+This dramatically improves testability, modularity, and code readability.
+
+At the same time, there was also a big improvement in database integration with Hibernate and JPA (Java Persistence API).
+
+Before ORM tools, developers had to write large amounts of SQL code manually.
+With Hibernate, Java objects could be directly mapped to database tables.
+This is called Object-Relational Mapping (ORM) — a bridge between the object world and the relational database world.
+
+Enterprise Java also became much simpler thanks to Annotations.
+Instead of long XML configuration files, developers could now use annotations like:
+
+@Service
+@Repository
+@Autowired
+
+This moved configuration from external files into the code itself, making applications cleaner and easier to manage.
+
+Other important technologies that shaped this era include:
+
+JSF (JavaServer Faces) → Component-based UI development
+
+Maven → Standardized build and dependency management
+
+This period can be summarized like this:
+
+Before 2005: Enterprise Java = complex, verbose, hard to maintain
+After 2005: Enterprise Java = modular, simplified, framework-driven
+
+For the first time, Java developers could build large enterprise systems faster, cleaner, and with less pain.
+
+This era made Java not only powerful — but truly developer-friendly.
