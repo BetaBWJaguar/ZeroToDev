@@ -1,0 +1,33 @@
+Bu slaytta Java’nın modern çağına giriyoruz — Java’nın geleneksel kurumsal sistemlerin ötesine geçerek bulut bilişim ve mikroservis mimarisinde önemli bir oyuncu haline geldiği döneme.
+
+Teknoloji çok hızlı gelişti. Uygulamalar artık tek bir sunucuda çalışmıyordu. Bunun yerine sistemler dağıtık, ölçeklenebilir ve bulut uyumlu (cloud-native) hale geldi. Java bu dönüşüme uyum sağladı — hem de bunu oldukça başarılı bir şekilde yaptı.
+
+Bu dönemin en büyük dönüm noktalarından biri Spring Boot’tur.
+Spring Boot, geliştiricilerin minimum yapılandırma ile, hızlı bir şekilde üretime hazır uygulamalar geliştirmesini sağlar. Saatlerce altyapı kurmak yerine, geliştiriciler artık doğrudan iş mantığına odaklanabiliyor.
+
+Slaytta gördüğünüz basit örnek, @GetMapping kullanılan bir REST API endpoint’i.
+Bu, Java uygulamalarının nasıl geliştirildiğinde yaşanan büyük değişimi temsil ediyor — monolitik sistemlerden, hafif ve bağımsız servislere geçişi.
+
+Bu dönem aynı zamanda şunları da beraberinde getirdi:
+
+REST API’ler – Java uygulamaları artık genellikle HTTP üzerinden JSON kullanarak iletişim kuruyor.
+
+Mikroservis mimarisi – Büyük sistemler, ayrı ayrı ölçeklenebilen küçük ve bağımsız servislere bölünüyor.
+
+Docker ve Kubernetes – Java uygulamaları konteynerler içine paketlenip bulut ortamlarında verimli şekilde dağıtılıyor.
+
+Java ayrıca Java 8 ve sonrasında daha fonksiyonel ve daha ifade gücü yüksek hale geldi. Lambda ifadeleri ve Stream API gibi özellikler, özellikle veri işleme ve bulut tabanlı servislerde son derece etkili oldu.
+
+Peki tüm bunlar genel olarak ne anlama geliyor?
+
+Java artık sadece bir “kurumsal arka uç dili” değil.
+Artık şunları çalıştırabilen bulut uyumlu güçlü bir platform:
+
+Büyük ölçekli web uygulamaları
+
+Dağıtık sistemler
+
+Konteyner tabanlı mikroservisler
+
+Bu dönem bize önemli bir şeyi gösteriyor:
+Java geçmişte kalmadı. Bulut çağıyla birlikte evrim geçirdi.

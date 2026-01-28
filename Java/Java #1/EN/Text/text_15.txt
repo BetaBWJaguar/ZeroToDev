@@ -1,0 +1,60 @@
+Now we move to one of the most exciting phases in Java’s history — the period after 2015.
+This is where Java became significantly more modern, expressive, and developer-friendly.
+
+Before Java 8, Java code was often verbose. Developers wrote many loops, many temporary variables, and lots of boilerplate code.
+
+But Java 8 changed everything.
+
+Let’s talk about the most important additions:
+
+Lambda Expressions
+
+Lambdas allow us to write behavior in a compact form.
+Instead of writing long anonymous classes, we can now write short, readable functional-style code.
+
+Streams API
+
+Streams allow us to process collections in a declarative way.
+Instead of telling Java how to loop, we tell it what we want.
+For example, filtering active users and mapping their names — all in a single fluent pipeline.
+
+This shift makes Java code:
+
+More readable
+
+Less error-prone
+
+Easier to maintain
+
+Optional
+
+Optional helps avoid NullPointerException, one of the most common runtime errors. It forces developers to think about the possibility of missing values.
+
+CompletableFuture
+
+Java became much stronger in asynchronous programming. Applications can now perform multiple tasks in parallel without blocking the main thread.
+
+Records & Pattern Matching (Later Versions)
+
+Java continued evolving by reducing boilerplate even further:
+
+Records simplify data classes
+
+Pattern matching makes type checks cleaner and more readable
+
+So what changed after 2015?
+
+Before Java 8:
+Imperative
+Loop-heavy
+Verbose
+
+After Java 8+:
+Declarative
+Functional
+Fluent and modern
+
+Java didn’t just add features.
+It changed the way developers think and write code.
+
+This era shows that Java is not just stable — it is actively evolving, becoming faster, cleaner, and smarter with every version.

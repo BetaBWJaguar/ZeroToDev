@@ -1,0 +1,33 @@
+In this slide, we enter the modern era of Java — the period where Java moved beyond traditional enterprise systems and became a key player in cloud computing and microservices architecture.
+
+Technology evolved rapidly. Applications were no longer running on a single server. Instead, systems became distributed, scalable, and cloud-native. Java adapted to this transformation — and did it incredibly well.
+
+One of the biggest game changers in this era is Spring Boot.
+Spring Boot allows developers to build production-ready applications quickly, with minimal configuration. Instead of spending hours setting up infrastructure, developers can now focus directly on business logic.
+
+You can see a simple example on the slide: a REST API endpoint using @GetMapping.
+This represents a shift in how Java applications are built — from monolithic systems to lightweight, independent services.
+
+This era also introduced:
+
+REST APIs – Java applications now commonly communicate over HTTP using JSON.
+
+Microservices architecture – Large systems are broken into small, independent services that can scale separately.
+
+Docker & Kubernetes – Java applications are packaged into containers and deployed in cloud environments efficiently.
+
+Java also became more functional and expressive starting from Java 8 and beyond, bringing features like lambdas and streams that work beautifully in data-processing and cloud-native services.
+
+So what does this mean overall?
+
+Java is no longer just “enterprise backend language.”
+It is now a cloud-native powerhouse capable of running:
+
+High-scale web applications
+
+Distributed systems
+
+Containerized microservices
+
+This era proves something important:
+Java did not stay in the past. It evolved with the cloud.

@@ -1,0 +1,62 @@
+Şimdi Java tarihindeki en heyecan verici dönemlerden birine geçiyoruz — 2015 sonrası dönem.
+Bu dönem, Java’nın belirgin şekilde daha modern, daha ifade gücü yüksek ve geliştirici dostu hale geldiği zamandır.
+
+Java 8’den önce Java kodları genellikle uzundu. Geliştiriciler çok sayıda döngü, çok sayıda geçici değişken ve bol miktarda tekrar eden kod yazıyordu.
+
+Ama Java 8 her şeyi değiştirdi.
+
+En önemli eklemelerden bahsedelim:
+
+Lambda İfadeleri
+
+Lambda’lar, davranışları daha kısa bir biçimde yazmamıza olanak tanır.
+Uzun anonim sınıflar yazmak yerine artık kısa, okunabilir ve fonksiyonel tarzda kod yazabiliyoruz.
+
+Streams API
+
+Stream’ler koleksiyonları bildirimsel bir şekilde işlememizi sağlar.
+Java’ya nasıl döngü kurulacağını söylemek yerine ne istediğimizi söyleriz.
+Örneğin, aktif kullanıcıları filtrelemek ve isimlerini eşlemek — hepsi tek bir akıcı işlem zinciri içinde yapılabilir.
+
+Bu değişim Java kodunu:
+
+Daha okunabilir
+
+Daha az hataya açık
+
+Bakımı daha kolay
+
+hale getirir.
+
+Optional
+
+Optional, en yaygın çalışma zamanı hatalarından biri olan NullPointerException’dan kaçınmaya yardımcı olur. Geliştiricileri, eksik değer olasılığı üzerine düşünmeye zorlar.
+
+CompletableFuture
+
+Java, asenkron programlama konusunda çok daha güçlü hale geldi. Uygulamalar artık ana iş parçacığını engellemeden birden fazla görevi paralel olarak gerçekleştirebilir.
+
+Records ve Pattern Matching (Daha Sonraki Sürümler)
+
+Java, tekrar eden kodu daha da azaltarak gelişmeye devam etti:
+
+Records, veri sınıflarını basitleştirir.
+
+Pattern matching, tip kontrollerini daha temiz ve daha okunabilir hale getirir.
+
+Peki 2015’ten sonra ne değişti?
+
+Java 8’den önce:
+Emir verici (imperative)
+Döngü ağırlıklı
+Uzun ve detaylı kod
+
+Java 8 ve sonrası:
+Bildirimsel (declarative)
+Fonksiyonel
+Akıcı ve modern
+
+Java sadece yeni özellikler eklemedi.
+Geliştiricilerin düşünme ve kod yazma biçimini değiştirdi.
+
+Bu dönem şunu gösteriyor: Java sadece kararlı bir dil değil — aynı zamanda aktif olarak gelişen, her sürümde daha hızlı, daha temiz ve daha akıllı hale gelen bir platform.
