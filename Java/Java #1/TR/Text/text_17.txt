@@ -1,0 +1,16 @@
+Java’nın nerelerde kullanıldığını ve nasıl evrim geçirdiğini gördükten sonra, odağı daha pratik bir noktaya getirelim: Java fikirleri nasıl gerçek, çalışan programlara dönüştürüyor?
+
+
+Java, geliştiricilerin bir problemden çözüme yapılandırılmış ve düzenli bir şekilde ilerlemesini sağlamak için tasarlanmıştır. Net düşünmeyi teşvik eder. Önce problemi tanımlarız. Sonra bir çözüm planlarız. Ardından sınıfları ve metotları tasarlarız ve en sonunda her şeyi bir araya getiren kodu yazarız. 
+
+
+Java’nın güçlü yönlerinden biri okunabilirlik ve yapı vurgusudur. Java kodu genellikle kolay takip edilir çünkü dil; anlamlı sınıf tasarımı, açık metot isimleri ve güçlü tip sistemi kullanımını teşvik eder. Bu da özellikle uzun yıllar yaşayabilecek büyük projelerde bakım yapmayı çok daha kolay hale getirir. 
+
+
+Java ayrıca program daha çalışmadan önce birçok yaygın hatayı önlemeye yardımcı olur. Güçlü tip sistemine sahip olması ve derlenen (compiled) bir dil olması sayesinde birçok hata çalışma anında değil, derleme sırasında yakalanır. Bu da Java’yı uzun ömürlü ve kararlı sistemler geliştirmek için güvenilir bir tercih yapar. 
+
+
+Pratikte Java geliştirme süreci net bir yol izler: mantığı tanımla, bunu sınıflar ve metotlar hâlinde organize et, kodu derle ve Java Sanal Makinesi (JVM) üzerinde çalıştır. Bu süreç soyut fikirleri yapılandırılmış ve çalıştırılabilir yazılıma dönüştürür. 
+
+
+Kısacası Java sadece kod yazmakla ilgili değildir. Temiz, sürdürülebilir ve öngörülebilir bir şekilde çözümler tasarlamakla ilgilidir

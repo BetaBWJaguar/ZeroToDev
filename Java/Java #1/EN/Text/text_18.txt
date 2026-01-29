@@ -1,0 +1,11 @@
+Now we begin to explore the core features that shape how Java programs are written and how they behave. These features are the foundation of Java’s design and explain why Java code is generally structured, predictable, and easier to maintain over time.
+
+Java was created to reduce complexity for developers. Instead of dealing with low-level system details, Java allows programmers to focus on logic and problem-solving. This is achieved through a set of carefully designed language features.
+
+One of the most important ideas is that Java promotes clarity and structure. The language encourages developers to write code that is readable and organized. This becomes extremely valuable in large projects where many developers work together and where code may be maintained for years.
+
+Another key feature is Java’s strong type system. Every variable must have a defined type, which helps detect many errors during compilation rather than at runtime. This improves reliability and reduces unexpected crashes.
+
+Java also emphasizes controlled execution. Programs run inside the Java Virtual Machine, which provides a managed environment. This environment handles many low-level tasks automatically, such as memory management, and helps protect the system from unsafe operations.
+
+All these features work together to create a programming experience where developers can focus more on designing solutions and less on managing hardware or system resources. Java’s core features are not just technical details; they shape the entire way Java applications are built and maintained.

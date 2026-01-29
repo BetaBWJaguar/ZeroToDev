@@ -1,0 +1,16 @@
+Şimdi Java programlarının nasıl yazıldığını ve nasıl davrandığını şekillendiren temel özellikleri keşfetmeye başlıyoruz. Bu özellikler Java’nın tasarımının temelini oluşturur ve Java kodunun neden genellikle düzenli, öngörülebilir ve zaman içinde daha kolay sürdürülebilir olduğunu açıklar. 
+
+
+Java, geliştiriciler için karmaşıklığı azaltmak amacıyla oluşturulmuştur. Düşük seviyeli sistem ayrıntılarıyla uğraşmak yerine, Java programcıların mantığa ve problem çözmeye odaklanmasını sağlar. Bu da dikkatle tasarlanmış dil özellikleri sayesinde mümkün olur. 
+
+
+En önemli fikirlerden biri, Java’nın açıklığı ve düzeni teşvik etmesidir. Dil, geliştiricileri okunabilir ve organize edilmiş kod yazmaya yönlendirir. Bu durum, birçok geliştiricinin birlikte çalıştığı ve kodun yıllarca bakımının yapılacağı büyük projelerde son derece değerlidir. 
+
+
+Bir diğer temel özellik Java’nın güçlü tip sistemidir. Her değişkenin tanımlı bir tipi olmak zorundadır. Bu sayede birçok hata çalışma anında değil, derleme sırasında tespit edilir. Bu da güvenilirliği artırır ve beklenmedik çökmeleri azaltır. 
+
+
+Java ayrıca kontrollü çalışmaya önem verir. Programlar, yönetilen bir ortam sağlayan Java Sanal Makinesi (JVM) içinde çalışır. Bu ortam, bellek yönetimi gibi birçok düşük seviyeli görevi otomatik olarak üstlenir ve sistemi güvensiz işlemlerden korumaya yardımcı olur. 
+
+
+Tüm bu özellikler birlikte çalışarak geliştiricilerin donanım veya sistem kaynaklarını yönetmekten çok çözüm tasarlamaya odaklanabildiği bir programlama deneyimi oluşturur. Java’nın temel özellikleri yalnızca teknik detaylar değildir; Java uygulamalarının nasıl geliştirildiğini ve sürdürüldüğünü kökten şekillendirir.
