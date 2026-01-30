@@ -1,0 +1,45 @@
+Şimdi Java’nın arkasındaki en önemli fikirlerden birine geliyoruz — Nesne Yönelimli Programlama, yani kısaca OOP.
+
+Java, sadece komutları art arda yazdığımız bir dil değildir.
+Bunun yerine Java, tıpkı gerçek dünya gibi nesneler üzerine kuruludur.
+
+Etrafınızdaki dünyayı düşünün.
+Arabalar, öğrenciler, banka hesapları, telefonlar görürsünüz.
+Bunların her biri birer nesnedir.
+Özellikleri vardır ve davranışları vardır.
+
+Java da aynı fikri takip eder.
+
+Java’da önce bir sınıf (class) tanımlarız.
+Bir sınıf, bir şablon (blueprint) gibidir.
+
+Örneğin Car (Araba) adında bir sınıf tanımladığımızı düşünelim.
+Bu sınıf; model, renk, yıl ve fiyat gibi özellikleri tanımlayabilir.
+
+Ama sınıf tek başına sadece bir plandır.
+
+Gerçekten belirli bir araba oluşturduğumuzda —
+örneğin kırmızı renkli 2022 model bir Toyota —
+işte o zaman bir nesne (object) oluşturmuş oluruz.
+Yani Car sınıfının bir örneği (instance).
+
+İlişki aslında çok basittir:
+
+Gerçek dünya fikri,Sınıf,Nesne,Program mantığı
+
+Bu yapı, programlarımızı daha anlaşılır ve daha düzenli şekilde organize etmemizi sağlar.
+Binlerce bağımsız değişken ve fonksiyonla uğraşmak yerine,
+ilgili veri ve davranışları anlamlı birimler olan nesneler içinde toplarız.
+
+İşte bu yüzden OOP, Java programlarını:
+
+Daha düzenli
+
+Genişletmesi daha kolay
+
+Bakımı daha kolay
+
+hale getirir.
+
+Nesneleri anladığınızda artık sadece kod yazmazsınız…
+Sistem tasarlamaya başlarsınız.

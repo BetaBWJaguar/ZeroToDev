@@ -1,0 +1,50 @@
+Java’nın bu kadar popüler olmasının bir diğer büyük sebebi de güvenliktir.
+
+Java, en başından itibaren geliştiricilerin güvenli ve güvenilir uygulamalar oluşturmasına yardımcı olacak şekilde tasarlanmıştır.
+
+C veya C++ gibi eski dillere kıyasla,
+Java doğrudan belleğe erişime izin vermez.
+Belleği yanlışlıkla bozabilecek pointer’lar yoktur.
+
+Bunun yerine Java programları, Java Virtual Machine (JVM) adı verilen kontrollü bir ortamda çalışır.
+
+Bir Java programı çalıştırılmadan önce, oluşturulan bytecode doğrulanır.
+Bu doğrulama adımı, tehlikeli veya yasadışı işlemleri kontrol eder.
+
+Bu sayede düşük seviyeli dillerde sık görülen birçok sorun önlenmiş olur:
+
+Bellek bozulması (Memory corruption)
+
+Buffer taşmaları (Buffer overflows)
+
+Yetkisiz bellek erişimi
+
+Java ayrıca Garbage Collection sayesinde otomatik bellek yönetimi sağlar.
+Geliştiriciler belleği manuel olarak serbest bırakmaz, bu da bellek hatalarını azaltır.
+
+Bunların yanında Java’da şunlar da bulunur:
+
+Güçlü hata yönetimi (Exception handling)
+
+Güvenli sınıf yükleme (Secure class loading)
+
+Dahili kriptografi desteği
+
+Tüm bu özellikler birlikte çalışarak program ile sistem arasında koruyucu bir katman oluşturur.
+
+Çalışma akışı şu şekildedir:
+
+Java Kaynak Kodu  Derleyici  Bytecode  JVM Güvenlik Kontrolleri  Güvenli Çalışma
+
+Bu tasarım, Java’yı özellikle şu alanlar için cazip hale getirmiştir:
+
+Web uygulamaları
+
+Kurumsal sistemler
+
+Bankacılık ve finans yazılımları
+
+Çünkü hassas verilerle çalışan sistemlerde güvenlik bir seçenek değildir —
+zorunluluktur.
+
+Java’nın mimarisi bu sorumluluk düşünülerek inşa edilmiştir.

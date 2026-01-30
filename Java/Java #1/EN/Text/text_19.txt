@@ -1,0 +1,40 @@
+Now we arrive at one of the most important ideas behind Java — Object-Oriented Programming, often called OOP.
+
+Java is not just a language where we write instructions one after another.
+Instead, Java is built around objects — just like the real world.
+
+Think about the world around you.
+You see cars, students, bank accounts, phones.
+Each of these is an object.
+They have properties and behaviors.
+
+Java follows the same idea.
+
+In Java, we first define a class.
+A class is like a blueprint.
+
+For example, imagine we define a class called Car.
+This class can describe things like the model, color, year, and price.
+
+But a class alone is just a plan.
+
+When we actually create a specific car —
+for example, a red 2022 Toyota —
+that becomes an object, an instance of the Car class.
+
+So the relationship is simple:
+
+Real-world idea → Class → Object → Program logic
+
+This structure helps us organize programs in a way that is easier to understand and manage.
+Instead of dealing with thousands of loose variables and functions,
+we group related data and behavior into meaningful units — objects.
+
+That is why OOP makes Java programs:
+
+More organized
+Easier to expand
+Easier to maintain
+
+When you understand objects, you stop just writing code…
+and start designing systems.
