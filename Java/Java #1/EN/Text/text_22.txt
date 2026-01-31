@@ -1,0 +1,35 @@
+This slide focuses on two powerful aspects of Java’s design:
+High Performance and Distributed Computing Support.
+
+Let’s start with performance.
+
+Even though Java runs on a virtual machine, it is not slow by design. In fact, Java achieves high performance through a technology called Just-In-Time compilation, or JIT.
+
+The JVM monitors which parts of the bytecode are used frequently. When it detects “hot” code — code that runs often — it compiles that bytecode into highly optimized native machine code while the program is running.
+
+This allows Java applications to get faster over time. Some of the common JIT optimizations mentioned here include:
+
+Method inlining
+Dead code elimination
+Constant folding
+Optimized method calls
+
+The result is that long-running Java applications can reach near-native performance.
+
+Now let’s look at the distributed side.
+
+Java was designed with networking and distributed systems in mind, especially because it became popular during the growth of the Internet.
+
+Java provides built-in support for:
+
+Networking
+Communication between machines
+Remote method calls
+Distributed system development
+
+This means Java applications can easily communicate over networks and run across multiple computers, which is essential for modern web systems, cloud services, and enterprise platforms.
+
+So this slide highlights a key balance in Java’s design:
+
+Java provides portability and safety —
+but also delivers strong runtime performance and powerful networking capabilities.

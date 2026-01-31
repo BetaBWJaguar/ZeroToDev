@@ -1,0 +1,23 @@
+Bu slaytta Java’nın önemli bir çalışma özelliğini görüyoruz: Java doğrudan makine kodu olarak çalışmaz, bir ara katman üzerinden çalışır.
+
+Bazı programlama dilleri derlendikten sonra doğrudan donanım üzerinde çalışır. Java ise farklı bir yol izler.
+
+Önce geliştirici Java kaynak kodunu .java uzantılı dosyalar halinde yazar.
+Bu kod, Java derleyicisi yani javac tarafından bytecode adı verilen ara bir formata dönüştürülür. Bu bytecode, .class dosyalarında saklanır.
+
+Buradaki en önemli nokta şudur:
+Bu bytecode herhangi bir işletim sistemine ya da işlemci mimarisine özel değildir. Bu kodu çalıştıran şey Java Virtual Machine, yani JVM’dir.
+
+Program çalıştırıldığında JVM bu bytecode’u okur ve onu çalıştığı sistemin anlayacağı yerel makine komutlarına çalışma anında çevirir. Bu yüzden Java, “yorumlanan” bir model kullanır denir — çünkü son makine talimatları program çalışırken üretilir.
+
+Slaytta ayrıca şuna dikkat çekiliyor: Bu çevirilen komutlar kalıcı olarak saklanmaz. Yani işlem dinamik olarak, çalışma sırasında gerçekleşir.
+
+Bu modelin bazı önemli avantajları vardır:
+
+Geliştirme süreci daha hızlıdır
+Derleme ve bağlama işlemleri daha hafiftir
+Kod analizi ve hata ayıklama daha kolaydır
+
+Java, platforma özel çalıştırılabilir dosyalar üretmek yerine, platformdan bağımsız bytecode üretir. Geri kalan işi JVM halleder.
+
+İşte bu yapı sayesinde Java programları, her platform için yeniden derlenmeden çalışabilir — yeter ki o platformda bir JVM bulunsun.

@@ -1,0 +1,35 @@
+Bu slayt Java’nın iki güçlü yönüne odaklanıyor:
+Yüksek performans ve dağıtık sistem desteği.
+
+Önce performans kısmından başlayalım.
+
+Java sanal makine üzerinde çalışmasına rağmen yavaş bir dil değildir. Java yüksek performansı Just-In-Time derleyici, yani JIT sayesinde elde eder.
+
+JVM, program çalışırken hangi kod parçalarının sık kullanıldığını takip eder. Sık çalışan bu kodlar tespit edildiğinde, JVM bu bytecode’u çalışma sırasında optimize edilmiş yerel makine koduna çevirir.
+
+Slaytta da bazı JIT optimizasyon teknikleri belirtilmiş:
+
+Metot içe alma (method inlining)
+Kullanılmayan kodun temizlenmesi (dead code elimination)
+Sabitlerin önceden hesaplanması (constant folding)
+Optimize edilmiş metot çağrıları
+
+Bunun sonucu olarak uzun süre çalışan Java uygulamaları zamanla hızlanır ve yerel kod performansına oldukça yaklaşabilir.
+
+Şimdi dağıtık yapı kısmına bakalım.
+
+Java, özellikle internetin büyüme döneminde yaygınlaştığı için, en başından beri ağ iletişimi ve dağıtık sistemler düşünülerek tasarlanmıştır.
+
+Java’nın yerleşik olarak sunduğu destekler şunlardır:
+
+Ağ iletişimi
+Makineler arası veri alışverişi
+Uzaktaki metotları çağırma
+Dağıtık sistemler geliştirme
+
+Bu sayede Java uygulamaları ağ üzerinden kolayca haberleşebilir ve birden fazla makine üzerinde çalışacak şekilde tasarlanabilir. Bu özellikler modern web uygulamaları, bulut sistemleri ve kurumsal yazılımlar için hayati öneme sahiptir.
+
+Bu slayt bize Java’nın önemli bir dengesini gösteriyor:
+
+Java hem taşınabilir ve güvenli bir yapı sunar,
+hem de çalışma anında yüksek performans ve güçlü ağ yetenekleri sağlar.

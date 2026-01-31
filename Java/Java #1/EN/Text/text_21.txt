@@ -1,0 +1,23 @@
+This slide explains one of Java’s most important execution characteristics: Java is interpreted through an intermediate layer.
+
+Unlike languages that compile directly into machine code, Java does not run straight on the hardware. Instead, Java follows a multi-step execution process.
+
+First, the developer writes Java source code in a .java file.
+That source code is then compiled by the Java compiler, javac, into an intermediate form called bytecode. This bytecode is stored in .class files.
+
+Now here is the key idea:
+This bytecode is not specific to any operating system or processor. It is designed to be executed by the Java Virtual Machine, or JVM.
+
+When the program runs, the JVM reads the bytecode and translates it into native machine instructions on the fly, during runtime. This is why Java is often described as interpreted — because the final machine-level instructions are produced while the program is running, not beforehand.
+
+Another important detail mentioned on this slide is that these translated instructions are not permanently stored. The translation happens dynamically as the program executes.
+
+This model brings several advantages:
+
+Development becomes faster
+Compilation and linking are lighter compared to native builds
+Code analysis and debugging are easier
+
+So instead of producing platform-specific binaries, Java produces platform-neutral bytecode, and the JVM handles the rest.
+
+That’s why Java programs can run on different systems without being recompiled — as long as a JVM exists for that platform.
