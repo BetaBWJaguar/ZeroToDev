@@ -1,0 +1,37 @@
+On this slide, we are making a high-level comparison between Java and C++.
+The goal here is not to say that one language is better than the other, but to understand their design philosophy and where each one is best suited.
+
+Let’s start with Java.
+
+Java programs run on the Java Virtual Machine, or JVM.
+Because of this, Java is platform-independent. You can write the code once and run it on any operating system that has a JVM installed. This idea is known as “Write Once, Run Anywhere.”
+
+Java also provides automatic memory management through Garbage Collection.
+Developers do not need to manually free memory. This reduces memory leaks and many low-level errors.
+
+Java focuses heavily on safety, portability, and maintainability.
+That’s why it is widely used in enterprise applications, web systems, and cloud platforms, where long-term stability and scalability are more important than low-level hardware control.
+
+Now let’s look at C++.
+
+C++ programs are compiled directly into native machine code.
+This means they run straight on the operating system without a virtual machine. Because of this, C++ is usually faster and gives developers low-level control over memory and hardware.
+
+However, C++ is platform-dependent.
+A program compiled for one operating system usually needs to be recompiled for another.
+
+In C++, memory management is manual. Developers use pointers and are responsible for allocating and freeing memory. This provides more control but also increases the risk of errors like memory leaks and crashes.
+
+Because of its performance and hardware control, C++ is widely used in system software, game engines, and embedded systems.
+
+So in summary:
+
+Java source code is compiled into bytecode, runs on the JVM, and can work on any operating system.
+C++ source code is compiled into native machine code and runs on a specific operating system.
+
+Java hides much of the system complexity, making development safer and easier.
+C++ exposes the system, giving more power but also more responsibility to the developer.
+
+Choosing between them depends on your goal:
+If you need portability, safety, and maintainability, Java is usually the better choice.
+If you need maximum performance and low-level control, C++ may be the right tool.
