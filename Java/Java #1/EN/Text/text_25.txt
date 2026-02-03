@@ -1,0 +1,54 @@
+In this slide, we’re comparing Java and C++, two of the most influential programming languages in the world.
+Rather than saying one is better than the other, we focus on when and why you would choose each.
+
+Let’s start with Java’s advantages.
+
+One of Java’s biggest strengths is platform independence.
+Thanks to the Java Virtual Machine, Java programs can run on almost any system without modification. This is known as Write Once, Run Anywhere.
+
+Java also provides automatic memory management through Garbage Collection.
+This means developers don’t have to manually free memory, which reduces memory leaks and crashes.
+
+Another key advantage is safety.
+Java avoids direct pointer manipulation and includes strong runtime checks through the JVM, making it more secure and stable for large applications.
+
+Java is also considered easier to learn and read compared to C++.
+Its syntax is simpler, and it removes many of the low-level complexities found in C++.
+
+Finally, Java has a rich standard library and massive ecosystem.
+It’s widely used in enterprise systems, backend services, Android development, and large-scale applications.
+
+Now, Java’s disadvantages.
+
+Java can be slightly slower than C++ in performance-critical applications because Java code runs through the JVM instead of directly on hardware.
+
+It also offers less low-level control.
+Developers cannot manipulate memory or hardware as directly as they can in C++.
+
+And finally, Java introduces JVM overhead, meaning programs may use more memory and take longer to start compared to native C++ applications.
+
+So how do we decide between Java and C++?
+
+If your project needs portability, meaning it must run on different platforms easily,
+Java is usually the better choice.
+
+If your application requires maximum performance or low-level hardware control,
+C++ becomes the stronger option.
+
+If your priority is safety, maintainability, and long-term scalability,
+Java is often preferred, especially for enterprise systems.
+
+And here’s a simple Java example
+
+On the right side, we see a small Java program.
+It shows the standard structure: a class, a main method, and a simple print statement.
+
+This reinforces Java’s design philosophy:
+readability, safety, and portability over low-level control.
+
+Final takeaway
+
+Java focuses on developer productivity, safety, and cross-platform support.
+C++ focuses on performance, control, and system-level programming.
+
+Choosing between them depends on your problem type, not which language is “better.”

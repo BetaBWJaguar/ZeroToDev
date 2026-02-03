@@ -1,0 +1,38 @@
+Bu slaytta Java ve C++ arasında genel bir karşılaştırma yapıyoruz.
+Buradaki amaç bir dili diğerinden üstün göstermek değil, her birinin tasarım felsefesini ve hangi alanlarda daha uygun olduğunu anlamaktır.
+
+Önce Java’ya bakalım.
+
+Java programları Java Sanal Makinesi (JVM) üzerinde çalışır.
+Bu sayede Java platform bağımsızdır. Kodu bir kez yazarsınız ve JVM bulunan her işletim sisteminde çalıştırabilirsiniz. Bu yaklaşım Bir kez yaz, her yerde çalıştır olarak bilinir.
+
+Java ayrıca Garbage Collection sayesinde otomatik bellek yönetimi sunar.
+Geliştiricilerin belleği manuel olarak serbest bırakmasına gerek yoktur. Bu da bellek sızıntılarını ve birçok düşük seviyeli hatayı azaltır.
+
+Java; güvenlik, taşınabilirlik ve sürdürülebilirlik üzerine yoğunlaşır.
+Bu yüzden kurumsal uygulamalarda, web sistemlerinde ve bulut platformlarında yaygın şekilde kullanılır. Bu tür sistemlerde uzun vadeli kararlılık ve ölçeklenebilirlik, donanım seviyesinde kontrolden daha önemlidir.
+
+Şimdi C++’a bakalım.
+
+C++ programları doğrudan makine koduna derlenir.
+Yani bir sanal makine olmadan, işletim sistemi üzerinde doğrudan çalışır. Bu nedenle C++ genellikle daha hızlıdır ve geliştiricilere bellek ve donanım üzerinde daha düşük seviyeli kontrol sağlar.
+
+Ancak C++ platforma bağımlıdır.
+Bir işletim sistemi için derlenen program, başka bir sistemde çalıştırılmadan önce genellikle tekrar derlenmelidir.
+
+C++’ta bellek yönetimi manueldir.
+Geliştiriciler pointer kullanır ve belleği ayırma ve serbest bırakma sorumluluğu kendilerine aittir. Bu daha fazla kontrol sağlar ama aynı zamanda bellek sızıntısı ve çökme gibi hataların riskini artırır.
+
+Performansı ve donanım kontrolü sayesinde C++, sistem yazılımlarında, oyun motorlarında ve gömülü sistemlerde yaygın olarak kullanılır.
+
+Özetle:
+
+Java kaynak kodu bytecode’a derlenir, JVM üzerinde çalışır ve birçok işletim sisteminde çalışabilir.
+C++ kaynak kodu ise yerel makine koduna derlenir ve belirli bir işletim sisteminde çalışır.
+
+Java sistem karmaşıklığını gizleyerek geliştirmeyi daha güvenli ve kolay hale getirir.
+C++ ise sistemi geliştiriciye açar; daha fazla güç verir ama daha fazla sorumluluk da yükler.
+
+Seçim amaca bağlıdır:
+Taşınabilirlik, güvenlik ve sürdürülebilirlik gerekiyorsa Java genellikle daha uygundur.
+Maksimum performans ve düşük seviyeli kontrol gerekiyorsa C++ doğru tercih olabilir.

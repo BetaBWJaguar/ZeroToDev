@@ -1,0 +1,55 @@
+Bu slaytta, dünyanın en etkili programlama dillerinden ikisi olan Java ve C++’ı karşılaştırıyoruz.
+Burada amacımız birinin diğerinden daha iyi olduğunu söylemek değil, hangi durumda hangisinin tercih edilmesi gerektiğini anlamak.
+
+Önce Java’nın avantajlarıyla başlayalım.
+
+Java’nın en büyük güçlerinden biri platform bağımsızlığıdır.
+Java Sanal Makinesi (JVM) sayesinde Java programları, neredeyse her sistemde değişiklik yapılmadan çalışabilir. Bu durum Bir kez yaz, her yerde çalıştır olarak bilinir.
+
+Java ayrıca Garbage Collection sayesinde otomatik bellek yönetimi sağlar.
+Bu da geliştiricilerin belleği manuel olarak temizlemesine gerek bırakmaz ve bellek sızıntılarını ile çökmeleri azaltır.
+
+Bir diğer önemli avantaj ise güvenliktir.
+Java, doğrudan pointer kullanımını engeller ve JVM üzerinden güçlü çalışma zamanı kontrolleri uygular. Bu sayede büyük uygulamalar için daha güvenli ve daha kararlı bir yapı sunar.
+
+Java aynı zamanda C++’a kıyasla öğrenmesi ve okunması daha kolay kabul edilir.
+Sözdizimi daha sadedir ve C++’ta bulunan birçok düşük seviyeli karmaşıklığı ortadan kaldırır.
+
+Son olarak, Java’nın zengin bir standart kütüphanesi ve devasa bir ekosistemi vardır.
+Kurumsal sistemlerde, arka uç servislerinde, Android geliştirmede ve büyük ölçekli uygulamalarda yaygın şekilde kullanılır.
+
+Şimdi Java’nın dezavantajlarına bakalım.
+
+Java, performansın kritik olduğu uygulamalarda C++’tan biraz daha yavaş olabilir. Bunun sebebi Java kodunun doğrudan donanım üzerinde değil, JVM üzerinden çalışmasıdır.
+
+Ayrıca Java, daha az düşük seviyeli kontrol sunar.
+Geliştiriciler bellek ya da donanım üzerinde C++’ta olduğu kadar doğrudan kontrol sağlayamaz.
+
+Son olarak, Java’da JVM ek yükü vardır.
+Bu da programların daha fazla bellek kullanmasına ve C++ uygulamalarına göre daha yavaş başlatılmasına neden olabilir.
+
+Peki, Java ile C++ arasında nasıl karar veririz?
+
+Eğer projeniz taşınabilirlik gerektiriyorsa, yani farklı platformlarda kolayca çalışması gerekiyorsa,
+Java genellikle daha iyi bir seçimdir.
+
+Eğer uygulamanız maksimum performans ya da donanım seviyesinde kontrol gerektiriyorsa,
+C++ daha güçlü bir seçenek olur.
+
+Eğer önceliğiniz güvenlik, sürdürülebilirlik ve uzun vadeli ölçeklenebilirlik ise,
+özellikle kurumsal sistemlerde Java daha sık tercih edilir.
+
+Ve burada basit bir Java örneği görüyoruz.
+
+Sağ tarafta küçük bir Java programı var.
+Bir sınıf, bir main metodu ve basit bir ekrana yazdırma komutu içeriyor.
+
+Bu örnek, Java’nın tasarım felsefesini yansıtıyor:
+düşük seviyeli kontrolden ziyade okunabilirlik, güvenlik ve taşınabilirlik.
+
+Sonuç olarak:
+
+Java, geliştirici verimliliğine, güvenliğe ve platformlar arası çalışabilirliğe odaklanır.
+C++ ise performansa, kontrole ve sistem seviyesinde programlamaya odaklanır.
+
+Hangi dili seçeceğiniz, hangisinin daha iyi olduğuna değil, probleminizin ne olduğuna bağlıdır.
