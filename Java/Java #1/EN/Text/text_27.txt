@@ -1,0 +1,27 @@
+In this slide, we’re talking about when to choose Java and when to choose C++.
+
+Choosing the right programming language is not about which one is more popular.
+It’s about understanding the needs of your project. Every programming language is designed with different goals in mind.
+
+First, let’s look at the general idea.
+
+Programming languages are tools, and each tool is built for a specific purpose.
+Java is designed with a strong focus on portability, safety, and long-term maintainability. That means Java programs are easier to run on different platforms and easier to maintain over time.
+
+C++, on the other hand, focuses on performance and low-level control. It allows developers to work closer to the hardware, manage memory directly, and build highly optimized systems. This makes C++ powerful, but also more complex and riskier if not handled carefully.
+
+So, how do we decide?
+
+We can ask a few simple questions.
+
+If your main goal is portability and long-term maintenance, then Java is usually the better choice. It’s ideal for large systems that need to run reliably for many years.
+
+If your project requires maximum performance and direct control over hardware, then C++ is more suitable. This is common in areas like game engines, operating systems, and real-time systems.
+
+If you care most about safety, scalability, and enterprise-level applications, Java becomes the strong candidate again. It is widely used in large business systems, backend services, and distributed applications.
+
+In short, there is no “best” language for everything.
+There is only the right tool for the right job.
+
+And that’s the key takeaway from this slide:
+Choose Java for scalable and maintainable systems, and choose C++ when performance and hardware control are your top priorities.

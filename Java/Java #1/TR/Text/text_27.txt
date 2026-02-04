@@ -1,0 +1,27 @@
+Bu slaytta, Java’yı ne zaman seçmeliyiz, C++’ı ne zaman seçmeliyiz sorusuna odaklanıyoruz.
+
+Doğru programlama dilini seçmek, hangisinin daha popüler olduğuyla ilgili değildir.
+Asıl önemli olan, projenizin neye ihtiyaç duyduğunu doğru anlamaktır. Çünkü her programlama dili farklı amaçlar için tasarlanmıştır.
+
+Önce genel fikirden başlayalım.
+
+Programlama dilleri birer araçtır ve her araç belirli bir iş için üretilir.
+Java, özellikle taşınabilirlik, güvenlik ve uzun vadeli bakım kolaylığı üzerine tasarlanmıştır. Yani Java ile yazılan uygulamalar farklı platformlarda daha kolay çalıştırılabilir ve uzun yıllar boyunca daha rahat yönetilebilir.
+
+C++ ise daha çok performans ve düşük seviyeli kontrol üzerine odaklanır. Geliştiriciye bellek yönetimi ve donanım üzerinde daha fazla söz hakkı verir. Bu da daha hızlı ve optimize edilmiş sistemler geliştirmeyi mümkün kılar. Ancak aynı zamanda daha karmaşık ve hataya daha açık bir yapı anlamına gelir.
+
+Peki nasıl karar vereceğiz?
+
+Bunun için birkaç temel soru sorabiliriz.
+
+Eğer önceliğiniz taşınabilirlik ve uzun vadeli bakım ise, Java genellikle daha doğru bir tercihtir. Uzun ömürlü, büyük ölçekli sistemler için oldukça uygundur.
+
+Eğer projeniz maksimum performans ve donanım üzerinde doğrudan kontrol gerektiriyorsa, o zaman C++ daha uygun olur. Bu durum özellikle oyun motorları, işletim sistemleri ve gerçek zamanlı sistemlerde karşımıza çıkar.
+
+Eğer sizin için en önemli konular güvenlik, ölçeklenebilirlik ve kurumsal düzeyde uygulamalar ise, burada tekrar Java öne çıkar. Büyük şirket sistemleri, arka uç servisleri ve dağıtık uygulamalarda Java çok yaygın şekilde kullanılır.
+
+Özetle, her şey için en iyi olan tek bir dil yoktur.
+Sadece doğru iş için doğru araç vardır.
+
+Bu slayttaki ana mesaj da tam olarak budur:
+Ölçeklenebilir ve bakımı kolay sistemler için Java’yı, performans ve donanım kontrolünün kritik olduğu durumlarda ise C++’ı tercih etmeliyiz.

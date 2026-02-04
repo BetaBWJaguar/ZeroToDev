@@ -1,0 +1,25 @@
+In this slide, we explore the key differences between Java and C++ by looking at their strengths, weaknesses, and when each language is the better choice.
+
+Let’s start with C++.
+
+C++ is known for its very high performance because it compiles directly into native machine code. There is no virtual machine in between, which means programs can run extremely fast. This makes C++ ideal for performance-critical applications.
+
+Another major advantage of C++ is full control over memory and hardware. Developers can manage memory manually and interact closely with system resources. Because of this low-level control, C++ is widely used in game engines, embedded systems, operating systems, and system-level software.
+
+However, these advantages come with trade-offs.
+
+C++ is platform dependent, meaning programs often need adjustments to run on different systems. It also requires manual memory management, which increases the risk of memory leaks and crashes. The syntax is more complex, making the language harder to learn and maintain, and the chance of runtime errors is generally higher compared to Java.
+
+Now, let’s think about when C++ is the right choice.
+
+If your application requires maximum performance,
+If you need low-level memory control,
+Or if you are building system software, games, or embedded applications,
+
+Then C++ is usually the better option.
+
+This decision flow shown in the center of the slide helps developers quickly determine whether their project demands the level of performance and control that C++ provides.
+
+The code snippet on the right reinforces this idea. It shows a simple C++ program and highlights the language’s focus on performance and direct control over execution.
+
+In summary, C++ prioritizes speed and hardware control, but that power comes with increased complexity and responsibility. Understanding these trade-offs is essential when choosing between Java and C++ for a project.

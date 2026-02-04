@@ -1,0 +1,25 @@
+Bu slaytta Java ve C++ arasındaki temel farkları, güçlü yönleri, zayıf yönleri ve hangi durumlarda hangisinin tercih edilmesi gerektiği üzerinden inceliyoruz.
+
+Önce C++ ile başlayalım.
+
+C++, çok yüksek performans sunmasıyla bilinir çünkü doğrudan makine koduna derlenir. Arada bir sanal makine bulunmaz, bu da programların son derece hızlı çalışmasını sağlar. Bu yüzden C++, performansın kritik olduğu uygulamalar için oldukça uygundur.
+
+Bir diğer önemli avantajı ise bellek ve donanım üzerinde tam kontrol sağlamasıdır. Geliştiriciler belleği manuel olarak yönetebilir ve sistem kaynaklarına çok daha yakın seviyede erişebilir. Bu düşük seviye kontrol sayesinde C++, oyun motorlarında, gömülü sistemlerde, işletim sistemlerinde ve sistem seviyesindeki yazılımlarda yaygın olarak kullanılır.
+
+Ancak bu güçlü yönlerin bazı bedelleri vardır.
+
+C++ platforma bağımlıdır, yani yazılan programlar farklı sistemlerde çalıştırılmadan önce uyarlama gerektirebilir. Ayrıca manuel bellek yönetimi gerektiği için bellek sızıntıları ve çökmeler yaşanma riski daha yüksektir. Sözdizimi daha karmaşıktır, bu da dili öğrenmeyi ve bakımını zorlaştırır. Java’ya kıyasla çalışma zamanı hatalarıyla karşılaşma ihtimali de daha fazladır.
+
+Şimdi gelelim C++’ın ne zaman doğru tercih olduğuna.
+
+Eğer uygulamanız maksimum performans gerektiriyorsa,
+Eğer düşük seviye bellek kontrolüne ihtiyacınız varsa,
+Ya da sistem yazılımı, oyun ya da gömülü sistem geliştiriyorsanız,
+
+C++ genellikle daha uygun bir seçim olacaktır.
+
+Slaydın ortasındaki karar akışı da geliştiricilere, projelerinin gerçekten C++’ın sunduğu performans ve kontrol seviyesine ihtiyaç duyup duymadığını hızlıca değerlendirme imkânı sunuyor.
+
+Sağ taraftaki kod örneği de bu fikri destekliyor. Basit bir C++ programı üzerinden dilin performans ve doğrudan kontrol odaklı yapısını vurguluyor.
+
+Özetle, C++ hız ve donanım kontrolünü ön planda tutar, ancak bu güç beraberinde daha fazla karmaşıklık ve sorumluluk getirir. Java ile C++ arasında seçim yaparken bu dengeyi iyi anlamak oldukça önemlidir.
