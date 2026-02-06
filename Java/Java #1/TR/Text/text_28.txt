@@ -1,0 +1,54 @@
+Bu slaytta soyutlama seviyesi, yani Java ve C++’ın sistemin ne kadarını bizden gizlediği ve ne kadarını geliştiriciye bıraktığı konusunu ele alıyoruz.
+
+Önce temel bir soruyla başlayalım: Soyutlama nedir?
+
+Soyutlama, karmaşıklığın gizlenmesidir.
+Bir geliştirici olarak bizim odağımız, programın nasıl çalıştığından çok ne yapması gerektiğidir. Arka planda gerçekleşen düşük seviyeli işlemleri her zaman bilmek zorunda olmayız.
+
+Ancak her programlama dili aynı seviyede soyutlama sunmaz.
+İşte Java ve C++ burada tamamen farklı yaklaşımlar sergiler.
+
+Kritik fark şudur:
+Java sistemin büyük bir kısmını gizler,
+C++ ise sistemin daha fazla kısmını geliştiriciye gösterir.
+
+Şimdi bunun pratikte ne anlama geldiğine bakalım.
+
+Java’da geliştiriciden donanıma giden yol şu şekildedir:
+Geliştirici → Java → JVM → İşletim Sistemi → Donanım
+
+Biz Java kodu yazarken işletim sistemine ya da donanıma doğrudan erişmeyiz.
+Kodumuz Java Virtual Machine (JVM) üzerinde çalışır.
+JVM bellek yönetimini, sistemle iletişimi ve birçok düşük seviyeli detayı bizim yerimize yönetir.
+Bu da bize güvenlik, taşınabilirlik ve kolaylık sağlar — fakat daha az doğrudan kontrol sunar.
+
+C++’ta ise yol daha kısadır ve daha doğrudandır:
+Geliştirici → C++ → İşletim Sistemi → Donanım
+
+Burada arada bir sanal makine yoktur.
+Program sistemle çok daha yakın seviyede iletişim kurar.
+Bu da geliştiriciye daha fazla güç ve kontrol verir — ama aynı zamanda daha fazla sorumluluk yükler.
+
+Şimdi basit bir dizi örneğine bakalım.
+
+Java’da şöyle yazarız:
+int[] numbers = new int[5];
+
+Bellek otomatik olarak yönetilir. Bu belleğin nerede tutulduğunu biz belirlemeyiz ve manuel olarak serbest bırakmayız. JVM ve çöp toplayıcı (Garbage Collector) bunu bizim için halleder.
+
+C++’ta ise şöyle yazarız:
+int numbers = new int[5];*
+
+Burada belleği heap üzerinde doğrudan biz ayırıyoruz.
+Ve en önemli nokta şu: Bu belleği daha sonra serbest bırakmak bizim sorumluluğumuzdur.
+Unutursak bellek sızıntıları oluşabilir. Yanlış kullanırsak program çökebilir.
+
+Bu slayttan çıkarmamız gereken ana fikir şu:
+
+Java, sistem karmaşıklığını gizleyerek güvenlik ve kullanım kolaylığını ön planda tutar.
+C++, sistem detaylarını açığa çıkararak kontrol ve performansı ön planda tutar.
+
+Aynı bilgisayar. Aynı donanım.
+Ama geliştirici açısından iki tamamen farklı bakış açısı.
+
+Ve bu soyutlama seviyesi farkı; performanstan güvenliğe, öğrenme kolaylığından hata yapma riskine kadar birçok şeyi doğrudan etkiler.

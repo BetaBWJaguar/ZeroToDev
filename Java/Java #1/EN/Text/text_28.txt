@@ -1,0 +1,53 @@
+In this slide, we are talking about abstraction level — specifically, what Java and C++ hide from us, and what they expose to the developer.
+
+Let’s start with a simple question: What is abstraction?
+
+Abstraction is the idea of hiding complexity.
+As developers, we focus on what we want the program to do, not necessarily how every low-level operation is performed behind the scenes.
+
+However, not every programming language provides the same level of abstraction.
+And this is where Java and C++ take very different approaches.
+
+The critical difference is this:
+Java hides much more of the system, while C++ exposes much more of it.
+
+Now let’s look at how that actually works in practice.
+
+In Java, the path from the developer to the hardware looks like this:
+Developer → Java → JVM → Operating System → Hardware
+
+When we write Java code, we don’t interact directly with the operating system or the hardware.
+Instead, our code runs inside the Java Virtual Machine, or JVM.
+The JVM handles memory management, system interaction, and many low-level details for us.
+This gives us safety, portability, and convenience — but less direct control.
+
+In C++, the path is shorter and more direct:
+Developer → C++ → Operating System → Hardware
+
+Here, there is no virtual machine in between.
+The program communicates much closer to the system level.
+This gives developers more power and more control — but also more responsibility.
+
+Let’s look at a simple example with arrays.
+
+In Java, we write:
+int[] numbers = new int[5];
+
+Memory is automatically managed. We don’t decide where it lives, and we don’t manually free it. The JVM and the garbage collector take care of that.
+
+In C++, we write:
+int* numbers = new int[5];
+
+Here, we are directly allocating memory on the heap.
+And importantly, we are responsible for freeing that memory later.
+If we forget, we can create memory leaks. If we misuse it, we can cause crashes.
+
+So the key idea of this slide is:
+
+Java prioritizes safety and simplicity by hiding system complexity.
+C++ prioritizes control and performance by exposing system details.
+
+Same computer. Same hardware.
+But two very different perspectives for the developer.
+
+And that difference in abstraction level affects everything — from performance and security to how easy a language is to learn and use.
