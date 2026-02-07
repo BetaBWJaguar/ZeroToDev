@@ -1,0 +1,52 @@
+Evet… artık bu bölümü kapatırken şunu net bir şekilde söyleyebiliriz:
+
+Bugün sadece Java öğrenmedik.
+Sadece bazı anahtar kelimeleri, sözdizimini ya da birkaç kod satırını görmedik.
+
+Aslında çok daha önemli bir şey kazandık:
+Bir düşünme biçimi.
+
+Çünkü Java, sadece program yazmakla ilgili değildir.
+Java, karmaşık bir problemi alıp onu düzenli, anlaşılır ve yönetilebilir bir yapıya dönüştürme yaklaşımıdır.
+
+Şunu gördük:
+Her sistem bir problemle başlar.
+Ve o problemi rastgele kod yazarak çözmeyiz.
+Soyutlarız.
+Basitleştiririz.
+Gerçekten önemli olan kısımlara odaklanırız.
+
+İşte bu bizi class ve object kavramlarına götürür.
+Her parçanın bir görevi olduğu, her yapının bir anlam taşıdığı sistemler kurmaya başlarız.
+Kod sadece yazılmaz… tasarlanır.
+
+Bu şekilde tasarladığımızda ise çok önemli bir şey olur:
+Programlarımız daha güvenli olur.
+Daha okunabilir olur.
+Daha kolay geliştirilebilir olur.
+Ve en önemlisi… sürdürülebilir olur.
+
+Bu yüzden Java sadece bir yazılım dili değildir.
+Java bir zihniyettir.
+
+Şunu söyler:
+“Karmaşıklıkla savaşma, onu düzenle.”
+“Sadece çalışsın diye yazma, anlaşılır olsun diye tasarla.”
+“Sadece bugünü kurtarma, yarını da düşün.”
+
+İşte bu bakış açısı, bu düşünme şekli…
+Bu bölüm bittikten sonra bile seninle kalacak olan şey.
+
+Çünkü diller değişir.
+Teknolojiler değişir.
+Frameworkler gelir geçer.
+
+Ama soyut düşünebilme yeteneği,
+problemleri modelleyebilme becerisi,
+ve sürdürülebilir sistemler tasarlayabilme yaklaşımı —
+
+seni gerçekten bir yazılımcıdan mühendise dönüştüren şeydir.
+
+Ve bugün, aslında tam olarak bunu öğrenmeye başladın.
+
+Bu sadece başlangıç.
