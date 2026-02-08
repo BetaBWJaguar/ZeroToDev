@@ -1,0 +1,28 @@
+Hello everyone, and welcome back to our Java Core series.
+In this section, we’re going to talk about one of the most important components of Java — the Java Virtual Machine, or simply the JVM.
+
+If Java were a car, the JVM would be the engine that makes everything run. Without it, Java programs wouldn’t be able to execute at all.
+
+When we write a Java program, the computer doesn’t directly understand the code we type. Computers only understand machine code, which is made up of low-level instructions specific to each operating system and processor. This is where the JVM comes in.
+
+The Java Virtual Machine is a virtual runtime engine that executes something called Java bytecode. Instead of compiling Java source code directly into machine code, Java first compiles it into bytecode — a special intermediate format stored in .class files. These files are not tied to any specific operating system. They are designed to be run by the JVM.
+
+The JVM then takes this bytecode and translates it into machine-specific instructions. It does this using two main mechanisms: an interpreter, which reads and executes bytecode line by line, and a JIT compiler — Just-In-Time compiler — which converts frequently used code into native machine code for better performance.
+
+This process is the reason behind Java’s famous promise:
+“Write Once, Run Anywhere.”
+Because Java programs depend on the JVM rather than the operating system, the same program can run on Windows, Linux, or macOS — as long as a compatible JVM is installed.
+
+But the JVM does more than just run code. It also plays several critical roles in managing how Java applications behave.
+
+First, it provides platform independence, allowing the same bytecode to run across different systems.
+Second, it handles bytecode execution through both interpretation and JIT compilation.
+Third, it manages automatic memory management using a process called Garbage Collection, which removes unused objects from memory and helps prevent memory leaks.
+And finally, it enhances security by running programs inside a controlled runtime environment, limiting unsafe operations.
+
+Let’s briefly walk through the execution flow.
+We start by writing Java source code in a .java file. The Java compiler then converts this code into bytecode, creating a .class file. This bytecode is passed to the JVM. The JVM interprets or compiles it into machine code, and finally, the operating system and CPU execute those instructions.
+
+In summary, the JVM acts as a bridge between Java programs and the underlying operating system. It is the foundation that makes Java portable, secure, and efficient. Understanding the JVM is key to truly understanding how Java works under the hood.
+
+In the next section, we’ll dive deeper into the internal structure of the JVM and explore how memory areas are organized.
