@@ -1,0 +1,13 @@
+Merhaba arkadaşlar, Java temelleri serimize hoş geldiniz. Bu bölümde Java’nın en kritik bileşenlerinden birini konuşacağız. Java’yı diğer dillerden ayıran, onu platform bağımsız yapan ve arka planda tüm çalışmayı yöneten yapıdan bahsedeceğiz: Java Sanal Makinesi, yani kısaca JVM.
+
+Bir Java programı yazdığımızda aslında bilgisayar doğrudan bizim yazdığımız kodu çalıştırmaz. Çünkü bilgisayarlar yalnızca makine kodunu anlayabilir. İşte tam bu noktada JVM devreye girer. JVM, Java programlarını çalıştıran sanal bir çalışma zamanı motorudur. Java kodu önce derlenir ve ortaya “bytecode” adı verilen özel bir ara format çıkar. Bu bytecode dosyaları .class uzantısına sahiptir ve işletim sistemine değil, JVM’e bağımlıdır. JVM de bu bytecode’u alır, yorumlayarak ve gerektiğinde JIT yani Just-In-Time derleyici kullanarak makine koduna çevirir ve programın çalışmasını sağlar.
+
+Bu sistem sayesinde Java’nın en bilinen avantajı ortaya çıkar: “Bir kere yaz, her yerde çalıştır.” Çünkü programımız doğrudan Windows’a, Linux’a ya da macOS’e değil, JVM’e bağlıdır. Eğer bir cihazda JVM varsa, aynı Java programı o cihazda çalışabilir. Bu da Java’yı platform bağımsız bir dil haline getirir.
+
+JVM’in görevleri yalnızca kodu çalıştırmakla sınırlı değildir. Aynı zamanda bellek yönetimini de üstlenir. Yani program çalışırken oluşturulan nesnelerin ne zaman temizleneceğini JVM belirler. Buna çöp toplama, yani Garbage Collection denir. Kullanılmayan nesneler otomatik olarak temizlenir ve bellek verimli kullanılır. Ayrıca JVM kontrollü bir çalışma ortamı sağlar. Bu sayede Java uygulamaları daha güvenli şekilde çalışır ve sistem kaynaklarına doğrudan, kontrolsüz erişim engellenir.
+
+Şimdi bu sürecin adım adım nasıl ilerlediğine bakalım. Önce biz .java uzantılı kaynak kodumuzu yazarız. Daha sonra Java derleyicisi bu kodu bytecode’a dönüştürür ve .class dosyaları oluşur. Bu dosyalar JVM’e verilir. JVM, yorumlayıcı ve JIT derleyici yardımıyla bu bytecode’u makine koduna çevirir. Son adımda ise işletim sistemi ve CPU bu makine kodunu çalıştırır. Yani Java kodu doğrudan donanımda değil, JVM katmanı üzerinden çalıştırılır.
+
+Özetle JVM, Java ile işletim sistemi arasında bir köprü görevi görür. Java’nın taşınabilir olmasını, güvenli çalışmasını ve belleğin otomatik yönetilmesini sağlar. Java’nın gücünün büyük bir kısmı aslında bu görünmeyen ama çok önemli bileşenden gelir.
+
+Bir sonraki bölümde JVM’in iç yapısına, yani bellek alanlarına ve çalışma mantığına daha detaylı bakacağız.

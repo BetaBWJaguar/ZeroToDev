@@ -1,0 +1,37 @@
+Şimdi Java’nın kalbine giriyoruz…
+
+JVM Mimarisi.
+
+JVM, yani Java Virtual Machine, Java programlarının işletim sisteminden bağımsız şekilde çalışmasını sağlayan yapıdır. Kısacası JVM, Java kodunu yükleyen, yöneten ve çalıştıran akıllı bir yürütme motorudur.
+
+Gelin bu güçlü sistemin nasıl çalıştığını adım adım inceleyelim.
+
+İlk olarak karşımıza Class Loader çıkıyor.
+
+Bir Java programını çalıştırdığınızda, Class Loader derlenmiş .class dosyalarını bulur ve belleğe yükler. Bu adım olmadan JVM programınızın varlığından bile haberdar olamaz.
+
+Sınıflar yüklendikten sonra veriler Runtime Data Areas yani çalışma zamanı bellek alanlarına aktarılır.
+
+Burası program çalışırken kullanılan özel bellek bölümleridir. Nesneler, metotlar, stack yapıları ve daha fazlası burada tutulur. Bunu, programın çalıştığı aktif bir çalışma alanı gibi düşünebilirsiniz.
+
+Sonraki adım JVM’in beyni olan Execution Engine’dir.
+
+Execution Engine, bytecode’u okuyarak çalıştırır. İki temel bileşeni vardır:
+
+İlki Interpreter. Kodları satır satır okuyup çalıştırır.
+
+İkincisi ise JIT Compiler yani Just-In-Time derleyicisidir. Bu bileşen sık kullanılan kod parçalarını makine diline çevirerek performansı artırır. Yani program çalıştıkça daha da hızlanır.
+
+Ve son olarak Garbage Collector devreye girer.
+
+Java belleği otomatik olarak yönetir. Garbage Collector, artık kullanılmayan nesneleri tespit eder ve bellekten temizler. Bu sayede bellek sızıntıları önlenir ve uygulamalar daha verimli çalışır.
+
+Tüm süreci özetlersek:
+
+Sınıf yüklenir → Bellekte saklanır → Kod çalıştırılır → Kullanılmayan bellek temizlenir
+
+Bu bileşenlerin hepsi birlikte çalışarak Java programlarının güvenli, verimli ve işletim sisteminden bağımsız şekilde çalışmasını sağlar.
+
+İşte JVM mimarisinin güzelliği burada…
+
+Karmaşıklığı arka planda gizler, geliştiricilere ise sadece yazılım üretmeye odaklanma imkânı verir.
