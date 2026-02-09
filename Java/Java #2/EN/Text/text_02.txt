@@ -1,0 +1,35 @@
+Today, we’re stepping inside the heart of Java…
+
+The JVM Architecture.
+
+JVM stands for Java Virtual Machine, and it’s the reason Java programs can run on any system, regardless of the operating system. It acts like a smart engine that loads, manages, and executes Java code.
+
+Let’s break down how this powerful system works.
+
+At the top, we have the Class Loader.
+
+Whenever you run a Java program, the Class Loader is responsible for locating your compiled .class files and loading them into memory. Without it, the JVM wouldn’t even know your program exists.
+
+Once the classes are loaded, the data moves into the Runtime Data Areas.
+
+These are special memory sections used while the program is running. This includes areas for objects, methods, stacks, and more. Think of it as the workspace where everything happens during execution.
+
+Next comes the brain of the JVM — the Execution Engine.
+
+The Execution Engine reads the bytecode and runs it. It has two main parts:
+
+First, the Interpreter, which reads and executes code line by line.
+
+Second, the JIT Compiler, or Just-In-Time compiler. This component improves performance by converting frequently used bytecode into native machine code. That means faster execution over time.
+
+And finally, we have the Garbage Collector.
+
+Java automatically manages memory. The Garbage Collector constantly checks for objects that are no longer being used and removes them from memory. This helps prevent memory leaks and keeps applications running efficiently.
+
+So if we look at the full process, it’s simple but powerful:
+
+Load the class → Store data in memory → Execute the code → Clean unused memory
+
+All these components work together to ensure Java programs run securely, efficiently, and independently of the operating system.
+
+That’s the beauty of JVM architecture — it hides the complexity, so developers can focus on building great software.
