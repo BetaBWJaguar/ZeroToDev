@@ -1,0 +1,73 @@
+Now let’s go behind the scenes.
+
+When you run a Java program, a lot more is happening than what you see on the screen.
+The JVM, which stands for Java Virtual Machine, follows a smart, step-by-step process to execute your program.
+
+You can think of this process like a production line in a factory.
+
+Everything starts with Java source code — the .java files that we write.
+
+These files cannot be executed directly by the computer.
+First, the Java Compiler steps in and converts the source code into bytecode.
+This bytecode is stored in .class files.
+
+And this is where Java’s platform independence begins.
+
+Next, the Class Loader comes into play.
+
+The Class Loader is responsible for loading these .class files into memory and performing security checks.
+Every class must be verified before it can be used by the JVM.
+
+If everything looks safe and valid, execution continues.
+
+At this stage, the JVM organizes memory.
+
+Memory is mainly divided into two areas:
+
+The Heap, where objects are created
+And the Stack, where method calls and local variables are stored
+
+So when you create an object, it goes to the Heap.
+When a method is called, the Stack is used.
+
+This structure allows the JVM to manage memory efficiently and safely.
+
+Now we reach the most important part: the Execution Engine.
+
+This is the component that actually runs the program.
+
+It consists of two key parts:
+
+The Interpreter, which reads and executes bytecode line by line
+And the JIT Compiler, or Just-In-Time compiler
+
+The JIT compiler identifies frequently used code and converts it into native machine code to improve performance.
+
+This means Java applications often become faster the longer they run.
+
+At this point, the code is executed as native machine code by the processor.
+The CPU is no longer dealing with Java or bytecode — it is executing instructions in its own language.
+
+But the JVM’s job is not finished yet.
+
+Finally, the Garbage Collector steps in.
+
+While the program is running, objects that are no longer needed are automatically removed from memory.
+This prevents memory leaks and frees up system resources.
+
+And this is one of Java’s biggest strengths:
+Developers do not need to manually manage memory.
+
+To summarize the entire flow:
+
+We write Java code,
+It gets compiled,
+Loaded into memory,
+Memory is organized,
+The program is executed,
+Optimized,
+And unused memory is cleaned up automatically.
+
+All of this happens behind the scenes, in milliseconds.
+
+That’s why Java is considered safe, portable, and high-performance.

@@ -1,0 +1,68 @@
+Şimdi Java’daki en çok karıştırılan konulardan birini netleştirelim:
+
+JDK, JRE ve JVM nedir ve aralarındaki fark nedir?
+
+Bunu teknik terimlerle değil, bir benzetmeyle anlatalım.
+
+Diyelim ki yemek yapmak istiyorsunuz.
+Bir mutfağa, bazı araçlara ve yemeği gerçekten pişirecek bir ocağa ihtiyacınız var.
+
+Java dünyasında da buna çok benzer bir yapı var.
+
+En küçük ama en önemli parçayla başlayalım: JVM — Java Virtual Machine.
+
+JVM, Java programlarını gerçekten çalıştıran kısımdır.
+Java bytecode’u alır ve bilgisayarın işlemcisinin anlayacağı makine koduna çevirir.
+
+JVM olmadan Java kodu çalışmaz.
+
+Mutfak benzetmesinde:
+JVM = Ocak
+Yani yemeğin gerçekten piştiği yer.
+
+Bir seviye yukarı çıkalım: JRE — Java Runtime Environment.
+
+JRE’nin içinde JVM vardır, ama sadece o değil.
+Ayrıca Java programlarını çalıştırmak için gerekli temel kütüphaneler ve dosyalar da bulunur.
+
+Eğer sadece bir Java programını çalıştırmak istiyorsanız — mesela bir Java uygulaması açacaksanız — JRE yeterlidir.
+
+Benzetmeye göre:
+
+JVM ocaksa,
+JRE = Hazır bir mutfak
+İçinde ocak var, malzemeler var, araçlar var. Yemek pişirebilirsiniz.
+Ama yeni tarifler geliştirmek ya da mutfağı kurmak sizin işiniz değil.
+
+Şimdi en kapsamlı kısma geldik: JDK — Java Development Kit.
+
+JDK, geliştiriciler içindir.
+JRE’nin içindeki her şeyi kapsar ve ek olarak derleyici (javac), hata ayıklayıcılar ve diğer geliştirme araçlarını içerir.
+
+Yani Java kodu yazmak, derlemek ve uygulama geliştirmek istiyorsanız JDK’ya ihtiyacınız var.
+
+Benzetmeyi tamamlayalım:
+
+JVM = Ocak
+JRE = Hazır mutfak
+JDK = Tam donanımlı mutfak atölyesi
+Şeflerin yeni tarifler geliştirdiği, her şeyin baştan hazırlandığı yer
+
+Şimdi bunu gerçek Java süreciyle bağlayalım.
+
+Siz bir .java dosyası yazarsınız.
+JDK, bu dosyayı derler ve .class yani bytecode dosyasına çevirir.
+
+Daha sonra JRE, bu dosyayı çalıştırmak için gerekli ortamı sağlar.
+JRE’nin içinde bulunan JVM, bytecode’u alır ve makine koduna çevirerek programı çalıştırır.
+
+Yani her Java programı çalıştığında, arka planda mutlaka JVM vardır.
+
+Özetle:
+
+Sadece Java programı çalıştıracaksanız → JRE yeterlidir
+Java programı geliştirecekseniz → JDK gerekir
+Ve her iki durumda da kodu gerçekten çalıştıran şey → JVM’dir
+
+Bunlar birbirine rakip değil.
+Aynı sistemin, üst üste yerleşmiş katmanlarıdır.

@@ -1,0 +1,65 @@
+Let’s imagine you want to cook a meal.
+
+You need a kitchen, some tools, and finally a stove that actually cooks the food.
+
+Java works in a very similar way.
+
+And those three things in Java are called JDK, JRE, and JVM.
+
+Let’s start with the smallest but most important piece: the JVM — Java Virtual Machine.
+
+The JVM is the part that actually executes Java programs.
+It takes Java bytecode and converts it into machine instructions that your computer’s processor can understand.
+
+Without the JVM, Java code cannot run.
+
+So if Java were a kitchen…
+The JVM would be the stove — the place where the actual cooking happens.
+
+Now let’s move one step bigger: the JRE — Java Runtime Environment.
+
+The JRE includes the JVM, plus all the essential libraries and files needed to run Java applications.
+
+So if you only want to run a Java program — like opening a Java-based game or tool — the JRE is enough.
+
+In our kitchen example:
+
+If JVM is the stove,
+Then JRE is the kitchen with ingredients and utensils, ready for cooking.
+
+You can cook… but you can’t design new recipes or build the kitchen.
+
+Finally, we have the JDK — Java Development Kit.
+
+This is the complete package for developers.
+
+The JDK includes everything inside the JRE, plus extra tools like the Java compiler (javac), debuggers, and other development utilities.
+
+This is what programmers install to write and build Java applications.
+
+So in the kitchen analogy:
+
+JVM = Stove
+JRE = Kitchen ready for cooking
+JDK = The entire kitchen workshop, where chefs can design new recipes and prepare everything from scratch
+
+Let’s connect this to real Java workflow.
+
+You write code in a .java file.
+The JDK compiles it into bytecode — the .class file.
+
+Then the JRE provides the environment to run that file.
+Inside the JRE, the JVM executes the bytecode by turning it into machine code.
+
+So every time a Java program runs, the JVM is always working in the background.
+
+Here’s the key idea:
+
+If you only want to run Java → You need the JRE
+If you want to develop Java → You need the JDK
+And in both cases, the JVM is the engine doing the actual execution
+
+They are not different technologies competing with each other.
+They are layers of the same system, each built on top of the other.
+
+In the next slide, we’ll explore how the JVM manages memory while your program is running.

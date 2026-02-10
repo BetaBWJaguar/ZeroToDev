@@ -1,0 +1,73 @@
+Şimdi perde arkasına gidiyoruz.
+
+Bir Java programını çalıştırdığınızda aslında ekranda gördüğünüz şeyden çok daha fazlası oluyor. JVM, yani Java Virtual Machine, programı çalıştırmak için adım adım ilerleyen akıllı bir süreç yönetiyor.
+
+Bu süreci bir fabrika üretim hattı gibi düşünebilirsiniz.
+
+Her şey Java kaynak koduyla başlıyor.
+Yani bizim yazdığımız .java dosyaları.
+
+Bu dosyalar doğrudan bilgisayar tarafından çalıştırılamaz.
+Önce Java Compiler devreye girer ve bu kodu Bytecode denilen özel bir ara dile çevirir.
+Bu bytecode dosyalarının uzantısı .class olur.
+
+İşte platform bağımsızlığın sırrı burada başlar.
+
+Şimdi sahneye Class Loader çıkıyor.
+
+Class Loader’ın görevi, bu .class dosyalarını belleğe yüklemek ve güvenlik kontrollerinden geçirmek.
+Yani JVM’e gelen her sınıf önce kontrol edilir. Zararlı mı, eksik mi, hatalı mı diye bakılır.
+
+Her şey yolundaysa sıradaki aşamaya geçilir.
+
+Burada JVM belleği düzenler.
+Bellek iki ana bölüme ayrılır:
+
+Heap alanı: Nesnelerin oluşturulduğu yer
+Stack alanı: Metot çağrıları ve yerel değişkenlerin tutulduğu yer
+
+Yani bir nesne oluşturduğunuzda Heap kullanılır, bir metot çağrıldığında Stack devreye girer.
+
+Bu düzen sayesinde JVM, belleği verimli ve güvenli bir şekilde yönetir.
+
+Şimdi işin en önemli kısmına geldik: Execution Engine
+
+Bu motor programı gerçekten çalıştıran kısımdır.
+
+Burada iki önemli bileşen vardır:
+
+İlki Interpreter.
+Interpreter bytecode’u satır satır okuyarak çalıştırır.
+
+İkincisi ise JIT Compiler, yani Just-In-Time derleyici.
+JIT, sık kullanılan kodları tespit eder ve onları doğrudan makine koduna çevirerek hız kazandırır.
+
+Yani Java programları zamanla daha hızlı çalışmaya başlar.
+Bu yüzden uzun süre çalışan Java uygulamaları performans açısından çok güçlüdür.
+
+Kodlar artık Native Machine Code olarak işlemcide çalışır.
+Yani bilgisayarınız artık Java kodunu değil, kendi anlayabildiği makine dilini yürütmektedir.
+
+Ama JVM’in işi burada bitmez.
+
+Sahneye son olarak Garbage Collector çıkar.
+
+Program çalışırken kullanılmayan nesneler bellekte yer kaplamasın diye Garbage Collector otomatik olarak temizlik yapar.
+Gereksiz nesneleri siler ve belleği geri kazandırır.
+
+Bu da Java’nın en güçlü yönlerinden biridir:
+Geliştiricinin manuel bellek yönetimi yapmasına gerek kalmaz.
+
+Özetle…
+
+Java kodu yazıyoruz,
+Derleniyor,
+Yükleniyor,
+Bellek organize ediliyor,
+Çalıştırılıyor,
+Optimize ediliyor,
+Ve kullanılmayan bellek temizleniyor.
+
+Tüm bunlar saniyeler içinde, arka planda, tamamen otomatik gerçekleşiyor.
+
+İşte bu yüzden Java hem güvenli, hem taşınabilir, hem de performanslı bir dil olarak kabul edilir.
