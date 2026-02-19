@@ -1,0 +1,39 @@
+Before we start writing and running Java programs, we must first prepare our system environment properly.
+Because if Java is not installed and configured correctly, the computer will not be able to recognize Java commands, compile source code, or execute Java applications in a stable and reliable way.
+
+The first thing we need is the JDK, which stands for Java Development Kit.
+The JDK is the main and essential package required for Java development.
+It provides all the fundamental tools that developers need to write, compile, and run Java programs efficiently.
+
+Inside the JDK, there are two very important components.
+The first one is the Java compiler, called javac, which converts human-readable source code into bytecode.
+The second one is the Java runtime, called java, which executes the compiled bytecode.
+
+The compiler is responsible for transforming our Java source files into platform-independent bytecode.
+This bytecode is then executed by the JVM, which stands for Java Virtual Machine.
+The JVM acts as an execution layer that allows Java programs to run on different operating systems without modification.
+
+Now, the setup process begins with downloading the JDK from a trusted and official source such as Oracle or OpenJDK.
+Choosing a reliable source ensures stability, security, and compatibility with modern development tools.
+After downloading the installer, we install it on our computer just like any standard software application.
+
+Once the installation is complete, the next critical step is configuring system variables.
+This configuration is extremely important because it allows the operating system to detect and use Java tools directly from the command line interface.
+
+The most important system variable is JAVA_HOME.
+JAVA_HOME points to the main directory where the JDK is installed on the system.
+This variable is widely used by IDEs, build tools, and development frameworks to locate the Java environment automatically.
+
+After setting JAVA_HOME, we must add the JDK bin folder to the system PATH variable.
+The bin directory contains essential executable tools such as java, javac, and other development utilities.
+By adding this directory to PATH, we enable the system to access Java commands globally from any terminal location.
+
+This configuration makes Java portable, flexible, and convenient for development across different projects.
+Without properly setting the PATH variable, the system would fail to recognize Java commands outside the installation directory.
+
+Finally, we verify the installation using the command prompt or terminal.
+We type java dash version to check whether the Java runtime environment is correctly installed and accessible.
+Then we type javac dash version to confirm that the Java compiler is also properly configured.
+
+If both commands display valid version information without errors, it means the Java environment setup has been completed successfully.
+At this point, the system is fully prepared to compile, execute, and develop Java applications smoothly and efficiently.

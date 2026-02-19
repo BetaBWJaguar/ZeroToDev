@@ -1,0 +1,39 @@
+Java programları yazmaya ve çalıştırmaya başlamadan önce, sistem ortamımızı doğru bir şekilde hazırlamamız gerekir.
+Çünkü Java doğru şekilde kurulmaz ve yapılandırılmazsa, bilgisayar Java komutlarını tanıyamaz, kaynak kodu derleyemez ve Java uygulamalarını kararlı ve güvenilir bir şekilde çalıştıramaz.
+
+İlk olarak ihtiyaç duyduğumuz şey JDK’dır, yani Java Development Kit.
+JDK, Java geliştirme için gerekli olan ana ve temel pakettir.
+Geliştiricilerin Java programlarını yazması, derlemesi ve çalıştırması için gerekli tüm temel araçları içerir.
+
+JDK’nın içinde iki tane çok önemli bileşen bulunur.
+Birincisi, javac adı verilen Java derleyicisidir ve insan tarafından yazılan kaynak kodu bytecode’a dönüştürür.
+İkincisi ise java adı verilen Java çalışma aracıdır ve derlenmiş bytecode’u çalıştırır.
+
+Derleyici, Java kaynak dosyalarımızı platformdan bağımsız bytecode’a dönüştürmekten sorumludur.
+Bu bytecode daha sonra JVM tarafından çalıştırılır.
+JVM, yani Java Virtual Machine, Java programlarının farklı işletim sistemlerinde değişiklik yapılmadan çalışmasını sağlayan yürütme katmanıdır.
+
+Kurulum süreci, JDK’nın Oracle veya OpenJDK gibi güvenilir ve resmi bir kaynaktan indirilmesiyle başlar.
+Güvenilir bir kaynaktan indirme yapmak, sistem kararlılığı, güvenlik ve modern geliştirme araçlarıyla uyumluluk açısından oldukça önemlidir.
+İndirme işlemi tamamlandıktan sonra, JDK bilgisayarımıza standart bir yazılım kurar gibi kurulur.
+
+Kurulum tamamlandıktan sonra en kritik adım sistem değişkenlerini yapılandırmaktır.
+Bu yapılandırma son derece önemlidir çünkü işletim sisteminin Java araçlarını komut satırı üzerinden tanıyabilmesini sağlar.
+
+En önemli sistem değişkeni JAVA_HOME değişkenidir.
+JAVA_HOME, JDK’nın sistemde kurulu olduğu ana dizini gösterir.
+Bu değişken, IDE’ler, build araçları ve çeşitli geliştirme framework’leri tarafından Java ortamını otomatik olarak bulmak için yaygın şekilde kullanılır.
+
+JAVA_HOME ayarlandıktan sonra, JDK’nın bin klasörünü sistem PATH değişkenine eklememiz gerekir.
+Bin dizini, java, javac ve diğer geliştirme araçları gibi temel çalıştırılabilir dosyaları içerir.
+Bu klasörü PATH değişkenine eklediğimizde, terminal üzerinden herhangi bir dizinden Java komutlarını çalıştırabilir hale geliriz.
+
+Bu yapılandırma, Java’yı taşınabilir, esnek ve farklı projelerde kullanımı kolay bir geliştirme ortamı haline getirir.
+PATH değişkeni doğru şekilde ayarlanmazsa, sistem kurulum dizini dışındaki konumlarda Java komutlarını tanıyamaz.
+
+Son olarak, kurulumu komut istemcisi veya terminal üzerinden doğrularız.
+Java çalışma ortamının doğru kurulduğunu kontrol etmek için java dash version komutunu yazarız.
+Ardından Java derleyicisinin doğru yapılandırıldığını doğrulamak için javac dash version komutunu kullanırız.
+
+Eğer her iki komut da hata vermeden sürüm bilgisi gösteriyorsa, bu Java ortam kurulumunun başarıyla tamamlandığı anlamına gelir.
+Bu aşamadan sonra sistem, Java uygulamalarını derlemek, çalıştırmak ve geliştirmek için tamamen hazır hale gelmiş olur.
