@@ -1,0 +1,38 @@
+“Şimdi, JDK kurulumundan sonra yapılması gereken önemli bir adım olan Java ortam değişkenlerinin yapılandırılmasından bahsedelim.
+
+Ortam değişkenleri, işletim sistemine Java’nın nerede kurulu olduğunu bildirir. Böylece Java araçları ve komutları, terminal veya komut istemcisinde herhangi bir dizinden sorunsuz bir şekilde çalışabilir.
+
+Yapılandırmamız gereken en önemli iki değişken JAVA_HOME ve PATH’tir.
+
+Öncelikle JAVA_HOME’dan başlayalım.
+Bu değişken doğrudan JDK kurulum dizinini gösterir, yani bin klasörünü değil, ana JDK klasörünü işaret etmelidir. JAVA_HOME, IDE’ler, geliştirme araçları ve Maven veya Gradle gibi build sistemlerinin Java Development Kit’i doğru şekilde bulmasını sağlar.
+
+Örneğin, JDK şu dizine kurulmuşsa:
+C:\Program Files\Java\jdk-xx
+JAVA_HOME değişkeni tam olarak bu klasörü gösterecek şekilde ayarlanmalıdır.
+
+Sıradaki adım PATH değişkenini yapılandırmaktır.
+PATH değişkeni, terminalde bir komut çalıştırdığınızda sistemin taradığı dizinlerin bir listesini içerir. Java’nın bin klasörünü PATH’e eklediğinizde, java, javac ve jar gibi komutları kurulum klasörüne gitmeden, herhangi bir dizinden çalıştırabilirsiniz.
+
+Windows işletim sistemlerinde bu değişkenleri komut satırı veya sistem ayarları üzerinden tanımlayabilirsiniz.
+Örneğin:
+setx JAVA_HOME "C:\Program Files\Java\jdk-xx"
+Ardından PATH değişkenine şu dizin eklenir:
+%JAVA_HOME%\bin
+
+Linux veya macOS sistemlerinde ise yapılandırma genellikle .bashrc, .zshrc veya .bash_profile gibi kabuk profil dosyaları üzerinden yapılır.
+Aşağıdaki komutlar kullanılabilir:
+export JAVA_HOME=/usr/lib/jvm/jdk-xx
+ve ardından:
+export PATH=$JAVA_HOME/bin:$PATH
+
+Burada dikkat edilmesi gereken önemli bir nokta, JAVA_HOME değişkeninin JRE’yi değil, mutlaka JDK’yı göstermesidir. Özellikle Java programlarını derlemek istiyorsanız bu gereklidir.
+
+Değişkenleri ayarladıktan sonra yapılandırmayı doğrulamanız gerekir.
+Yeni bir terminal açarak şu komutları çalıştırın:
+java -version ve javac -version.
+Eğer her iki komut da sürüm bilgisi döndürüyorsa, yapılandırmanız doğru yapılmıştır.
+
+Ortam değişkenleri doğru şekilde ayarlanmadığında, Java komutları tanınmayabilir ve geliştirme araçları yüklü JDK’yı tespit edemeyebilir.
+
+Özetle, JAVA_HOME ayarı araçların Java’nın nerede kurulu olduğunu bilmesini sağlarken, PATH değişkeninin güncellenmesi Java komutlarını global olarak çalıştırmanıza olanak tanır. Bu yapılandırma, stabil ve kullanıma hazır bir Java geliştirme ortamı oluşturur.”

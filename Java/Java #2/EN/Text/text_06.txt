@@ -1,0 +1,38 @@
+“Now, let’s talk about configuring Java environment variables — an essential step after installing the JDK.
+
+Environment variables help the operating system understand where Java is installed, allowing Java tools and commands to work correctly from any directory in the terminal or command prompt.
+
+The two most important variables we need to configure are JAVA_HOME and PATH.
+
+First, JAVA_HOME.
+This variable points directly to the JDK installation directory, not the bin folder. It acts as a reference for development tools, IDEs, and build systems like Maven or Gradle to locate the Java Development Kit.
+
+For example, if your JDK is installed in:
+C:\Program Files\Java\jdk-xx
+then JAVA_HOME should be set exactly to that folder.
+
+Next, we configure the PATH variable.
+The PATH variable contains a list of directories that the system scans when you run a command in the terminal. By adding the Java bin directory to PATH, you enable the system to recognize commands like java, javac, and jar from anywhere, without needing to navigate to the installation folder.
+
+On Windows systems, you can set these variables using the command line or system settings.
+For example:
+setx JAVA_HOME "C:\Program Files\Java\jdk-xx"
+Then update PATH by appending:
+%JAVA_HOME%\bin
+
+On Linux or macOS, the configuration is typically done in shell profile files such as .bashrc, .zshrc, or .bash_profile.
+You can use the following commands:
+export JAVA_HOME=/usr/lib/jvm/jdk-xx
+and then:
+export PATH=$JAVA_HOME/bin:$PATH
+
+It is important to note that JAVA_HOME should always reference the JDK, not the JRE, especially if you plan to compile Java programs.
+
+After setting the variables, you should verify the configuration.
+Open a new terminal and run:
+java -version and javac -version.
+If both commands return version information, your setup is correct.
+
+Without properly configuring these environment variables, Java commands may not be recognized, and development tools may fail to detect the installed JDK.
+
+In summary, setting JAVA_HOME ensures that tools know where Java is installed, while updating the PATH allows you to execute Java commands globally. This configuration creates a stable and ready-to-use Java development environment.”
