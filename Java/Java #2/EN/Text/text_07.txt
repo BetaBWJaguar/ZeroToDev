@@ -1,0 +1,50 @@
+Now that Java is installed and configured, the real journey begins.
+
+So what actually happens after the setup?
+
+Once Java is properly installed on your system and the environment variables are configured, your computer is officially ready to compile and run Java programs. That means you can now create Java source files with the .java extension.
+
+The first step is writing Java code. For example, we might create a file called HelloJava.java. Inside this file, we write our Java program using proper syntax and structure.
+
+But writing the code alone is not enough. Java does not run source code directly.
+
+The next step is compilation.
+
+We use the javac compiler to translate our .java file into bytecode. When we run:
+
+javac HelloJava.java
+
+the compiler creates a new file with a .class extension. This .class file contains bytecode, which is a special intermediate language designed specifically for the Java Virtual Machine.
+
+Now comes one of Java’s most powerful concepts.
+
+This bytecode is platform-independent.
+
+It does not matter whether the system is Windows, macOS, or Linux. As long as there is a JVM installed, the program can run. This is the famous principle:
+
+Write Once, Run Anywhere.
+
+After compilation, we execute the program using the java command:
+
+java HelloJava
+
+At this moment, the JVM loads the bytecode, verifies it, and executes it. The JVM acts like an interpreter and a runtime engine. It manages memory, handles execution, and ensures platform compatibility.
+
+Finally, the output appears on the screen.
+
+In our example, the console prints:
+
+Java environment is ready!
+
+So the full process after Java setup looks like this:
+
+First, you write Java code in a .java file.
+Then, you compile it using javac.
+A .class bytecode file is created.
+You run it using the java command.
+The JVM executes the bytecode.
+And the output appears on the screen.
+
+At this point, your setup is complete — and real Java development can begin.
+
+This is where you stop configuring… and start building.

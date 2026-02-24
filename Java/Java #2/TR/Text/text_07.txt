@@ -1,0 +1,52 @@
+Java kurulduktan ve ortam ayarları yapıldıktan sonra asıl yolculuk başlar.
+
+Peki kurulumdan sonra gerçekten ne olur?
+
+Java sisteminize düzgün şekilde yüklendiğinde ve environment değişkenleri ayarlandığında, bilgisayarınız artık Java programlarını derleyip çalıştırmaya hazır hale gelir. Bu da artık .java uzantılı kaynak dosyalar oluşturabileceğiniz anlamına gelir.
+
+İlk adım Java kodu yazmaktır. Örneğin HelloJava.java adında bir dosya oluştururuz ve bu dosyanın içine Java programımızı yazarız.
+
+Ancak Java kaynak kodu doğrudan çalıştırılmaz.
+
+Bir sonraki adım derleme işlemidir.
+
+.java dosyamızı javac derleyicisi ile derleriz. Şu komutu çalıştırdığımızda:
+
+javac HelloJava.java
+
+derleyici aynı isimde fakat .class uzantılı yeni bir dosya üretir. Bu dosya bytecode içerir. Bytecode, Java Virtual Machine için tasarlanmış özel bir ara dildir.
+
+İşte Java’nın en güçlü özelliklerinden biri burada devreye girer.
+
+Bu bytecode platformdan bağımsızdır.
+
+Windows, macOS ya da Linux fark etmez. Sistemde bir JVM olduğu sürece program çalıştırılabilir. İşte bu yüzden Java’nın ünlü sloganı şudur:
+
+Bir kez yaz, her yerde çalıştır.
+
+Derleme tamamlandıktan sonra programı java komutu ile çalıştırırız:
+
+java HelloJava
+
+Bu aşamada JVM bytecode dosyasını yükler, doğrular ve çalıştırır. JVM hem bir çalışma ortamı hem de bir yürütme motoru gibi davranır. Bellek yönetimini yapar, kodu çalıştırır ve platform uyumluluğunu sağlar.
+
+Sonuç olarak çıktı ekranda görünür.
+
+Bizim örneğimizde konsola şu yazdırılır:
+
+Java environment is ready!
+
+Özetle Java kurulumundan sonra süreç şu şekilde ilerler:
+
+Önce .java dosyasında kod yazılır.
+Ardından javac ile derlenir.
+.class bytecode dosyası oluşur.
+java komutu ile çalıştırılır.
+JVM bytecode’u yürütür.
+Ve çıktı ekrana yazdırılır.
+
+İşte bu noktada kurulum süreci bitmiştir ve gerçek Java geliştirme süreci başlamış olur.
+
+Artık ayar yapmak yok.
+
+Artık üretme zamanı.
