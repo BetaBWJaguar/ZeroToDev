@@ -1,0 +1,71 @@
+Bugün Java Geliştirme İş Akışından bahsedeceğiz.
+
+Java kurulduktan ve geliştirme ortamı tamamen hazırlandıktan sonra, yazılım geliştirme süreci belirli ve net bir döngüye göre ilerler. Bu döngü oldukça basittir ama son derece güçlüdür. Gerçek dünyadaki Java yazılımları tam olarak bu mantıkla geliştirilir.
+
+İlk adım: Programı yazmak.
+
+Her şey kod yazmakla başlar. Bir .java dosyası oluştururuz ve sınıfımızı tanımlarız. Örneğin burada basit bir Calculator sınıfı görüyoruz. İçerisinde main metodu bulunuyor. main metodu, her Java uygulamasının başlangıç noktasıdır.
+
+Bu örnekte sum adında bir tam sayı değişkeni tanımlıyoruz, içine 5 + 7 işlemini atıyoruz ve ardından System.out.println ile sonucu ekrana yazdırıyoruz.
+
+Bu aşama tamamen yazma aşamasıdır. Henüz program çalıştırılmış değildir.
+
+İkinci adım: Programı derlemek.
+
+Java derlenen bir dildir. Yani yazdığımız kaynak kod doğrudan çalıştırılamaz. Önce bytecode’a dönüştürülmesi gerekir.
+
+Bunun için javac komutunu kullanırız.
+
+Terminalde şunu yazarız:
+
+javac Calculator.java
+
+Java derleyicisi kodu kontrol eder. Eğer sözdizimi hatası varsa burada yakalanır. Hata yoksa .java dosyası .class dosyasına dönüştürülür. Bu .class dosyası Java bytecode içerir ve JVM tarafından çalıştırılabilir.
+
+Eğer hata varsa, burada dururuz ve kodu düzeltiriz.
+
+Üçüncü adım: Programı çalıştırmak.
+
+Derleme başarılıysa artık programı çalıştırabiliriz.
+
+Bunun için java komutunu kullanırız:
+
+java Calculator
+
+Bu noktada Java Virtual Machine devreye girer. Bytecode’u yükler, main metodundan başlar ve programı çalıştırır.
+
+Bizim örneğimizde ekrana şu yazdırılır:
+
+Result: 12
+
+Dördüncü adım: Çıktıyı kontrol etmek.
+
+Her zaman çıktıyı kontrol ederiz. Beklediğimiz sonuç mu geldi? Hesaplama doğru mu? Mantıksal bir hata var mı?
+
+Bazen kod sorunsuz derlenir ama yanlış sonuç üretir. İşte bu mantıksal hatadır.
+
+Beşinci adım: Hataları düzeltmek.
+
+Eğer sözdizimi hatası varsa derleyici zaten bize gösterir.
+
+Eğer mantıksal hata varsa çıktıyı analiz eder, debug yapar ve kodu iyileştiririz.
+
+Peki sonra ne olur?
+
+Süreç tekrar başlar.
+
+Yaz.
+Derle.
+Çalıştır.
+Kontrol et.
+Düzelt.
+Tekrar derle.
+Tekrar çalıştır.
+
+Bu döngü sürekli devam eder.
+
+Gerçek dünyadaki yazılım geliştirme sürecinde bu döngü yüzlerce hatta binlerce kez tekrar eder. Profesyonel uygulamalar sürekli iyileştirme ve tekrar eden geliştirme süreçleriyle ortaya çıkar.
+
+Yani Java geliştirme iş akışı, bir kez kod yazıp bitirmek değildir. Yapılandırılmış bir döngü içinde sürekli geliştirme yapmaktır.
+
+Ve bu basit görünen döngü — yaz, derle, çalıştır, hata ayıkla — tüm Java yazılım dünyasının temelidir.

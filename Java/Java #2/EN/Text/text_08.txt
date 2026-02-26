@@ -1,0 +1,69 @@
+Today we are going to talk about the Java Development Workflow.
+
+Once Java is installed and your environment is fully set up, development follows a very clear and logical cycle. This cycle is simple, but it is extremely powerful, and it is how real-world Java software is built.
+
+First, we write the program.
+
+Everything starts with writing code. We create a .java file and define our class. For example, here we have a simple Calculator class. Inside it, we define the main method, which is the entry point of every Java application.
+
+In this example, we declare an integer variable called sum, assign it the value of 5 + 7, and then print the result using System.out.println.
+
+This is the writing phase. Just plain source code. Nothing has been executed yet.
+
+Second step: Compile the program.
+
+Java is a compiled language. That means the source code we write cannot run directly. It must first be translated into bytecode.
+
+We use the javac command for this.
+
+When we run:
+
+javac Calculator.java
+
+The Java compiler checks for syntax errors and converts the source file into a .class file. This .class file contains Java bytecode, which can be executed by the Java Virtual Machine.
+
+If there is a mistake in the code, the compiler will stop and show error messages. At this point, we go back and fix the code.
+
+Third step: Run the program.
+
+After successful compilation, we execute the program using the java command:
+
+java Calculator
+
+Now the JVM loads the bytecode, starts from the main method, and executes the program.
+
+In our example, it prints:
+
+Result: 12
+
+Fourth step: Check the output.
+
+We always verify whether the output matches our expectation. Did it calculate correctly? Did it print what we wanted? Is there any unexpected behavior?
+
+This is where logical errors appear. The code may compile successfully but still produce incorrect results.
+
+Fifth step: Fix errors if needed.
+
+If there is a syntax error, the compiler will tell us.
+
+If there is a logical error, we analyze the output, debug the code, and improve it.
+
+Then what do we do?
+
+We repeat the process.
+
+Write.
+Compile.
+Run.
+Check.
+Fix.
+Recompile.
+Run again.
+
+This development cycle is continuous.
+
+In real-world software development, this loop happens hundreds or even thousands of times. Professional applications are built through constant iteration.
+
+So the Java development workflow is not just about writing code once. It is about continuously improving it through a structured cycle.
+
+And this simple cycle — write, compile, run, debug — is the foundation of all Java software development.
