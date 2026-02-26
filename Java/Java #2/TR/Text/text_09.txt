@@ -1,0 +1,119 @@
+Java öğrenmeye karar verdiğinizde,
+çoğu insan ilk adımın kod yazmak olduğunu düşünür.
+
+Ama aslında… öyle değildir.
+
+Gerçek ilk adım, Java’yı doğru şekilde kurmaktır.
+
+Ve birçok başlangıç seviyesindeki kişi burada sessiz hatalar yapar —
+çünkü yalnızca tek bir “Java” olduğunu düşünürler.
+
+Ama öyle değildir.
+
+Farklı dağıtımlar, farklı sürümler ve farklı kurulum yaklaşımları vardır.
+Ve doğru olanı seçmek, ileride ciddi uyumluluk ve kararlılık problemlerinden sizi kurtarabilir.
+
+Şimdi bunu adım adım inceleyelim.
+
+Önce Java dağıtımlarından bahsedelim.
+
+Genellikle iki ana isim duyarsınız:
+
+Oracle JDK
+ve
+OpenJDK.
+
+Oracle JDK, Oracle tarafından sağlanan resmi dağıtımdır.
+Kurumsal ortamlarda yaygın olarak kullanılır ve ticari destek seçenekleri sunar.
+
+OpenJDK ise Java’nın açık kaynaklı uygulamasıdır.
+Ücretsizdir, topluluk tarafından geliştirilir ve günümüzde çoğu geliştirici tarafından kullanılır.
+
+Şimdi önemli bir noktaya gelelim.
+
+Teknik açıdan bakıldığında, modern Oracle JDK ve OpenJDK sürümleri çekirdek işlevsellik açısından neredeyse aynıdır.
+Çoğu geliştirici için — özellikle öğrenciler ve bağımsız geliştiriciler için — OpenJDK tamamen yeterlidir.
+
+Şimdi sürümlerden bahsedelim.
+
+LTS ve Non-LTS gibi terimler duyarsınız.
+
+LTS, Long Term Support yani Uzun Süreli Destek anlamına gelir.
+
+Örnek olarak Java 17 ve Java 21 verilebilir.
+
+Bu sürümler uzun vadeli güncellemeler, güvenlik yamaları ve kararlılık iyileştirmeleri alır.
+Eğer ciddi bir proje geliştiriyorsanız, bir şirkette çalışıyorsanız ya da uzun vadeli bir planınız varsa —
+LTS sürüm seçmelisiniz.
+
+Non-LTS sürümler ise daha sık yayınlanır.
+Yeni ve deneysel özellikler içerirler,
+ancak daha kısa süre desteklenirler.
+
+Yani özel olarak en yeni özelliklere ihtiyacınız yoksa,
+LTS güvenli ve önerilen seçenektir.
+
+Şimdi kurulum sürecine geçelim.
+
+Süreç aslında düzenli ve basittir.
+
+Birinci adım — sürüm seçmek.
+İkinci adım — dağıtımı indirmek.
+Üçüncü adım — JDK’yı kurmak.
+Dördüncü adım — JAVA_HOME ortam değişkenini ayarlamak.
+Beşinci adım — PATH değişkenini güncellemek.
+Ve son olarak — kurulumu doğrulamak.
+
+Bu doğrulama adımı kritik öneme sahiptir.
+
+Windows’ta Komut İstemi’ni açıp şunları yazabilirsiniz:
+
+where java
+where javac
+
+Linux veya macOS’ta ise şunları yazarsınız:
+
+which java
+which javac
+
+Ve kurulu sürümü detaylı görmek için şunları çalıştırırsınız:
+
+java -version
+javac -version
+
+Eğer terminalde sürüm bilgisi görüyorsanız —
+kurulumunuz başarılıdır.
+
+Görmüyorsanız,
+problem genellikle ortam değişkenleriyle ilgilidir.
+
+İşte bu yüzden JAVA_HOME ve PATH değişkenlerini anlamak önemlidir.
+
+Çünkü Java’nın yalnızca kurulması yetmez —
+sistemin genelinde erişilebilir olması gerekir.
+
+Birisi “Java is not recognized as an internal or external command” dediğinde —
+bu bir Java sorunu değildir.
+
+Bu bir ortam yapılandırma problemidir.
+
+Ve bu yapıyı anladığınızda,
+Java kurulumu karmaşık bir şey olmaktan çıkar.
+
+Öngörülebilir bir sisteme dönüşür.
+
+Doğru dağıtımı seçin.
+Bir LTS sürüm tercih edin.
+Doğru şekilde kurun.
+Ortam değişkenlerini yapılandırın.
+Her şeyi doğrulayın.
+
+Ve bu temel sağlam olduğunda,
+artık geliştirmeye hazırsınız.
+
+Çünkü profesyonel yazılım geliştirme kod yazmakla başlamaz.
+
+Doğru ortamı kurmakla başlar.
+
+Ve Java — her zaman olduğu gibi —
+temelleri anlayanları ödüllendirir.

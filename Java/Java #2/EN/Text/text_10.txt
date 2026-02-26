@@ -1,0 +1,128 @@
+At some point in your Java journey…
+you install everything correctly — or at least you think you do —
+and then you open the terminal and type:
+
+java -version
+
+And instead of version information…
+
+You see this message:
+
+“java is not recognized as an internal or external command.”
+
+That moment right there…
+is where many beginners panic.
+
+But here’s the truth.
+
+Most Java installation problems are not actually Java problems.
+
+They are environment configuration problems.
+
+Let’s talk about the most common ones.
+
+The first and most famous issue is exactly that error message.
+Java is not recognized as a command.
+
+This usually means the system cannot find the Java executable.
+
+And why does that happen?
+
+Because either JAVA_HOME is not set correctly,
+or the PATH variable is not updated.
+
+Another common issue is installing JRE instead of JDK.
+
+Remember this clearly.
+
+JRE allows you to run Java applications.
+JDK allows you to develop them.
+
+If javac does not work —
+you probably installed only JRE.
+
+Then we have multiple Java versions conflicting with each other.
+
+You install Java 21,
+but your system still uses Java 8.
+
+Why?
+
+Because the PATH variable points to the old installation first.
+
+And this is why understanding environment variables is critical.
+
+So what do we do when an error appears?
+
+We follow a structured debugging process.
+
+Step one — check the version.
+
+Run:
+
+java -version
+javac -version
+
+If this fails,
+move to step two.
+
+Verify JAVA_HOME.
+
+On Windows, type:
+
+echo %JAVA_HOME%
+echo %PATH%
+
+On Linux or macOS, type:
+
+echo $JAVA_HOME
+echo $PATH
+
+If JAVA_HOME is empty or incorrect,
+that’s your problem.
+
+If PATH does not include the bin directory of your JDK installation,
+that’s also your problem.
+
+Now let’s say you’re on Linux or macOS
+and you want to temporarily fix JAVA_HOME.
+
+You can export it like this:
+
+export JAVA_HOME=/usr/lib/jvm/jdk-xx
+export PATH=$JAVA_HOME/bin:$PATH
+
+This sets it for the current session.
+
+Then restart the terminal
+and check again.
+
+And here’s something important.
+
+After updating environment variables on Windows,
+you must restart your Command Prompt.
+
+Otherwise, changes will not apply.
+
+So remember this debugging mindset:
+
+Error appears.
+Don’t panic.
+Check java -version.
+Verify JAVA_HOME.
+Check PATH.
+Restart terminal.
+
+Most problems disappear once environment variables are correct.
+
+Java installation is not complicated.
+It’s systematic.
+
+And once you understand how the system locates executables,
+you stop fearing these errors.
+
+Instead of seeing red error messages as problems…
+you start seeing them as clues.
+
+And that’s the moment
+you begin thinking like a real developer.

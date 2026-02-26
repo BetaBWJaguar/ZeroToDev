@@ -1,0 +1,129 @@
+Java yolculuğunuzun bir noktasında…
+her şeyi doğru kurduğunuzu düşünürsünüz — ya da en azından öyle sanırsınız —
+sonra terminali açıp şunu yazarsınız:
+
+java -version
+
+Ve sürüm bilgisi yerine…
+
+Şu mesajı görürsünüz:
+
+“java is not recognized as an internal or external command.”
+
+İşte o an…
+birçok başlangıç seviyesi geliştirici panik yapar.
+
+Ama gerçek şu.
+
+Java kurulum problemlerinin çoğu aslında Java problemi değildir.
+
+Bunlar ortam yapılandırma (environment configuration) problemleridir.
+
+Şimdi en yaygın olanlardan bahsedelim.
+
+İlk ve en meşhur sorun tam olarak bu hata mesajıdır.
+Java bir komut olarak tanınmıyor.
+
+Bu genellikle sistemin Java çalıştırılabilir dosyasını bulamadığı anlamına gelir.
+
+Peki bu neden olur?
+
+Çünkü ya JAVA_HOME doğru ayarlanmamıştır,
+ya da PATH değişkeni güncellenmemiştir.
+
+Bir diğer yaygın hata ise JDK yerine JRE kurulmasıdır.
+
+Bunu net şekilde hatırlayın.
+
+JRE, Java uygulamalarını çalıştırmanızı sağlar.
+JDK ise onları geliştirmenizi sağlar.
+
+Eğer javac çalışmıyorsa —
+muhtemelen sadece JRE kurmuşsunuzdur.
+
+Bir diğer sorun ise birden fazla Java sürümünün çakışmasıdır.
+
+Java 21 kurarsınız,
+ama sistem hâlâ Java 8’i kullanır.
+
+Neden?
+
+Çünkü PATH değişkeni önce eski kuruluma işaret ediyordur.
+
+İşte bu yüzden ortam değişkenlerini anlamak kritik öneme sahiptir.
+
+Peki bir hata çıktığında ne yaparız?
+
+Yapılandırılmış bir hata ayıklama (debugging) süreci izleriz.
+
+Birinci adım — sürümü kontrol etmek.
+
+Şunları çalıştırın:
+
+java -version
+javac -version
+
+Eğer bu başarısız olursa,
+ikinci adıma geçin.
+
+JAVA_HOME değişkenini doğrulayın.
+
+Windows’ta şunu yazın:
+
+echo %JAVA_HOME%
+echo %PATH%
+
+Linux veya macOS’ta ise şunu yazın:
+
+echo $JAVA_HOME
+echo $PATH
+
+Eğer JAVA_HOME boş ya da yanlışsa,
+sorun budur.
+
+Eğer PATH, JDK kurulumunuzun bin dizinini içermiyorsa,
+sorun yine budur.
+
+Şimdi diyelim ki Linux ya da macOS kullanıyorsunuz
+ve JAVA_HOME’u geçici olarak düzeltmek istiyorsunuz.
+
+Şu şekilde export edebilirsiniz:
+
+export JAVA_HOME=/usr/lib/jvm/jdk-xx
+export PATH=$JAVA_HOME/bin:$PATH
+
+Bu ayar yalnızca mevcut oturum için geçerlidir.
+
+Sonra terminali yeniden başlatın
+ve tekrar kontrol edin.
+
+Ve önemli bir nokta.
+
+Windows’ta ortam değişkenlerini güncelledikten sonra
+Komut İstemi’ni yeniden başlatmanız gerekir.
+
+Aksi halde değişiklikler uygulanmaz.
+
+Bu yüzden şu hata ayıklama zihniyetini benimseyin:
+
+Hata çıktı.
+Panik yapma.
+java -version kontrol et.
+JAVA_HOME’u doğrula.
+PATH’i kontrol et.
+Terminali yeniden başlat.
+
+Ortam değişkenleri doğru olduğunda
+çoğu problem ortadan kaybolur.
+
+Java kurulumu karmaşık değildir.
+Sistematik bir süreçtir.
+
+Ve sistemin çalıştırılabilir dosyaları nasıl bulduğunu anladığınızda,
+bu hatalardan korkmayı bırakırsınız.
+
+Kırmızı hata mesajlarını problem olarak görmek yerine…
+ipucu olarak görmeye başlarsınız.
+
+İşte o an,
+gerçek bir geliştirici gibi düşünmeye başlarsınız.

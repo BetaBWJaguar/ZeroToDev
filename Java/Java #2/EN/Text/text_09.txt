@@ -1,0 +1,119 @@
+When you decide to start learning Java,
+most people think the first step is writing code.
+
+But actually… it’s not.
+
+The real first step is installing Java correctly.
+
+And this is where many beginners make silent mistakes —
+because they think there is only one “Java”.
+
+But there isn’t.
+
+There are different distributions, different versions, and different installation approaches.
+And choosing the right one can save you from serious compatibility and stability problems later.
+
+So let’s break this down step by step.
+
+First, let’s talk about Java distributions.
+
+You’ll usually hear two main names:
+
+Oracle JDK
+and
+OpenJDK.
+
+Oracle JDK is the official distribution provided by Oracle.
+It’s widely used in enterprise environments and comes with commercial support options.
+
+OpenJDK, on the other hand, is the open-source implementation of Java.
+It is free, community-driven, and used by most developers today.
+
+Now here’s something important.
+
+From a technical perspective, modern Oracle JDK and OpenJDK versions are almost identical in core functionality.
+For most developers — especially students and independent developers — OpenJDK is completely sufficient.
+
+Now let’s talk about versions.
+
+You’ll hear terms like LTS and Non-LTS.
+
+LTS stands for Long Term Support.
+
+Examples are Java 17 and Java 21.
+
+These versions receive long-term updates, security patches, and stability improvements.
+If you are building a serious project, working in a company, or planning something long-term —
+you should choose an LTS version.
+
+Non-LTS versions are released more frequently.
+They include newer experimental features,
+but they are supported for a shorter period.
+
+So unless you specifically need the newest features,
+LTS is the safe and recommended choice.
+
+Now let’s move to the installation process itself.
+
+The process is actually structured and simple.
+
+First — choose your version.
+Second — download the distribution.
+Third — install the JDK.
+Fourth — set the JAVA_HOME environment variable.
+Fifth — update your PATH variable.
+And finally — verify the installation.
+
+This verification step is critical.
+
+On Windows, you can open Command Prompt and type:
+
+where java
+where javac
+
+On Linux or macOS, you type:
+
+which java
+which javac
+
+And to check the installed version in detail, you run:
+
+java -version
+javac -version
+
+If you see version information printed in the terminal —
+your installation is successful.
+
+If not,
+the problem is usually related to environment variables.
+
+And this is why understanding JAVA_HOME and PATH is important.
+
+Because Java doesn’t just need to be installed —
+it needs to be accessible by your system globally.
+
+So when someone says
+“Java is not recognized as an internal or external command” —
+that’s not a Java problem.
+
+That’s an environment configuration problem.
+
+And once you understand this structure,
+Java installation stops being something confusing.
+
+It becomes a predictable system.
+
+Choose the right distribution.
+Pick an LTS version.
+Install properly.
+Configure environment variables.
+Verify everything.
+
+And once that foundation is solid,
+you’re ready to start building.
+
+Because professional development doesn’t begin with writing code.
+
+It begins with setting up the right environment.
+
+And Java — as always — rewards those who understand the fundamentals first.
