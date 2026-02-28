@@ -1,0 +1,93 @@
+Bu slaytta Java Sürüm Yönetimi konusuna odaklanıyoruz.
+
+Bir geliştirici olarak, özellikle profesyonel ortamlarda çalışırken, aynı makinede birden fazla Java sürümünün kurulu olması oldukça yaygındır.
+
+Örneğin:
+
+Java 17 — LTS sürüm
+Java 21 — Güncel LTS sürüm
+Ve eski sistemler için hâlâ kullanılan Java 8
+
+Farklı projeler farklı Java sürümleri gerektirebilir.
+
+Eğer bu sürümler doğru şekilde yönetilmezse ciddi problemler ortaya çıkar.
+
+PATH çakışmaları yaşanabilir.
+Yanlış JDK proje derleyebilir.
+Maven veya Gradle beklenmedik hatalar verebilir.
+IDE’niz tutarsız davranabilir.
+
+Bunların hepsi sistemin hangi Java sürümünü kullanacağını doğru şekilde bilmemesinden kaynaklanır.
+
+Bu noktada iki kritik yapı devreye girer:
+
+JAVA_HOME
+ve
+PATH
+
+JAVA_HOME, aktif olarak kullanılacak JDK dizinini belirler.
+
+PATH ise terminale yazdığınız
+
+java -version
+veya
+javac -version
+
+komutlarının hangi çalıştırılabilir dosyayı kullanacağını belirler.
+
+Bu yüzden ilk adım her zaman doğrulamadır.
+
+Önce aktif sürümü kontrol edin:
+
+java -version
+javac -version
+
+Ardından mevcut JAVA_HOME değerini kontrol edin.
+
+Windows’ta:
+
+echo %JAVA_HOME%
+
+Linux veya macOS’ta:
+
+echo $JAVA_HOME
+
+Eğer çıktı kullanmak istediğiniz JDK ile eşleşmiyorsa, sürümü değiştirmeniz gerekir.
+
+Sonraki adım, kurulu JDK klasörlerini bulmaktır.
+
+Örneğin:
+
+Java 17
+jdk-17
+
+Java 21
+jdk-21
+
+Doğru klasörü belirledikten sonra, JAVA_HOME değişkenini o dizine yönlendirin.
+
+Ardından PATH değişkenine
+JAVA_HOME/bin
+yolunu ekleyin.
+
+Terminali yeniden başlatın.
+
+Ve tekrar kontrol edin:
+
+java -version
+javac -version
+
+Eğer hedeflediğiniz sürüm görünüyorsa, geçiş başarıyla tamamlanmıştır.
+
+Doğru Java sürüm yönetimi;
+
+Build tutarsızlıklarını önler.
+Bağımlılık çakışmalarını engeller.
+Dağıtım sırasında sürpriz hataları azaltır.
+Geliştirme ortamını stabil tutar.
+
+Çünkü sürüm yönetimi sadece bir ayar meselesi değildir.
+
+Bu, geliştirme ortamını bilinçli şekilde kontrol edebilme becerisidir.
+
+Ve bu beceri, sizi başlangıç seviyesinden profesyonel seviyeye taşıyan önemli adımlardan biridir.

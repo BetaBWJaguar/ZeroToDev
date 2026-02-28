@@ -1,0 +1,86 @@
+In this slide, we’re focusing on Java Version Management.
+
+When working as a developer, especially in professional environments, it’s very common to have multiple Java versions installed on the same machine.
+
+For example:
+
+You might have Java 17 as an LTS version.
+Java 21 as the latest LTS release.
+And possibly an older legacy version like Java 8 for maintaining older systems.
+
+Different projects require different Java versions.
+
+And if these versions are not managed properly, serious problems can occur.
+
+PATH conflicts may happen.
+The wrong JDK might compile your project.
+Build tools like Maven or Gradle can fail unexpectedly.
+Your IDE might behave inconsistently.
+
+All of this happens because the system doesn’t automatically know which Java version your project needs.
+
+It depends on two critical configurations:
+
+JAVA_HOME
+and
+PATH
+
+JAVA_HOME defines which JDK directory is considered active.
+
+PATH determines which Java executable runs when you type:
+
+java -version
+or
+javac -version
+
+So the first step is always verification.
+
+Check the current active version:
+
+java -version
+javac -version
+
+Then check which JAVA_HOME is currently set.
+
+On Windows:
+
+echo %JAVA_HOME%
+
+On Linux or macOS:
+
+echo $JAVA_HOME
+
+If the output does not match the JDK you intend to use, you need to switch it.
+
+Next, locate your installed JDK folders.
+
+For example:
+
+Java 17 might be installed in a directory like
+jdk-17
+
+Java 21 might be in
+jdk-21
+
+After identifying the correct folder, update JAVA_HOME to point to that directory.
+
+Then update your PATH to include:
+
+JAVA_HOME/bin
+
+Restart your terminal.
+
+And verify again using:
+
+java -version
+javac -version
+
+If the version now matches your target JDK, the switch was successful.
+
+Proper Java version management prevents build inconsistencies, dependency conflicts, and unexpected deployment errors.
+
+It ensures that the correct compiler is used, the correct runtime is active, and your development environment stays stable.
+
+Because managing versions correctly is not just configuration work.
+
+It’s part of being a professional developer who understands how the environment truly works.

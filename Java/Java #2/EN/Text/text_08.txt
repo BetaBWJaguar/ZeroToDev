@@ -1,4 +1,4 @@
-Today we are going to talk about the Java Development Workflow.
+In this slide we are going to talk about the Java Development Workflow.
 
 Once Java is installed and your environment is fully set up, development follows a very clear and logical cycle. This cycle is simple, but it is extremely powerful, and it is how real-world Java software is built.
 

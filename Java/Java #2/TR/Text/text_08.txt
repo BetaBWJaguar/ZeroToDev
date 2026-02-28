@@ -1,4 +1,4 @@
-Bugün Java Geliştirme İş Akışından bahsedeceğiz.
+Bu slaytımızda Java Geliştirme İş Akışından bahsedeceğiz.
 
 Java kurulduktan ve geliştirme ortamı tamamen hazırlandıktan sonra, yazılım geliştirme süreci belirli ve net bir döngüye göre ilerler. Bu döngü oldukça basittir ama son derece güçlüdür. Gerçek dünyadaki Java yazılımları tam olarak bu mantıkla geliştirilir.
 
