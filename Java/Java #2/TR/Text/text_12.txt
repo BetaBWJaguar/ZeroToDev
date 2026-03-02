@@ -1,0 +1,17 @@
+Her geliştiricinin yolculuğunda bir an vardır… her şeyin gerçekten başladığı küçük bir program. Java’da bu programın adı Hello World’dür. Bugün sadece ekrana bir yazı yazdırmıyoruz. Aslında Java’nın arka planda nasıl çalıştığını anlamaya başlıyoruz.
+
+Yapıya bakalım. public class HelloWorld ile başlıyoruz. Java’da her şey bir class’ın içinde yer alır. Class, programımızın kapsayıcı yapısıdır. Kodumuzu bir arada tutan temel yapıdır. Ve burada önemli bir kural vardır: class adı dosya adıyla aynı olmak zorundadır. Eğer dosya adı HelloWorld.java ise, class adı da HelloWorld olmalıdır.
+
+Class’ın içinde ise Java’daki en önemli metodu tanımlarız: public static void main(String[] args). Bu metod programın giriş noktasıdır. Java Virtual Machine yani JVM, programı çalıştırmaya başladığında özellikle bu metodu arar. Yürütme her zaman main metodundan başlar.
+
+Şimdi bunu parçalayalım. Public, metodun her yerden erişilebilir olduğunu belirtir. Static, metodun bir nesneye değil doğrudan class’a ait olduğunu ifade eder. Void, metodun herhangi bir değer döndürmediği anlamına gelir. String[] args ise komut satırından programa parametre geçebilmemizi sağlar.
+
+Main metodunun içinde System.out.println("Hello World"); satırını yazarız. Bu satır konsola çıktı yazdırır. System, Java’nın yerleşik bir sınıfıdır. Out, standart çıktı akışını temsil eder. Println ise metni yazdırır ve ardından bir alt satıra geçer.
+
+Peki programı çalıştırdığımızda arka planda ne olur? Önce .java uzantılı kaynak kod dosyamızı yazarız. Daha sonra javac derleyicisi ile bu kodu derleriz. Derleyici doğrudan makine kodu üretmez. Bunun yerine bytecode adı verilen ve .class uzantılı bir dosya oluşturur. Bu bytecode platformdan bağımsızdır. Son olarak JVM bu bytecode’u okur ve sistemimiz üzerinde çalıştırır. İşte bu yüzden Java platform bağımsızdır. Bir kez yaz, her yerde çalıştır.
+
+Gördüğünüz gibi Hello World basit görünse de aslında bir Java programının tüm yolculuğunu gösterir. Kaynak koddan derlemeye, bytecode’dan JVM içinde çalışmaya kadar bütün süreci içinde barındırır.
+
+Ve ekranda gördüğümüz o küçük mesaj… arka planda çalışan güçlü bir sistemin sonucudur.
+
+Her Java geliştiricisinin yolculuğu işte burada başlar.

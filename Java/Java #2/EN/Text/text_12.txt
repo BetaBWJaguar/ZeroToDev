@@ -1,0 +1,17 @@
+At some point in every developer’s journey, there is one small program that marks the true beginning. In Java, that program is called Hello World. Today, we are not just printing a sentence to the screen. We are understanding how Java actually works behind the scenes.
+
+Let’s look at the structure. We begin with public class HelloWorld. In Java, everything lives inside a class. A class is the container of our program. It is the structure that holds our code together. And there is one important rule here: the class name must match the file name. If the file is named HelloWorld.java, the class must also be HelloWorld.
+
+Inside the class, we define the most important method in any Java application: public static void main(String[] args). This is the entry point of the program. When the Java Virtual Machine, the JVM, starts executing our code, it looks specifically for this method. Execution always begins from main.
+
+Now let’s break it down. Public means the method is accessible from anywhere. Static means it belongs to the class itself, not to an object. Void means this method does not return any value. And String[] args allows us to pass command-line arguments into the program.
+
+Inside the main method, we write the line System.out.println("Hello World");. This is the statement that prints output to the console. System is a built-in Java class. Out is the standard output stream. Println means print the line and move to the next line.
+
+But what really happens when we run this program? First, we write the source code in a file ending with .java. Then we compile it using the javac compiler. The compiler does not create machine code directly. Instead, it produces bytecode, a .class file. This bytecode is platform-independent. Finally, the JVM reads that bytecode and executes it on our system. That is why Java is considered platform independent. Write once, run anywhere.
+
+So even though Hello World looks simple, it demonstrates the complete journey of a Java program. From source code to compilation, from bytecode to execution inside the JVM.
+
+And that small message on the screen… is actually the result of a powerful runtime system working behind the scenes.
+
+This is where every Java developer begins.
