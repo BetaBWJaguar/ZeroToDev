@@ -1,0 +1,15 @@
+Bu slaytta, programlama tarihinin en ünlü örneklerinden biri olan Java Hello World programını inceleyeceğiz. İlk bakışta son derece basit görünüyor olabilir. Ekrana bir mesaj yazdıran birkaç satırlık bir koddan ibaret gibi duruyor. Ancak bu küçük örneğin arkasında, yazılmış olan her Java uygulamasının temel yapısal mantığı bulunmaktadır. Hello World önemli çünkü ne yazdırdığı değil, nasıl inşa edildiği önemlidir.
+
+Java’da her şey bir sınıfın içinde olmak zorundadır. Bazı betik dillerinde olduğu gibi doğrudan komut yazamazsınız. Java katı kurallara sahip, nesne yönelimli bir programlama dilidir. Bu nedenle ilk olarak bir sınıf tanımlarız. “public class HelloWorld” yazdığımızda aslında bir şablon oluşturuyoruz. public anahtar kelimesi bu sınıfa her yerden erişilebileceğini ifade eder. class kelimesi Java’ya yeni bir sınıf tanımladığımızı söyler. HelloWorld ise sınıfın adıdır. Java’da önemli bir kural vardır: dosya adı ile sınıf adı aynı olmalıdır. Yani sınıfın adı HelloWorld ise dosyanın adı da HelloWorld.java olmalıdır.
+
+Sınıfın içinde ise her Java uygulamasının en önemli kısmı yer alır: main metodu. “public static void main(String[] args)” satırı rastgele yazılmış bir ifade değildir. Bu satır programın resmi başlangıç noktasıdır. Bir Java uygulamasını çalıştırdığımızda, Java Sanal Makinesi yani JVM özellikle bu metod imzasını arar. Eğer bu yapı birebir bulunamazsa program başlatılamaz.
+
+Bu satırı parçalayarak anlayalım. public anahtar kelimesi JVM’in bu metoda erişebilmesini sağlar. static anahtar kelimesi metodun sınıfa ait olduğunu ve bir nesne oluşturulmadan çalışabileceğini ifade eder. Bu çok önemlidir çünkü program başlarken henüz hiçbir nesne oluşturulmamıştır. void kelimesi metodun herhangi bir değer döndürmediğini belirtir. Sadece verilen komutları çalıştırır. “String[] args” ise komut satırı parametrelerini temsil eder. Program çalıştırılırken dışarıdan bir veri gönderilirse bu dizide saklanır. Kullanmasak bile bu parametre yapısı yazılmak zorundadır.
+
+Program çalışmaya başladığında JVM sınıfı belleğe yükler. Ardından main metodunu arar. Metodu bulduktan sonra içindeki komutları sırayla çalıştırmaya başlar. Bu örnekte yalnızca bir komut vardır: “System.out.println("Hello World");”. Bu satır ekrana yazı yazdırır.
+
+Şimdi bu ifadeyi de anlayalım. System, Java’nın yerleşik bir sınıfıdır. out, System sınıfı içerisindeki standart çıktı akışını temsil eden statik bir nesnedir. println ise verilen metni yazdıran ve ardından bir alt satıra geçen metottur. Bu satır çalıştığında Hello World ifadesi konsolda görünür.
+
+Bu program küçük olabilir ancak bize birçok temel kavram öğretir. Her Java programı bir sınıfın içinde olmalıdır. Çalışma her zaman main metodundan başlar. Programın yürütülmesini JVM kontrol eder. Metotlar davranışı tanımlar. Ve Java belirli, disiplinli bir yapıya sahiptir.
+
+Hello World sadece başlangıç seviyesinde bir örnek değildir. Büyük kurumsal sistemler, bankacılık yazılımları, backend servisleri ve sayısız profesyonel uygulama aynı yapısal temele dayanır. Her şey bu yapı ile başlar. Ve Hello World’ü anlamak, Java’nın nasıl çalıştığını anlamanın ilk ve en önemli adımıdır.
