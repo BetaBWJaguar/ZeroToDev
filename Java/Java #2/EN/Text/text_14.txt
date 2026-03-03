@@ -1,0 +1,59 @@
+In this slide, we are going to talk about Java Basic Syntax.
+
+Basic Syntax defines the fundamental rules and structure required to write and execute a Java program.
+If we think of programming like speaking a language, syntax is the grammar of that language.
+Without grammar, communication becomes impossible.
+Without syntax, code cannot run.
+
+So what does Java Basic Syntax actually include?
+
+First, everything in Java is written inside a class.
+Java is an object-oriented programming language, and every piece of executable code must belong to a class.
+There is no standalone function like in some other languages.
+
+Second, execution starts from the main method.
+The Java Virtual Machine looks specifically for this method:
+
+public static void main(String[] args)
+
+This method is the entry point of every Java application.
+When the program starts, this method runs first.
+
+Third, statements in Java end with a semicolon.
+Every instruction you write must end with a semicolon.
+If you forget it, the compiler will throw an error.
+
+Fourth, curly braces define code blocks.
+Opening and closing braces determine where a block of code begins and ends.
+They are essential for defining classes, methods, loops, and conditional structures.
+
+And finally, Java is case-sensitive.
+This means that “Main” and “main” are completely different.
+“System” and “system” are not the same.
+Even a small letter mistake can break your program.
+
+Now let’s understand how a Java program actually runs.
+
+Program starts.
+The class is loaded into memory.
+Then the main method executes.
+Statements inside the main method run one by one.
+And finally, the program ends.
+
+On the right side, we see a simple example
+
+Here, we define a public class named BasicSyntax.
+Inside it, we define the main method.
+And inside the main method, we print a message to the console.
+
+When this program runs, it simply prints:
+
+Hello Java!
+
+This is the simplest working structure of a Java program.
+
+Understanding this structure is critical.
+Because no matter how advanced your Java project becomes,
+it will always follow this basic syntax foundation.
+
+And that is Java Basic Syntax.

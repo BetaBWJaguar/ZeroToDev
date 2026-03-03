@@ -1,0 +1,66 @@
+Bu slaytta Java programlamada önemli bir kavram olan Tanımlayıcılar (Identifiers) konusunu ele alıyoruz.
+
+Tanımlayıcılar, Java’da sınıflara, değişkenlere, metotlara ve diğer program elemanlarına verdiğimiz isimlerdir.
+Yani kod yazarken kullandığımız isimlerin tamamı birer tanımlayıcıdır.
+
+Örneğin bir değişken oluşturduğumuzda ona bir isim veririz.
+Bir sınıf tanımladığımızda yine bir isim veririz.
+Bir metot yazdığımızda da aynı şekilde bir isim belirleriz.
+İşte bu isimlerin tamamına tanımlayıcı denir.
+
+Ancak Java’da bu isimleri verirken uymamız gereken belirli kurallar vardır.
+
+Birincisi, tanımlayıcı mutlaka bir harf, dolar işareti veya alt çizgi ile başlamalıdır.
+Yani bir isim doğrudan rakamla başlayamaz.
+
+İkincisi, ilk karakterden sonra harf, rakam, alt çizgi veya dolar işareti kullanılabilir.
+Yani başlangıçtan sonraki kısımda kombinasyon serbesttir.
+
+Üçüncüsü, Java’da ayrılmış kelimeler yani “reserved keywords” tanımlayıcı olarak kullanılamaz.
+Örneğin int, class, public gibi kelimeler zaten Java tarafından özel anlamlara sahiptir.
+Bu nedenle değişken ismi olarak kullanılamazlar.
+
+Dördüncüsü, Java büyük-küçük harf duyarlıdır.
+Yani “age” ile “Age” farklı iki değişken olarak değerlendirilir.
+
+Beşincisi, isimler anlamlı ve okunabilir olmalıdır.
+Kod yazarken sadece kurallara uymak yeterli değildir; aynı zamanda kodun anlaşılır olması da önemlidir.
+Bu nedenle değişken isimleri amacını yansıtmalıdır.
+
+Şimdi örneklere bakalım.
+
+int age = 25;
+Burada “age” geçerli bir tanımlayıcıdır.
+
+double $salary = 5000;
+Dolar işareti ile başladığı için bu da geçerlidir.
+
+int _value = 10;
+Alt çizgi ile başlayan bir tanımlayıcı da geçerlidir.
+
+int __1_value = 20;
+İlk karakter alt çizgi olduğu için burada da bir problem yoktur.
+
+Ancak bazı isimler geçersizdir.
+
+Örneğin:
+
+int 123abc;
+Bir tanımlayıcı rakamla başlayamaz.
+
+int -salary;
+Eksi işareti bir tanımlayıcı karakteri değildir, bu nedenle geçersizdir.
+
+Tanımlayıcı oluşturma sürecini adım adım düşünelim:
+
+Önce isim tanımlanır.
+Java ilk karakteri kontrol eder.
+Ardından ayrılmış bir kelime olup olmadığını kontrol eder.
+Eğer kurallara uygunsa geçerli bir tanımlayıcı oluşturulur.
+Ve artık bu isim program içerisinde kullanılabilir.
+
+Sonuç olarak, tanımlayıcılar programın okunabilirliğini ve düzenini belirleyen temel yapı taşlarıdır.
+Doğru isimlendirme yapmak, profesyonel yazılım geliştirmenin en önemli adımlarından biridir.
+
+Ve unutmayın, iyi yazılmış bir kod yalnızca çalışan kod değildir;
+aynı zamanda anlaşılır ve sürdürülebilir olandır.

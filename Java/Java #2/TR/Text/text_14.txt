@@ -1,0 +1,52 @@
+Bu slaytta Java’nın en temel konularından biri olan Temel Sözdizimi (Basic Syntax) konusunu ele alıyoruz.
+
+Temel sözdizimi, bir Java programını yazabilmek ve çalıştırabilmek için gerekli olan kurallar bütünüdür.
+Programlamayı bir dil olarak düşünürsek, syntax o dilin grameridir.
+Nasıl ki bir dilde gramer kuralları olmadan düzgün cümle kuramayız, Java’da da sözdizimi kuralları olmadan program yazamayız.
+
+Peki Java’nın temel sözdizimi bize ne söyler?
+
+Birincisi, Java’da yazdığımız her şey bir class (sınıf) içinde yer almak zorundadır.
+Java nesne yönelimli bir programlama dilidir ve bağımsız çalışan kod blokları yoktur.
+Her şey bir sınıf yapısı içerisinde tanımlanır.
+
+İkincisi, programın çalışması main metodu ile başlar.
+Java Virtual Machine yani JVM, program başlatıldığında özel olarak şu metodu arar:
+
+public static void main(String[] args)
+
+Bu metod programın giriş noktasıdır.
+Program çalıştırıldığında ilk olarak burası yürütülür.
+
+Üçüncüsü, Java’da her ifade noktalı virgül (;) ile sona erer.
+Her komutun sonunda noktalı virgül bulunmalıdır.
+Aksi halde derleme hatası alırız.
+
+Dördüncüsü, süslü parantezler { } kod bloklarını tanımlar.
+Bir class’ın, bir metodun veya başka bir yapının nerede başlayıp nerede bittiğini bu parantezler belirler.
+
+Beşincisi, Java büyük-küçük harf duyarlıdır.
+Yani “Main” ile “main” aynı değildir.
+“System” ile “system” tamamen farklıdır.
+Küçük bir harf hatası bile programın çalışmamasına neden olabilir.
+
+Şimdi bir Java programının nasıl çalıştığını adım adım düşünelim.
+
+Önce program başlatılır.
+Class belleğe yüklenir.
+Ardından main metodu çalışır.
+main içerisindeki ifadeler sırayla yürütülür.
+Ve program sona erer.
+
+Sağ tarafta gördüğümüz örneğe bakalım:
+
+Burada BasicSyntax adında bir sınıf tanımlıyoruz.
+Bu sınıfın içerisinde main metodunu yazıyoruz.
+main metodunun içinde ise ekrana bir metin yazdırıyoruz.
+
+Program çalıştığında konsola “Hello Java!” yazısı basılır.
+
+İşte bu yapı, Java’da çalışan en basit ve en temel program yapısıdır.
+Ne kadar karmaşık projeler geliştirirsek geliştirelim, hepsi bu temel sözdizimi kurallarına dayanır.
+
+Ve Java öğrenmenin ilk ve en önemli adımı da bu yapıyı doğru anlamaktır.

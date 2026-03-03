@@ -1,0 +1,63 @@
+In this slide, we are going to talk about an important concept in Java programming: Identifiers.
+
+Identifiers are the names given to Java elements such as classes, variables, and methods.
+Whenever we create something in Java and assign it a name, that name is called an identifier.
+
+For example, when we create a variable, we give it a name.
+When we define a class, we give it a name.
+When we write a method, we assign it a name.
+All of these names are identifiers.
+
+However, Java has specific rules for creating identifiers.
+
+First, an identifier must start with a letter, a dollar sign, or an underscore.
+It cannot start with a number.
+
+Second, after the first character, any combination of letters, digits, underscores, or dollar signs is allowed.
+
+Third, reserved keywords cannot be used as identifiers.
+Words like int, class, public, and static already have predefined meanings in Java.
+Because of that, they cannot be used as variable or method names.
+
+Fourth, Java is case-sensitive.
+This means that “age” and “Age” are considered completely different identifiers.
+
+Fifth, names should be meaningful and readable.
+Writing code is not just about making it work — it is also about making it understandable.
+Good identifier names improve code clarity and maintainability.
+
+Now let’s look at some examples.
+
+int age = 25;
+Here, “age” is a valid identifier.
+
+double $salary = 5000;
+Starting with a dollar sign is allowed, so this is valid.
+
+int _value = 10;
+An identifier can also start with an underscore.
+
+int __1_value = 20;
+Since it starts with an underscore, it is valid.
+
+Now let’s look at illegal examples.
+
+int 123abc;
+An identifier cannot begin with a digit.
+
+int -salary;
+The minus sign is not allowed in identifiers, so this is invalid.
+
+Let’s think about how Java processes identifiers.
+
+A name is declared.
+Java checks the first character.
+Then it checks whether the name is a reserved keyword.
+If all rules are satisfied, a valid identifier is created.
+And then it can be used throughout the program.
+
+In conclusion, identifiers are fundamental building blocks of a program.
+Choosing good names is a sign of professional software development.
+
+Remember, clean code is not just code that runs —
+it is code that communicates clearly.
