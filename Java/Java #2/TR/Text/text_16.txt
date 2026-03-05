@@ -1,0 +1,75 @@
+Bu slaytta Java Modifiers yani Java belirleyicileri (değiştiricileri) konusundan bahsedeceğiz.
+
+Java’da modifier’lar, sınıfların, değişkenlerin ve metotların erişim seviyesini ve davranışını belirleyen anahtar kelimelerdir. Programın farklı bölümlerinin birbirleriyle nasıl etkileşime gireceğini kontrol ederler ve hangi öğelerin erişilebilir, değiştirilebilir veya miras alınabilir olduğunu belirlerler.
+
+Modifier’lar, özellikle nesne yönelimli programlamada çok önemli bir role sahiptir. Çünkü büyük yazılım sistemlerinde kapsülleme (encapsulation), güvenlik ve yapısal düzenin korunmasına yardımcı olurlar.
+
+Java’da modifier’lar iki ana kategoriye ayrılır.
+
+İlk kategori Access Modifiers, yani erişim belirleyicileridir.
+
+Access modifier’lar bir sınıfa, metoda veya değişkene kimlerin erişebileceğini belirler.
+
+En yaygın kullanılan erişim belirleyicileri şunlardır:
+
+public
+
+Public modifier, bir öğenin programın her yerinden erişilebilir olduğu anlamına gelir. Paket fark etmeksizin tüm sınıflar bu öğeye erişebilir.
+
+private
+
+Private modifier, bir öğenin sadece tanımlandığı sınıf içerisinde erişilebilir olduğu anlamına gelir. Bu genellikle değişkenleri korumak ve kapsülleme sağlamak için kullanılır.
+
+protected
+
+Protected üyeler aynı paket içerisindeki sınıflar tarafından ve ayrıca alt sınıflar tarafından erişilebilir. Alt sınıflar farklı bir pakette olsa bile erişim sağlanabilir.
+
+default
+
+Eğer herhangi bir modifier yazılmazsa Java otomatik olarak default erişim seviyesini uygular. Bu durumda ilgili öğe sadece aynı paket içerisinden erişilebilir.
+
+Bu erişim belirleyicileri sayesinde geliştiriciler program bileşenlerinin görünürlüğünü ve korunmasını dikkatli bir şekilde kontrol edebilirler.
+
+Şimdi ikinci kategoriye bakalım: Non-Access Modifiers.
+
+Non-access modifier’lar görünürlüğü kontrol etmez. Bunun yerine sınıfların, değişkenlerin ve metotların davranışını değiştirirler.
+
+Önemli non-access modifier’lardan bazıları şunlardır:
+
+final
+
+Final modifier bir öğenin değiştirilemeyeceği anlamına gelir.
+
+Final bir değişken yeniden değer atanamaz.
+Final bir metot override edilemez.
+Final bir sınıf ise başka bir sınıf tarafından genişletilemez.
+
+abstract
+
+Abstract modifier, diğer sınıflar için bir şablon görevi gören sınıf ve metotlarda kullanılır.
+
+Abstract metotların içerisinde implementasyon bulunmaz ve bu metotların alt sınıflar tarafından uygulanması gerekir.
+
+static
+
+Static modifier, bir üyenin nesnelere değil doğrudan sınıfa ait olduğu anlamına gelir. Static değişkenler ve metotlar, sınıfın tüm nesneleri arasında ortak olarak paylaşılır.
+
+volatile
+
+Volatile modifier genellikle çok iş parçacıklı (multithreaded) programlamada kullanılır. Bir değişkenin değerinin her zaman ana bellekten okunmasını sağlayarak thread’ler arasında bellek görünürlüğünü garanti eder.
+
+Şimdi slaytta gösterilen örneğe bakalım.
+
+Bu örnekte Car adında bir sınıf tanımlıyoruz.
+
+Sınıfın içinde brand adlı bir değişken tanımlanmıştır ve bu değişken private olarak işaretlenmiştir. Bu da brand değerinin yalnızca Car sınıfı içerisinden erişilebileceği anlamına gelir.
+
+Daha sonra count adlı bir değişken tanımlıyoruz ve bu değişken public static olarak belirtilmiştir. Static olduğu için bu değişken nesnelere değil doğrudan sınıfa aittir. Bu değişken, oluşturulan Car nesnelerinin sayısını takip etmek için kullanılabilir.
+
+Ardından sınıfın constructor metodunu görüyoruz. Bu constructor brand ismini parametre olarak alır ve instance değişkenine atar. Her yeni Car nesnesi oluşturulduğunda count değişkeni bir artırılır.
+
+Son olarak displayBrand adında bir metot tanımlanmıştır ve bu metot public final olarak işaretlenmiştir. Public olması diğer sınıflardan çağrılabilmesini sağlar. Final olması ise bu metodun alt sınıflar tarafından override edilmesini engeller.
+
+Bu metot çalıştırıldığında konsola aracın markasını yazdırır.
+
+Özetle, Java modifier’ları geliştiricilerin erişimi kontrol etmelerine, program yapısını düzenlemelerine ve bileşenlerin davranışlarını tanımlamalarına yardımcı olan temel araçlardır. Bu modifier’ları doğru şekilde kullanmayı öğrenmek, güvenli, sürdürülebilir ve iyi yapılandırılmış Java uygulamaları geliştirmek için önemli bir adımdır.

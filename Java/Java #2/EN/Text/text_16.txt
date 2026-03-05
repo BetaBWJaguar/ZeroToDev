@@ -1,0 +1,65 @@
+In this slide we are going to talk about Java Modifiers.
+
+In Java, modifiers are keywords that define the access level and behavior of classes, variables, and methods. They control how different parts of a program interact with each other and determine what can be accessed, modified, or inherited.
+
+Modifiers play a very important role in object-oriented programming because they help maintain encapsulation, security, and structure inside large software systems.
+
+There are two main categories of modifiers in Java.
+
+The first category is called Access Modifiers.
+
+Access modifiers determine who can access a class, method, or variable.
+
+The most commonly used access modifiers are:
+
+public
+The public modifier means that the element can be accessed from anywhere in the program. Any class, regardless of the package, can use it.
+
+private
+The private modifier means that the element is only accessible inside the class where it is declared. This is commonly used to protect variables and enforce encapsulation.
+
+protected
+Protected members can be accessed within the same package and also by subclasses, even if those subclasses are located in different packages.
+
+default
+When no modifier is written, Java automatically applies the default access level. In this case, the element is accessible only within the same package.
+
+These access modifiers allow developers to carefully control the visibility and protection of program components.
+
+Now let’s look at the second category, which is Non-Access Modifiers.
+
+Non-access modifiers do not control visibility. Instead, they change the behavior of classes, variables, and methods.
+
+Some important non-access modifiers include:
+
+final
+The final modifier means that something cannot be changed.
+A final variable cannot be reassigned.
+A final method cannot be overridden.
+A final class cannot be extended.
+
+abstract
+The abstract modifier is used in classes and methods that serve as a blueprint for other classes.
+Abstract methods do not contain implementation and must be implemented by subclasses.
+
+static
+The static modifier means that a member belongs to the class itself rather than to individual objects. Static variables and methods are shared among all instances of the class.
+
+volatile
+The volatile modifier is mostly used in multithreaded programming. It ensures that a variable’s value is always read directly from main memory, helping maintain memory visibility between threads.
+
+Now let’s examine the example shown on the slide.
+
+In this example, we define a class called Car.
+
+Inside the class, we declare a variable called brand, which is marked as private. This means that the brand value can only be accessed within the Car class itself.
+
+Next, we define a variable called count, which is marked as public static. Because it is static, this variable belongs to the class rather than to individual objects. It can be used to keep track of how many Car objects have been created.
+
+Then we see the constructor of the class. The constructor receives the brand name as a parameter and assigns it to the instance variable. Each time a new Car object is created, the count variable increases.
+
+Finally, we define a method called displayBrand, which is marked as public final. The public keyword allows it to be called from other classes, and the final keyword prevents subclasses from overriding this method.
+
+When this method runs, it prints the brand of the car to the console.
+
+In summary, Java modifiers are essential tools that help developers control access, enforce structure, and define the behavior of program components. Understanding how to use them properly is a key step in writing secure, maintainable, and well-organized Java applications.
