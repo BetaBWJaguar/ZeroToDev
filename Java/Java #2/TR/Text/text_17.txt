@@ -1,0 +1,21 @@
+Bu slaytta Java Değişkenleri konusundan bahsedeceğiz.
+
+Java’da değişken, veriyi saklamak için kullanılan isimlendirilmiş bir bellek alanıdır. Program içerisinde değerleri sürekli tekrar tekrar yazmak yerine, bu değerler değişkenlerin içinde saklanır ve ihtiyaç duyulduğunda kolayca erişilebilir, değiştirilebilir ve tekrar kullanılabilir. Değişkenler programlamanın en temel kavramlarından biridir çünkü neredeyse her program veri saklamak ve bu veriler üzerinde işlem yapmak zorundadır.
+
+Java’da her değişkenin mutlaka bir veri tipi bulunur. Veri tipi, değişkenin hangi tür veriyi saklayabileceğini ve bellekte nasıl yönetileceğini belirler. Örneğin bir değişken sayı saklayabilir, bir karakter tutabilir, doğru ya da yanlış gibi mantıksal değerler içerebilir veya daha karmaşık veri yapıları olan nesneleri temsil edebilir. Veri tiplerinin kullanılması Java’nın verileri güvenli ve düzenli bir şekilde yönetmesini sağlar.
+
+Java’da değişkenler bulundukları yere ve kullanım şekillerine göre farklı türlerde olabilir. Bunlardan ilki yerel değişkenlerdir (local variables). Yerel değişkenler bir metodun içinde tanımlanır ve yalnızca o metod çalıştığı sürece var olurlar. Metodun çalışması bittiğinde bu değişkenler bellekten silinir. Bu nedenle yerel değişkenler genellikle metod içerisinde yapılan geçici işlemler veya hesaplamalar için kullanılır.
+
+Bir diğer değişken türü örnek değişkenleridir (instance variables). Örnek değişkenler sınıf içinde fakat metodların dışında tanımlanır. Bu değişkenler sınıftan oluşturulan nesnelere aittir. Yani bir sınıftan birden fazla nesne oluşturulduğunda her nesnenin bu değişken için kendine ait bir değeri olabilir. Örneğin Student adlı bir sınıftan birçok öğrenci nesnesi oluşturduğumuzda, her öğrencinin adı veya yaşı gibi değerleri farklı olabilir.
+
+Bir diğer önemli değişken türü ise statik değişkenlerdir (static variables). Statik değişkenler static anahtar kelimesi kullanılarak tanımlanır ve nesnelere değil doğrudan sınıfa aittir. Bu nedenle sınıftan oluşturulan tüm nesneler aynı statik değişkeni paylaşır. Statik değişkenler genellikle tüm nesneler için ortak olması gereken bilgiler için kullanılır. Örneğin bir okul adı gibi tüm öğrenciler için ortak olan bir bilgi statik değişken olarak tanımlanabilir.
+
+Java’da veri tipleri genel olarak iki ana kategoriye ayrılır: ilkel veri tipleri ve referans veri tipleri.
+
+İlkel veri tipleri bellekte doğrudan değeri saklayan basit veri tipleridir. Bunlara tam sayılar, ondalıklı sayılar, karakterler ve doğru–yanlış değerleri gibi temel veri türleri örnek verilebilir. Bu veri tipleri Java’daki en temel veri yapısını oluşturur ve özellikle hesaplamalarda ve mantıksal işlemlerde sıkça kullanılır.
+
+Referans veri tipleri ise değerin kendisini değil, bellekte bulunan bir nesnenin adresini yani referansını saklar. String yapıları, diziler ve sınıflardan oluşturulan nesneler referans veri tiplerine örnek olarak verilebilir. Referans veri tipleri sayesinde Java, nesne yönelimli programlama yapısını destekleyerek daha karmaşık veri yapılarının oluşturulmasına imkan tanır.
+
+Slaydın sağ tarafında ise Student adlı basit bir Java sınıfı örneği görülmektedir. Bu sınıfın içerisinde name adlı bir örnek değişken bulunmaktadır ve bu değişken her öğrenci nesnesinin adını tutmak için kullanılır. Ayrıca school adlı bir statik değişken vardır ve bu değişken tüm öğrenci nesneleri tarafından ortak olarak paylaşılır. display metodu içerisinde ise age adlı bir yerel değişken tanımlanmıştır. Bu değişken yalnızca metod çalıştığı süre boyunca var olur ve öğrencinin bilgilerini ekrana yazdırmak için kullanılır.
+
+Bu örnek, Java’da değişkenlerin program içerisinde farklı seviyelerde bulunabileceğini gösterir. Değişkenler sınıf seviyesinde, nesne seviyesinde veya metod seviyesinde tanımlanabilir. Bu farklı değişken türlerini anlamak, daha düzenli, verimli ve sürdürülebilir Java programları yazabilmek için oldukça önemlidir.

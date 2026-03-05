@@ -1,0 +1,21 @@
+In this slide we are going to talk about Java Variables.
+
+In Java, a variable is a named memory location used to store data. Instead of repeatedly writing values directly in the program, developers store those values inside variables so they can easily access, modify, and reuse them during program execution. Variables are one of the most fundamental concepts in programming because almost every program needs to store and manipulate information.
+
+Every variable in Java must have a data type. The data type determines what kind of data the variable can store and how the data will be handled in memory. For example, a variable might store a number, a character, a true or false value, or even more complex structures such as objects. By defining a data type, Java ensures that the program manages data safely and efficiently.
+
+In Java, variables can appear in different forms depending on where they are declared and how they are used. One common type is the local variable. A local variable is declared inside a method and exists only while that method is running. Once the method finishes execution, the local variable is removed from memory. Local variables are usually used for temporary calculations or operations that only need to exist during the execution of a specific block of code.
+
+Another important type is the instance variable. Instance variables are declared inside a class but outside of methods. These variables belong to objects created from that class. This means that each object has its own separate copy of the instance variable. For example, if we create multiple objects from a class called Student, each object can store different values such as different names or ages.
+
+The third type is the static variable. Static variables are declared using the static keyword and they belong to the class itself rather than individual objects. Because of this, all objects created from that class share the same static variable. Static variables are often used to store information that should be common for every object, such as a shared configuration or a common property like a school name.
+
+Another concept related to variables in Java is the classification of data types. Java data types are generally divided into two main categories: primitive types and reference types.
+
+Primitive types store simple values directly in memory. These include data types such as integers, decimal numbers, characters, and boolean values. They are the most basic form of data representation in Java and are commonly used in calculations and logical operations.
+
+Reference types, on the other hand, store references to objects rather than storing the actual value itself. Examples include strings, arrays, and objects created from classes. Reference types allow Java programs to work with more complex structures and support the object-oriented nature of the language.
+
+On the right side of the slide, we can see a simple example of a Java class called Student. Inside this class, there is an instance variable named name, which will store the name of each student object. There is also a static variable called school, which represents a value shared among all student objects. Inside the display method, a local variable called age is declared. This local variable exists only within the method and is used temporarily when printing information about the student.
+
+This example demonstrates how Java variables can exist at different levels within a program, including the class level, object level, and method level. Understanding these different variable types is essential for writing organized, efficient, and maintainable Java programs.
