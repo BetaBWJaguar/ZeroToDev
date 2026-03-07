@@ -1,0 +1,33 @@
+In this slide, we are going to talk about Java Enums.
+
+An enum, which is short for enumeration, is a special data type in Java that is used to define a fixed set of constants. Instead of using regular variables or strings to represent specific values, enums allow developers to create a predefined list of allowed values.
+
+In Java, enums are actually part of the language syntax. They define a new type, just like classes, integers, or strings. Because of this, enums are considered a special reference type.
+
+The main purpose of enums is to make programs safer, cleaner, and easier to understand. When you use enums, you restrict a variable so that it can only take one of the predefined values. This prevents many common programming errors.
+
+For example, imagine you want to represent different levels of importance in a program. Instead of using numbers or strings, you can define an enum like this.
+
+We create an enum called Level, and inside it we define three constants: LOW, MEDIUM, and HIGH.
+
+After defining the enum, Java automatically creates constant objects for each of these values.
+
+Then we can use the enum in our program. For instance, we can declare a variable of type Level, and assign one of the allowed values such as Level.MEDIUM.
+
+Finally, when we print this value, Java will display the constant name.
+
+Now you might wonder why we should use enums instead of simple strings.
+
+Let’s say we write a program using a string like this:
+
+String day equals "MONDA".
+
+This code will compile successfully, but it contains a mistake. The correct spelling should be MONDAY, but the compiler cannot detect this error because strings allow any text.
+
+However, if we use enums instead, the compiler will only allow the values that are defined in the enum.
+
+So if we write something like MONDA, the compiler immediately produces an error.
+
+This means enums provide compile-time safety, preventing invalid values before the program even runs.
+
+In summary, enums are a powerful feature in Java that help developers define fixed sets of values, improve type safety, and make code more readable and maintainable.

@@ -1,0 +1,31 @@
+In this slide, we are going to talk about Java Keywords.
+
+Java keywords are reserved words in the Java programming language. Each keyword has a predefined meaning, and the Java compiler understands these words as special instructions.
+
+Because of this, keywords cannot be used as variable names, class names, or method names. They are reserved specifically for the language itself.
+
+For example, words such as public, private, class, if, and while are all Java keywords. These words define how the program behaves and how different parts of the program interact with each other.
+
+Java keywords play a very important role in structuring a program. They help define data types, access levels, program flow, class structures, and object behavior.
+
+Let’s first look at access-related keywords.
+
+Keywords such as public, private, and protected define the visibility of classes, variables, and methods. In other words, they control who can access a particular part of the program.
+
+Next, we have data type keywords like int, double, and boolean. These keywords specify the type of data that a variable can store.
+
+Another group of keywords controls the flow of the program. Examples include if, else, for, and while. These keywords allow the program to make decisions and repeat certain operations.
+
+We also have keywords related to object-oriented programming, such as class, extends, and new. These keywords are used to define classes, create objects, and establish relationships between classes.
+
+On the right side, we can see a simple Java class example called Student.
+
+Inside this class, the private keyword is used to restrict access to the variable name, while the protected keyword is used for the variable age.
+
+In the constructor, the this keyword refers to the current object and helps assign values to the class variables.
+
+Then, inside the printInfo method, the if keyword is used to check a condition. If the age is greater than 18, the program prints Adult. Otherwise, it prints Minor.
+
+This example demonstrates how Java keywords work together to define structure, logic, and behavior inside a program.
+
+Overall, Java currently contains more than 50 reserved keywords, and each of them plays an essential role in writing clear, structured, and functional Java code.

@@ -1,0 +1,31 @@
+Bu slaytta Java Keywords (Java Anahtar Kelimeleri) konusundan bahsedeceğiz.
+
+Java anahtar kelimeleri, Java programlama dilinde rezerv edilmiş kelimelerdir. Her anahtar kelimenin önceden tanımlanmış bir anlamı vardır ve Java derleyicisi bu kelimeleri özel komutlar olarak algılar.
+
+Bu nedenle anahtar kelimeler değişken adı, sınıf adı veya metot adı olarak kullanılamaz. Çünkü bu kelimeler dilin kendisi için ayrılmıştır.
+
+Örneğin public, private, class, if ve while gibi kelimeler Java anahtar kelimeleridir. Bu kelimeler programın nasıl çalışacağını ve programın farklı bölümlerinin birbiriyle nasıl etkileşime gireceğini belirler.
+
+Java anahtar kelimeleri bir programın yapısını oluşturmak açısından çok önemli bir rol oynar. Veri tiplerini, erişim seviyelerini, program akışını, sınıf yapılarını ve nesne davranışlarını tanımlamaya yardımcı olurlar.
+
+Öncelikle erişim ile ilgili anahtar kelimelere bakalım.
+
+public, private ve protected gibi anahtar kelimeler sınıfların, değişkenlerin ve metotların görünürlüğünü belirler. Yani başka bir deyişle, programın hangi bölümlerinin hangi alanlara erişebileceğini kontrol ederler.
+
+Daha sonra veri tipi anahtar kelimeleri vardır. Örneğin int, double ve boolean gibi kelimeler bir değişkenin hangi türde veri saklayacağını belirtir.
+
+Bir diğer anahtar kelime grubu ise program akışını kontrol eden kelimelerdir. Bunlara if, else, for ve while örnek olarak verilebilir. Bu anahtar kelimeler programın karar vermesini ve belirli işlemleri tekrar etmesini sağlar.
+
+Ayrıca nesne yönelimli programlama ile ilgili anahtar kelimeler de vardır. Örneğin class, extends ve new gibi kelimeler sınıfları tanımlamak, nesneler oluşturmak ve sınıflar arasında ilişkiler kurmak için kullanılır.
+
+Sağ tarafta Student adlı basit bir Java sınıfı örneğini görebiliriz.
+
+Bu sınıfın içinde private anahtar kelimesi name değişkenine erişimi sınırlandırmak için kullanılmıştır. protected anahtar kelimesi ise age değişkeni için kullanılmıştır.
+
+Constructor içinde kullanılan this anahtar kelimesi mevcut nesneyi ifade eder ve sınıf değişkenlerine değer atamak için kullanılır.
+
+Daha sonra printInfo metodunun içinde if anahtar kelimesi bir koşulu kontrol etmek için kullanılır. Eğer yaş 18’den büyükse, program Adult yazdırır. Aksi durumda Minor yazdırılır.
+
+Bu örnek, Java anahtar kelimelerinin bir program içinde yapıyı, mantığı ve davranışı nasıl tanımladığını göstermektedir.
+
+Genel olarak Java’da şu anda 50’den fazla rezerv edilmiş anahtar kelime bulunmaktadır ve bu kelimelerin her biri daha düzenli, anlaşılır ve işlevsel Java kodları yazmak için önemli bir rol oynar.

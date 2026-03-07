@@ -1,0 +1,33 @@
+Bu slaytta Java Enums konusundan bahsedeceğiz.
+
+Enum kelimesi, enumeration kelimesinin kısaltmasıdır. Java’da enum, sabit değerlerden oluşan bir küme tanımlamak için kullanılan özel bir veri tipidir. Normal değişkenler veya string ifadeler kullanmak yerine, enum yapısı geliştiricilerin önceden tanımlanmış ve izin verilen değerlerden oluşan bir liste oluşturmasına olanak sağlar.
+
+Java’da enumlar aslında dilin sözdiziminin bir parçasıdır. Yani enumlar da class, int veya String gibi yeni bir veri tipi tanımlar. Bu nedenle enumlar özel bir referans tipi olarak kabul edilir.
+
+Enumların temel amacı programları daha güvenli, daha temiz ve daha anlaşılır hale getirmektir. Enum kullandığınızda bir değişkeni sadece önceden tanımlanmış değerlerden birini alabilecek şekilde sınırlandırırsınız. Bu da birçok yaygın programlama hatasını önler.
+
+Örneğin bir programda önem seviyelerini temsil etmek istediğinizi düşünelim. Bunu sayılar veya stringler kullanarak yapmak yerine bir enum tanımlayabilirsiniz.
+
+Örneğin Level adında bir enum oluşturabiliriz ve bunun içinde üç sabit değer tanımlarız: LOW, MEDIUM ve HIGH.
+
+Enum tanımlandığında Java bu değerlerin her biri için otomatik olarak sabit nesneler oluşturur.
+
+Daha sonra programımızda bu enumu kullanabiliriz. Örneğin Level tipinde bir değişken tanımlayıp buna Level.MEDIUM gibi izin verilen değerlerden birini atayabiliriz.
+
+Son olarak bu değeri ekrana yazdırdığımızda Java bize sabitin adını gösterir.
+
+Şimdi şu soru akla gelebilir: Neden enum kullanmalıyız, neden sadece string kullanmıyoruz?
+
+Diyelim ki programda şöyle bir string yazdık:
+
+String day equals "MONDA".
+
+Bu kod derlenir, yani derleyici açısından bir hata yoktur. Ancak burada bir yazım hatası vardır. Doğru kelime MONDAY olmalıdır. Fakat stringler herhangi bir metni kabul ettiği için derleyici bu hatayı fark edemez.
+
+Ancak enum kullanırsak, derleyici sadece enum içinde tanımlanan değerleri kabul eder.
+
+Bu nedenle MONDA gibi yanlış bir değer yazarsanız derleyici hemen hata verir.
+
+Bu da enumların compile-time güvenliği sağladığı anlamına gelir. Yani program çalışmadan önce geçersiz değerler engellenmiş olur.
+
+Özetle enumlar, Java’da sabit değer kümeleri tanımlamayı sağlayan güçlü bir özelliktir. Kodun tip güvenliğini artırır, okunabilirliğini geliştirir ve programların daha sürdürülebilir ve anlaşılır olmasına yardımcı olur.
