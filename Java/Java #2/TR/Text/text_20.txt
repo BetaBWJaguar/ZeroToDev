@@ -1,0 +1,65 @@
+Java’da Yorumlar konusundan bahsedeceğiz.
+
+Her programlama dilinde geliştiricilerin, yazdıkları kodun ne yaptığını açıklayabilecekleri bir yönteme ihtiyaçları vardır.
+İşte bu noktada yorumlar oldukça önemli hale gelir.
+
+Yorumlar, kaynak kodun içine yazılan ancak çalıştırılmayan metin satırlarıdır.
+Bu da Java derleyicisinin program çalıştırılırken bu satırları tamamen görmezden geldiği anlamına gelir.
+
+Başka bir deyişle, yorumlar bilgisayar için yazılmaz.
+Onlar insanlar için, yani geliştiriciler için yazılır.
+
+Birisi daha sonra kodu okuduğunda, yorumlar kodun mantığını çok daha hızlı anlamasına yardımcı olur.
+
+Yorumlar olmadan karmaşık programları anlamak oldukça zor hale gelebilir.
+Ancak iyi yazılmış yorumlar sayesinde kod daha temiz, daha sürdürülebilir ve ekip projelerinde çalışılması daha kolay hale gelir.
+
+Java’da üç ana yorum türü vardır.
+
+Birinci tür tek satırlı yorumdur.
+
+Tek satırlı yorumlar iki tane eğik çizgi ile başlar.
+
+Bu işaretlerden sonra aynı satırda yazılan her şey yorum olarak kabul edilir.
+
+Geliştiriciler genellikle tek satırlı yorumları belirli bir kod satırını açıklamak için kullanırlar.
+
+İkinci tür çok satırlı yorumdur.
+
+Çok satırlı yorumlar eğik çizgi ve yıldız ile başlar ve yıldız ile eğik çizgi ile biter.
+
+Bu yorumlar birden fazla satıra yayılabilir ve daha uzun açıklamalar yazmak için kullanılır.
+
+Örneğin geliştiriciler çok satırlı yorumları bir mantık bloğunu açıklamak veya belirli bir algoritmanın nasıl çalıştığını anlatmak için kullanırlar.
+
+Üçüncü tür ise dokümantasyon yorumudur ve aynı zamanda Javadoc olarak da bilinir.
+
+Javadoc yorumları Java programları için otomatik dokümantasyon oluşturmak amacıyla kullanılır.
+
+Genellikle sınıflardan, metotlardan veya önemli kod bölümlerinden önce yer alırlar ve o kod parçasının nasıl kullanılması gerektiğini açıklamaya yardımcı olurlar.
+
+Şimdi basit bir örneğe bakalım.
+
+Bu kodda CommentExample adlı bir Java sınıfı bulunmaktadır.
+
+Main metodunun içinde üç farklı yorum türünü görebilirsiniz.
+
+Birincisi kodu kısaca açıklayan tek satırlı bir yorumdur.
+
+İkincisi daha uzun açıklamaların nasıl yazılabileceğini gösteren çok satırlı bir yorumdur.
+
+Ve son olarak bir kod satırının sonunda yer alan bir yorum bulunmaktadır. Bu da oldukça yaygın bir kullanımdır.
+
+Gördüğünüz gibi program normal şekilde çalışmaya devam eder çünkü derleyici bu yorumların tamamını görmezden gelir.
+
+Yorumların temel amacı programın davranışını değiştirmeden kodun okunabilirliğini artırmaktır.
+
+İyi yazılmış yorumlar diğer geliştiricilerin düşünce sürecinizi anlamasına yardımcı olur ve ekip çalışmasını çok daha kolay hale getirir.
+
+Ancak önemli bir noktayı hatırlamak gerekir.
+
+Yorumlar sadece kodun ne yaptığını tekrar etmek yerine, neden o şekilde yapıldığını açıklamalıdır.
+
+Açık ve anlaşılır bir kod, anlamlı yorumlarla birleştiğinde yüksek kaliteli yazılımlar ortaya çıkar.
+
+Ve Java’da yorumların temel mantığı işte budur.

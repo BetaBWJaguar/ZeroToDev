@@ -1,0 +1,25 @@
+Now we have reached the end of this section.
+
+In the upcoming slides, we will start exploring the core building blocks of Java programming.
+
+First, we will talk about variables.
+Variables are used to store data in memory, and they form the foundation of almost every program.
+
+After that, we will move on to data types.
+In Java, every variable must have a specific type, which defines what kind of data it can store.
+
+Next, we will learn about type casting.
+Type casting allows us to convert data from one type to another when needed.
+
+Then we will explore the Unicode system in Java.
+This system explains how Java represents characters internally and why Java can support many languages around the world.
+
+Finally, we will look at user input.
+This topic will show us how Java programs can receive data directly from users through the console.
+
+Each of these topics builds on the previous one.
+So step by step, you will develop a deeper understanding of how data is stored, processed, converted, and received in Java programs.
+
+In the next part of the presentation, we will begin with variables, which are the starting point of working with data in Java.
+
+So let’s move on to the next section.

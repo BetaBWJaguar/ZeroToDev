@@ -1,0 +1,25 @@
+Artık bu bölümün sonuna geldik.
+
+Bir sonraki slaytlarda Java programlamasının temel yapı taşlarını incelemeye başlayacağız.
+
+İlk olarak değişkenlerden bahsedeceğiz.
+Değişkenler verileri bellekte saklamak için kullanılır ve neredeyse her programın temelini oluştururlar.
+
+Bundan sonra veri tipleri konusuna geçeceğiz.
+Java’da her değişkenin belirli bir tipi olmak zorundadır ve bu tip, değişkenin hangi tür verileri saklayabileceğini belirler.
+
+Daha sonra tür dönüşümü yani type casting konusunu öğreneceğiz.
+Type casting, gerektiğinde verileri bir veri tipinden başka bir veri tipine dönüştürmemizi sağlar.
+
+Ardından Java’daki Unicode sistemini inceleyeceğiz.
+Bu sistem Java’nın karakterleri dahili olarak nasıl temsil ettiğini ve Java’nın neden dünyanın birçok dilini destekleyebildiğini açıklar.
+
+Son olarak kullanıcı girdisi konusuna bakacağız.
+Bu konu, Java programlarının kullanıcıdan konsol aracılığıyla nasıl veri alabildiğini gösterecektir.
+
+Bu konuların her biri bir öncekinin üzerine inşa edilir.
+Böylece adım adım Java programlarında verilerin nasıl saklandığını, işlendiğini, dönüştürüldüğünü ve alındığını daha iyi anlayacaksınız.
+
+Sunumun bir sonraki bölümünde, Java’da veri ile çalışmanın başlangıç noktası olan değişkenler konusuyla başlayacağız.
+
+Şimdi bir sonraki bölüme geçelim.

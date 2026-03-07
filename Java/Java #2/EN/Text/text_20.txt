@@ -1,0 +1,65 @@
+We are going to talk about Comments in Java.
+
+In every programming language, developers need a way to explain what their code is doing.
+This is where comments become very important.
+
+Comments are non-executable lines of text written inside the source code.
+This means that the Java compiler completely ignores them when the program runs.
+
+In other words, comments are not written for the computer.
+They are written for humans — for developers.
+
+When someone reads the code later, comments help them understand the logic much faster.
+
+Without comments, complex programs can become very difficult to understand.
+But with well-written comments, the code becomes cleaner, easier to maintain, and easier to work with in team projects.
+
+In Java, there are three main types of comments.
+
+The first type is the single-line comment.
+
+Single-line comments start with two forward slashes.
+
+Anything written after these slashes on the same line will be treated as a comment.
+
+Developers usually use single-line comments to explain a specific line of code.
+
+The second type is the multi-line comment.
+
+Multi-line comments start with a slash and an asterisk and end with an asterisk and a slash.
+
+These comments can span across multiple lines and are useful when writing longer explanations.
+
+For example, developers often use multi-line comments to describe a block of logic or explain how a specific algorithm works.
+
+The third type is the documentation comment, also known as Javadoc.
+
+Javadoc comments are used to generate automatic documentation for Java programs.
+
+They usually appear before classes, methods, or important code sections and help describe how a piece of code should be used.
+
+Now let’s look at a simple example.
+
+In this code, we have a Java class called CommentExample.
+
+Inside the main method, you can see three different comment styles.
+
+The first one is a single-line comment that explains the code briefly.
+
+The second one is a multi-line comment, which demonstrates how longer explanations can be written.
+
+And finally, we have a comment placed at the end of a line of code, which is also a very common practice.
+
+As you can see, the program still runs normally because the compiler completely ignores these comments.
+
+The main purpose of comments is to improve code readability without changing program behavior.
+
+Good comments help other developers understand your thought process and make collaboration much easier.
+
+However, it is important to remember one thing.
+
+Comments should explain why something is done, not just repeat what the code already says.
+
+Clear code combined with meaningful comments leads to high-quality software.
+
+And that is the basic idea behind comments in Java.
