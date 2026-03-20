@@ -1,0 +1,19 @@
+In this slide, we’re going to explore different types of variables in Java in more detail.
+
+In Java, variables are not only defined by their data types, but also by where they are declared and how they behave within a class or a method. Based on this, Java variables are mainly divided into three types: local variables, instance variables, and static variables.
+
+Let’s start with local variables. Local variables are declared inside a method, constructor, or a block. They only exist during the execution of that method and cannot be accessed outside of it. This means their lifetime is very short. Once the method finishes execution, those variables are destroyed. Because of this, local variables are typically used for temporary calculations or intermediate values inside methods.
+
+Next, we have instance variables. These variables are declared inside a class but outside of any method. Each object created from that class gets its own copy of instance variables. This is very important because instance variables represent the unique state of each object. For example, if you create multiple users in a program, each user can have a different name or age stored in instance variables.
+
+Another key point is that instance variables are stored in the heap memory and they exist as long as the object exists. They can be accessed by all methods of that class and are often used to define the properties of objects.
+
+Finally, we have static variables. Static variables are declared using the static keyword and belong to the class itself rather than any individual object. This means there is only one copy of a static variable, and it is shared across all objects of that class.
+
+Static variables are usually used for shared data. For example, if you want to keep track of how many objects have been created from a class, a static variable would be the correct choice. They are initialized only once and remain in memory for the entire duration of the program.
+
+To better understand the difference, think of a class as a blueprint. Instance variables are unique for each object created from that blueprint, while static variables are shared across all objects. Local variables, on the other hand, exist only temporarily within methods and are used for short-term operations.
+
+In summary, understanding these variable types is crucial because it helps you control data scope, manage memory efficiently, and design cleaner and more structured programs.
+
+In the next slide, we will dive deeper into variable scope and understand how accessibility works in Java.

@@ -1,0 +1,19 @@
+Bu slaytta, Java’daki farklı değişken türlerini daha detaylı bir şekilde inceleyeceğiz.
+
+Java’da değişkenler sadece veri tiplerine göre değil, aynı zamanda nerede tanımlandıklarına ve bir sınıf ya da metot içerisinde nasıl davrandıklarına göre de sınıflandırılır. Buna göre Java’da değişkenler üç ana gruba ayrılır: local variables, instance variables ve static variables.
+
+İlk olarak local variables yani yerel değişkenlerden başlayalım. Yerel değişkenler, bir metot, constructor ya da blok içerisinde tanımlanır. Sadece tanımlandıkları alan içerisinde kullanılabilirler ve o alanın dışından erişilemezler. Bu değişkenlerin yaşam süresi oldukça kısadır. Metot çalışmayı bitirdiğinde bu değişkenler de yok edilir. Bu yüzden genellikle geçici hesaplamalar ve ara işlemler için kullanılırlar.
+
+Şimdi instance variables yani örnek değişkenlere bakalım. Bu değişkenler, sınıf içerisinde fakat metotların dışında tanımlanır. Bir sınıftan oluşturulan her nesne, bu değişkenlerin kendine ait bir kopyasına sahip olur. Bu oldukça önemlidir çünkü instance değişkenler, nesnelerin kendine özgü özelliklerini temsil eder. Örneğin bir kullanıcı nesnesi oluşturduğunuzda, her kullanıcının farklı bir adı veya yaşı olabilir ve bunlar instance değişkenlerde tutulur.
+
+Ayrıca instance değişkenler heap bellekte tutulur ve nesne var olduğu sürece varlıklarını sürdürürler. Sınıf içerisindeki tüm metotlardan erişilebilirler ve genellikle nesnenin özelliklerini tanımlamak için kullanılırlar.
+
+Son olarak static variables yani statik değişkenlere bakalım. Static değişkenler, static anahtar kelimesi ile tanımlanır ve herhangi bir nesneye değil doğrudan sınıfa aittir. Bu da demek oluyor ki, bu değişkenin sadece tek bir kopyası vardır ve bu kopya tüm nesneler tarafından paylaşılır.
+
+Static değişkenler genellikle ortak veri tutmak için kullanılır. Örneğin bir sınıftan kaç tane nesne oluşturulduğunu takip etmek istiyorsanız, static bir değişken kullanmanız gerekir. Program çalıştığı sürece bellekte kalırlar ve yalnızca bir kez oluşturulurlar.
+
+Daha iyi anlamak için sınıfı bir şablon gibi düşünebilirsiniz. Instance değişkenler bu şablondan oluşturulan her nesne için ayrı ayrı bulunur. Static değişkenler ise tüm nesneler arasında ortaktır. Local değişkenler ise sadece metot içerisinde geçici olarak var olur.
+
+Özetle, bu değişken türlerini anlamak oldukça önemlidir çünkü veri kapsamını doğru yönetmenizi, belleği daha verimli kullanmanızı ve daha düzenli programlar yazmanızı sağlar.
+
+Bir sonraki slaytta ise değişkenlerin kapsamını yani scope kavramını daha detaylı inceleyeceğiz.

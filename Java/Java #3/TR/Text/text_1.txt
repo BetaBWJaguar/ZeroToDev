@@ -1,0 +1,20 @@
+Herkese merhaba, Java Core serimize tekrar hoş geldiniz.
+Bu üçüncü slaytımızda, Java’nın en temel konularından biri olan değişkenlerden (variables) bahsedeceğiz.
+
+Değişkenleri, program çalışırken verileri saklayan kaplar gibi düşünebilirsiniz. Bir sayı, bir fiyat ya da bir isim gibi bilgileri tutmak istediğinizde, bu değeri bir değişken içerisinde saklarsınız.
+
+Bir programı çalışan bir sistem olarak hayal ederseniz, değişkenler etiketlenmiş kutular gibidir ve her kutu belirli bir veri türünü saklar. Ancak diğer bazı dillerden farklı olarak, Java bu konuda oldukça katıdır.
+
+Java’da her değişkenin bir veri tipi (data type) olmak zorundadır. Bu veri tipi, değişkenin hangi türde veri saklayacağını ve ne kadar bellek kullanacağını belirler. Örneğin, int tam sayıları, double ondalıklı sayıları ve String metinleri saklar.
+
+Bu yüzden bir değişkeni kullanmadan önce onu tanımlamamız gerekir. Değişken tanımlamak, onun veri tipini ve adını belirtmek demektir. Daha sonra bu değişkene bir değer atayabilir ve program içerisinde kullanabiliriz.
+
+Örneğin, int age = 21; şeklinde bir değişken oluşturabiliriz. Burada int veri tipi, age değişken adı ve 21 ise bu değişkenin tuttuğu değerdir.
+
+Aynı şekilde, double price = 49.99; veya String name = "Java"; gibi farklı veri tiplerinde değişkenler de oluşturabiliriz. Her biri farklı türde verileri saklamak için kullanılır.
+
+Genel süreç oldukça basittir: önce değişkeni tanımlarız, sonra bir değer atarız ve ardından program içerisinde kullanırız.
+
+Özetle, değişkenler programların veri saklamasını, güncellemesini ve işlemesini sağlar. Değişkenler olmadan bir programın dinamik verilerle çalışması mümkün olmaz.
+
+Bir sonraki slaytta ise Java’daki farklı veri tiplerini daha detaylı inceleyeceğiz ve hangi durumda hangisini kullanmamız gerektiğini öğreneceğiz.

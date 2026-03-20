@@ -1,0 +1,20 @@
+Hello everyone, and welcome back to our Java Core series.
+In this third slide, we’re going to talk about one of the most fundamental concepts in Java — variables.
+
+Think of variables as containers that store data while your program is running. Whenever you need to keep information such as a number, a price, or a name, you use a variable to hold that value.
+
+If you imagine a program as a working system, variables are like labeled boxes where each box holds a specific type of data. But unlike some other languages, Java is very strict about what goes inside each box.
+
+In Java, every variable must have a data type. This data type defines what kind of value the variable can store and how much memory it will use. For example, an integer variable stores whole numbers, a double stores decimal values, and a String stores text.
+
+This means that before using a variable, we must declare it. Declaring a variable means specifying its data type and its name. After that, we can assign a value to it and start using it in our program.
+
+For example, we can create a variable like this: int age equals 21. Here, “int” is the data type, “age” is the variable name, and “21” is the value stored inside that variable.
+
+We can also create different types of variables, such as double price equals 49 point 99, or String name equals Java. Each of these variables is designed to store a different kind of data.
+
+The general flow is simple: we declare a variable, assign a value to it, and then use it in our program for calculations or output.
+
+In summary, variables are essential because they allow programs to store, update, and manipulate data during execution. Without variables, a program would not be able to handle dynamic information.
+
+In the next slide, we will explore different data types in Java and understand how to choose the right one for each situation.
