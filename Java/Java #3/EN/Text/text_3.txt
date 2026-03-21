@@ -1,0 +1,31 @@
+In this slide, we are going to explore how different types of variables work together in a real Java program, and this is where things start to make much more sense.
+
+Up until now, we’ve learned about local variables, instance variables, and static variables separately. But in real-world applications, these variables are not used in isolation. Instead, they all come together inside a class, inside objects, and during method execution.
+
+So let’s imagine this step by step.
+
+First, we define a class. When this class is created, any static variables inside it are initialized immediately. These variables belong to the class itself, not to any specific object. That means no matter how many objects we create, there will only be one shared copy of a static variable.
+
+Then, we move to the next step: creating an object. When an object is created from the class, instance variables come into play. These variables belong to the object, meaning every object has its own separate copy. So if we create multiple objects, each one can store different values inside its instance variables.
+
+After that, we call a method. And this is where local variables appear. Local variables are created inside methods and only exist during the execution of that method. As soon as the method finishes, these variables are destroyed. They are temporary and used only for short-term operations.
+
+Now, let’s connect this logic with the example code you see on the screen.
+
+In this example, we have a class called VariableDemo. Inside this class, we define a static variable named university. Since it is static, it is shared across all objects and belongs to the class itself.
+
+Then, we define an instance variable called studentName. This variable belongs to each object, so every object can have a different student name.
+
+Inside the showInfo method, we define a local variable called year. This variable only exists while the method is running.
+
+Now in the main method, we create an object of the class. After creating the object, we assign a value to the instance variable studentName. Then we call the showInfo method.
+
+When the method runs, it prints the student name, the university, and the year.
+
+And here is the important part: each of these values comes from a different type of variable. The studentName comes from an instance variable, the university comes from a static variable, and the year comes from a local variable.
+
+So in one simple program, we are actually using all three variable types together.
+
+This example clearly shows not only what these variables are, but also when they are created, where they are stored, and how long they live.
+
+And this is a key concept in Java, because understanding variable scope and lifetime is essential for writing clean, efficient, and bug-free code.

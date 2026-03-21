@@ -1,0 +1,31 @@
+Bu slaytta, Java’da farklı değişken türlerinin gerçek bir program içinde nasıl birlikte çalıştığını inceleyeceğiz ve aslında konunun en önemli kısmına gelmiş olacağız.
+
+Şu ana kadar local değişken, instance değişken ve static değişken kavramlarını ayrı ayrı öğrendik. Ancak gerçek hayatta bu değişkenler tek başına kullanılmaz. Hepsi bir sınıfın içinde, nesnelerle birlikte ve metod çalışması sırasında bir araya gelir.
+
+Şimdi bunu adım adım düşünelim.
+
+Öncelikle bir class tanımlıyoruz. Bu class oluşturulduğu anda, içinde bulunan static değişkenler ilk olarak initialize edilir. Çünkü static değişkenler sınıfa aittir, yani herhangi bir nesneye bağlı değildir. Bu yüzden kaç tane nesne oluşturursak oluşturalım, static değişkenin sadece tek bir ortak kopyası vardır.
+
+Daha sonra bir nesne oluşturuyoruz. İşte bu noktada instance değişkenler devreye girer. Instance değişkenler nesneye aittir ve her nesnenin kendine ait bir kopyası bulunur. Yani birden fazla nesne oluşturursak, her biri farklı değerler tutabilir.
+
+Sonraki adımda bir metod çağırıyoruz. Metod çalıştığı anda local değişkenler oluşturulur. Bu değişkenler sadece metodun çalıştığı süre boyunca var olur. Metod bittiği anda ise tamamen yok edilirler. Yani geçici ve kısa süreli kullanılan değişkenlerdir.
+
+Şimdi bunu ekrandaki örnek kod ile birleştirelim.
+
+Bu örnekte VariableDemo adında bir class bulunuyor. Bu class içinde university adında bir static değişken tanımlanmış. Bu değişken sınıfa ait olduğu için tüm nesneler tarafından ortak kullanılır.
+
+Ayrıca studentName adında bir instance değişken var. Bu değişken her nesneye özeldir ve her nesne farklı bir isim tutabilir.
+
+showInfo metodu içerisinde ise year adında bir local değişken tanımlanmış. Bu değişken sadece metod çalıştığı sürece vardır.
+
+Main metoduna geldiğimizde, önce bu class’tan bir nesne oluşturuyoruz. Daha sonra instance değişken olan studentName’e bir değer atıyoruz ve ardından showInfo metodunu çağırıyoruz.
+
+Metod çalıştığında ekrana üç farklı değer yazdırılıyor: öğrenci adı, üniversite ve yıl bilgisi.
+
+Buradaki önemli nokta şu: Bu üç değer aslında üç farklı değişken türünden geliyor. studentName instance değişken, university static değişken ve year ise local değişkendir.
+
+Yani tek bir program içerisinde, üç farklı değişken türünü aynı anda kullanmış oluyoruz.
+
+Bu örnek bize sadece değişkenlerin ne olduğunu değil, aynı zamanda ne zaman oluşturulduklarını, nerede saklandıklarını ve ne kadar süre yaşadıklarını da açık bir şekilde gösteriyor.
+
+Ve bu konu Java’da gerçekten kritik bir konudur. Çünkü değişkenlerin kapsamını ve yaşam süresini doğru anlamak, temiz, verimli ve hatasız kod yazmanın temelidir.
