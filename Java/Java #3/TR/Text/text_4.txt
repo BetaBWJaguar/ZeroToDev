@@ -1,0 +1,19 @@
+Bu slaytta, Java programlamanın en temel konularından biri olan Java Veri Türlerini ele alıyoruz.
+
+Veri türleri, bir değişkenin Java’da hangi tür değeri saklayabileceğini tanımlar. Yani bir değişken oluşturduğumuzda, onun hangi tür veri tutacağını mutlaka belirtmemiz gerekir. Bu veri türü, bellekte ne kadar yer ayrılacağını, hangi işlemlerin yapılabileceğini ve verinin nasıl yorumlanacağını belirler. Kısacası veri türleri, Java Sanal Makinesi’ne yani JVM’e bu verinin nasıl yönetileceğini söyleyen bir rehber gibidir.
+
+Java’da veri türleri iki ana kategoriye ayrılır: İlkel Veri Türleri ve Referans Veri Türleri.
+
+İlk olarak ilkel veri türlerinden başlayalım. İlkel veri türleri, en basit veri türleridir ve değerleri doğrudan bellekte saklarlar. Bu türler nesne değildir ve herhangi bir metoda sahip değildir. Bu yüzden oldukça hızlı ve performans açısından verimlidirler. En yaygın kullanılan ilkel veri türleri arasında int, tam sayıları saklamak için kullanılır; örneğin 10 veya 25 gibi. double, ondalıklı sayılar için kullanılır; örneğin 5.5 veya 3.14 gibi. char, tek bir karakter saklar; örneğin ‘A’ veya ‘z’. boolean ise yalnızca iki değer alır: true ya da false. Bu veri türleri, Java’daki tüm veri işlemlerinin temel yapı taşlarını oluşturur.
+
+Şimdi referans veri türlerine bakalım. Referans veri türleri, ilkel türlerden farklı olarak değerin kendisini değil, bellekteki adresini yani referansını saklar. Bu türler daha karmaşık veri yapılarıyla çalışmak için kullanılır. Örneğin String, metinleri saklamak için kullanılır; isimler veya cümleler gibi. Array, aynı türden birden fazla veriyi tek bir değişkende tutmamızı sağlar. Class yapıları ise kendi veri tiplerimizi oluşturmamıza olanak tanır ve nesne yönelimli programlamanın temelini oluşturur.
+
+Buradaki en önemli fark şudur: İlkel veri türleri değerin kendisini saklarken, referans veri türleri o değerin bulunduğu adresi saklar.
+
+Şimdi sağ taraftaki örnek koda bakalım. Bu örnekte farklı veri türleriyle değişkenler tanımlanmıştır. “yas” adında bir int değişkeni oluşturulmuş ve 25 değeri atanmıştır. “maas” adında bir double değişkeni 5500.5 değeriyle tanımlanmıştır. “not” adında bir char değişkeni ‘A’ değerini tutmaktadır. “ogrenciMi” adında bir boolean değişkeni true olarak ayarlanmıştır. Ayrıca “isim” adında bir String değişkenine "Tuna" değeri atanmıştır.
+
+Programın sonunda System.out.println kullanılarak bu değerlerden bazıları ekrana yazdırılır. Bu da farklı veri türlerinin gerçek bir Java programında nasıl birlikte kullanıldığını göstermektedir.
+
+Veri türlerini anlamak, programlamanın temelidir. Doğru veri türünü seçmek, hem performansı artırır hem de hataları önler. Aynı zamanda kodun daha okunabilir ve sürdürülebilir olmasını sağlar.
+
+Bu yüzden Java’da bir değişken tanımlarken, doğru veri türünü seçmek, bir geliştirici olarak vereceğiniz en önemli kararlardan biridir.

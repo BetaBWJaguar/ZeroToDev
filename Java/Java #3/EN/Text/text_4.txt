@@ -1,0 +1,19 @@
+In this slide, we are going to explore one of the most fundamental concepts in Java programming, which is Java Data Types.
+
+Data types define what kind of value a variable can store in Java. Every variable that we create must have a specific data type, and this data type determines how much memory is allocated, what kind of operations can be performed, and how the value is interpreted by the system. In simple terms, data types act as a blueprint that tells the Java Virtual Machine how to handle the data stored in a variable.
+
+Java divides data types into two main categories: Primitive Types and Non-Primitive Types, also known as reference types.
+
+Let’s start with primitive types. Primitive data types are the most basic types in Java, and they store simple values directly in memory. These types are not objects and they do not have methods. Because of this, they are very fast and memory-efficient. Some of the most commonly used primitive types include int, which is used to store whole numbers like 10 or 25; double, which is used for decimal numbers such as 5.5 or 3.14159; char, which stores a single character like ‘A’ or ‘z’; and boolean, which stores only two possible values: true or false. These primitive types are the building blocks of all data manipulation in Java.
+
+Now let’s move on to non-primitive types. Unlike primitive types, non-primitive types do not store the actual value directly. Instead, they store a reference, or in other words, the memory address of where the data is located. These types are more complex and are used to work with collections of data or objects. Common examples include String, which is used to store sequences of characters like names or sentences; arrays, which allow us to store multiple values of the same type in a single variable; and classes, which are used to create objects and define custom data structures.
+
+So the key difference here is very important: primitive types store the actual value, while non-primitive types store a reference to the value.
+
+Now let’s take a look at the example code on the right side of the slide. In this example, we define several variables using different data types. We declare an integer variable called age and assign it the value 25. Then we define a double variable called salary with a value of 5500.5. After that, we create a character variable grade and assign it the value ‘A’. We also define a boolean variable called isStudent and set it to true. Finally, we create a String variable called name and assign it the value "Tuna".
+
+At the end of the program, we use System.out.println to print some of these values to the console. This demonstrates how different data types are used together in a real Java application.
+
+Understanding data types is extremely important because they form the foundation of everything we do in programming. Choosing the correct data type not only improves performance but also helps prevent errors and makes the code more readable and maintainable.
+
+So whenever you create a variable in Java, always remember that selecting the right data type is the first and one of the most critical decisions you will make as a developer.
