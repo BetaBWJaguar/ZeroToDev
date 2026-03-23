@@ -1,0 +1,17 @@
+Java İlkel (Primitive) Veri Tipleri, Java dilinin en temel yapı taşlarından biridir ve program içinde kullanılan en basit veri biçimlerini temsil eder. Bunlar nesne değildir, yani “referans” tutmazlar; doğrudan değerin kendisini bellekte saklarlar. Bu yüzden hem daha hızlı çalışırlar hem de daha az bellek kullanırlar. Java’da toplam 8 adet ilkel veri tipi vardır ve bunlar üç ana grupta incelenir: sayısal veri tipleri, karakter veri tipi ve mantıksal veri tipi.
+
+İlk olarak sayısal veri tiplerine bakalım. Bunlar kendi içinde ikiye ayrılır: tam sayılar ve ondalıklı sayılar. Tam sayı veri tipleri byte, short, int ve long’dur. Byte en küçük veri tipidir ve sadece 1 byte yer kaplar, yani -128 ile 127 arasındaki değerleri tutabilir. Short 2 byte yer kaplar ve daha geniş bir aralık sunar. Int ise Java’da en çok kullanılan tam sayı tipidir ve 4 byte yer kaplar; genelde günlük işlemlerde varsayılan olarak kullanılır. Long ise çok büyük sayılar gerektiğinde kullanılır ve 8 byte yer kaplar. Özellikle finansal hesaplamalar ya da büyük veri işlemlerinde tercih edilir.
+
+Ondalıklı sayılar için ise float ve double veri tipleri kullanılır. Float 4 byte yer kaplar ama hassasiyeti düşüktür. Double ise 8 byte yer kaplar ve çok daha hassas sonuçlar verir. Bu yüzden Java’da ondalıklı işlemlerde genelde double tercih edilir. Örneğin 19.99 gibi bir fiyat değeri double ile tutulur çünkü daha doğru sonuç verir.
+
+Karakter veri tipi olan char, tek bir karakter saklamak için kullanılır ve 2 byte yer kaplar. Java’da char tipi Unicode sistemine göre çalışır, yani sadece İngilizce değil, Türkçe ve diğer dillerdeki karakterleri de destekler. Örneğin 'A', 'ç', 'ğ' gibi değerler char ile saklanabilir. Önemli nokta: char tek tırnak ile yazılır.
+
+Mantıksal veri tipi olan boolean ise sadece iki değer alır: true veya false. Bu veri tipi genellikle karar mekanizmalarında kullanılır. Örneğin bir kullanıcının sisteme giriş yapıp yapmadığını tutmak için boolean kullanılabilir.
+
+İlkel veri tiplerinin en kritik farkı, referans tiplerden (örneğin String) farklı olarak değeri direkt tutmalarıdır. Mesela int yas = 25 dediğinde, bellekte direkt 25 değeri tutulur. Ama String isim = "Ali" dediğinde, aslında bellekte bir referans tutulur. Bu yüzden primitive tipler hem daha hızlıdır hem de performans açısından avantajlıdır.
+
+Ayrıca her veri tipinin bir bellek boyutu ve değer aralığı vardır. Bu da yazılım geliştirirken doğru veri tipini seçmenin neden önemli olduğunu gösterir. Gereksiz yere büyük veri tipi kullanmak bellek israfına yol açar, çok küçük veri tipi kullanmak ise taşma (overflow) hatalarına neden olabilir.
+
+Örnek olarak şöyle düşünebilirsin: bir öğrencinin yaşı için int, not ortalaması için double, cinsiyet gibi tek karakterlik bilgi için char ve aktif mi değil mi bilgisi için boolean kullanılır. Bu sayede hem mantıklı hem de performanslı bir veri yapısı kurulmuş olur.
+
+Özetle: Primitive veri tipleri Java’nın en temel, en hızlı ve en sade veri saklama yöntemidir. Programın performansı, doğruluğu ve verimliliği açısından doğru veri tipini seçmek kritik bir konudur.
