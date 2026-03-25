@@ -1,0 +1,9 @@
+Java’da veri tipleri iki ana kategoriye ayrılır: ilkel (primitive) tipler ve referans (reference) tipleri. İlkel tipler, verinin kendisini doğrudan bellekte saklayan basit veri tipleridir. Örneğin int, double, char ve boolean gibi tipler bu gruba girer. Bu tipler hızlıdır, az yer kaplar ve genellikle matematiksel işlemler veya temel veri saklama işlemleri için kullanılır. Bir ilkel değişken tanımlandığında, değeri doğrudan bellekte tutulur; yani ekstra bir nesne yapısı söz konusu değildir.
+
+Referans tipleri ise verinin kendisini değil, o verinin bellekte bulunduğu adresi tutar. Yani aslında bir nesneye işaret ederler. String, diziler (arrays) ve sınıf nesneleri (objects) bu kategoriye girer. Örneğin bir String değişkeni oluşturduğunda, bu değişken metnin kendisini değil, o metnin bellekteki konumunu referans alır. Bu yapı, daha karmaşık veri yapılarının ve nesne yönelimli programlamanın temelini oluşturur.
+
+Bellek açısından bakıldığında, ilkel tipler doğrudan değer sakladığı için daha basit ve hızlıdır. Referans tipleri ise daha esnektir çünkü büyük ve karmaşık verileri yönetmeye uygundur; ancak dolaylı erişim (adres üzerinden) kullandıkları için biraz daha maliyetlidir.
+
+Kullanım farkı olarak, ilkel tipler basit ve tekil değerler için tercih edilirken, referans tipleri birden fazla veriyi bir arada tutan yapılar, metinler veya nesne tabanlı işlemler için kullanılır. Örneğin bir sayıyı tutmak için int kullanılırken, birden fazla sayıyı saklamak için dizi (int[]) veya daha karmaşık yapılar tercih edilir.
+
+Kısacası, Java’da ilkel tipler performans ve basitlik sağlarken, referans tipleri esneklik ve genişletilebilirlik sunar.
