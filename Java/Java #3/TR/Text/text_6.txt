@@ -1,0 +1,24 @@
+Referans veri tipleri, Java’da karmaşık verilerin nasıl saklandığını ve yönetildiğini belirleyen temel bir kavramdır. 
+İlkel veri tiplerinden farklı olarak, gerçek veriyi doğrudan saklamak yerine, bellekte oluşturulan bir nesnenin adresini 
+yani referansını tutarlar. Bu nesneler sınıflar aracılığıyla 
+oluşturulur ve genellikle heap bellekte saklanırken, referans değişkenleri stack bellekte bulunur. 
+Bu yapı, Java’nın daha esnek ve güçlü bir bellek yönetimi gerçekleştirmesini sağlar.
+
+Bir referans değişkeni başka bir değişkene atandığında, her iki değişken de aynı nesneyi işaret eder. Bu da şu anlama gelir: 
+bir referans üzerinden yapılan değişiklik, aynı nesneyi gösteren diğer referansları da etkiler. Bu davranış, özellikle metodlara 
+nesne gönderirken (parametre olarak) çok önemlidir ve programda beklenmeyen yan etkilerin oluşmasına sebep olabilir. Bu yüzden referans 
+veri tiplerinin çalışma mantığını iyi anlamak kritik bir konudur.
+
+Referans veri tiplerine en yaygın örnekler arasında String, diziler (arrays), sınıflar (classes) ve nesneler (objects) yer alır. 
+Örneğin bir String değişkeni, metnin kendisini değil, bellekteki String nesnesini işaret eder. Aynı şekilde diziler de birden fazla 
+değeri barındıran yapılardır ancak tek bir referans üzerinden yönetilirler. Bu sayede büyük veri yapıları bellekte kopyalanmadan daha 
+verimli bir şekilde kullanılabilir.
+
+Referans veri tiplerinin en önemli avantajlarından biri esneklik sağlamasıdır. Bu tipler sayesinde bağlı listeler, ağaç yapıları ve 
+grafikler gibi karmaşık veri yapıları oluşturulabilir. Ayrıca sınıf temelli oldukları için kapsülleme (encapsulation), kalıtım (inheritance) ve 
+çok biçimlilik (polymorphism) gibi nesne yönelimli programlama prensiplerini desteklerler. Bu da yazılımın daha modüler, yeniden kullanılabilir 
+ve sürdürülebilir olmasını sağlar.
+
+Özetle, referans veri tipleri gerçek veriyi değil, o verinin bellekteki adresini tutar. Bu sayede bellek verimli kullanılır, nesneler 
+paylaşılabilir ve karmaşık veri yapıları kolayca yönetilebilir. Java’da etkili bir şekilde program geliştirebilmek için referans veri 
+tiplerinin mantığını anlamak büyük önem taşır.
