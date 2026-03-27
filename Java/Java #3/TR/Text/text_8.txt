@@ -1,0 +1,30 @@
+Java’da değişken isimlendirme kuralları, yazdığımız kodun sadece çalışmasını değil, aynı zamanda okunabilir ve anlaşılabilir olmasını sağlayan en önemli temel kurallardan biridir. Çünkü yazdığımız kodu sadece biz değil, başka geliştiriciler de okuyabilir. Hatta çoğu zaman aylar sonra kendi kodumuzu bile anlamakta zorlanabiliriz. İşte bu yüzden doğru isimlendirme, yazılım geliştirmenin temel taşlarından biridir.
+
+Şimdi adım adım bu kuralları detaylı şekilde inceleyelim.
+
+Öncelikle, bir değişken ismi mutlaka bir harf, alt çizgi yani underscore (_) veya dolar işareti ($) ile başlamalıdır. Yani bir değişken adı asla sayı ile başlayamaz. Örneğin “yas” veya “_yas” geçerlidir ama “2yas” tamamen hatalıdır ve derleyici buna izin vermez. Bu kural Java’nın sözdizimi yani syntax kurallarının bir parçasıdır.
+
+İkinci önemli kural, değişken isimlerinde boşluk kullanılamamasıdır. Yani “ogrenci sayisi” gibi bir değişken adı yazamazsınız. Eğer birden fazla kelime kullanmak istiyorsanız, Java’da yaygın olarak kullanılan yöntem camelCase’tir. Bu yöntemde ilk kelime küçük harfle başlar, sonraki kelimelerin ilk harfi büyük yazılır. Örneğin “ogrenciSayisi”, “toplamFiyat”, “kullaniciAdi” gibi. Bu hem standarttır hem de profesyonel kod yazımında çok önemlidir.
+
+Bir diğer kritik konu ise büyük-küçük harf duyarlılığıdır. Java tamamen case-sensitive bir dildir. Yani “yas”, “Yas” ve “YAS” üçü de birbirinden tamamen farklı değişkenlerdir. Bu durum bazen hata yapmanıza da neden olabilir. Örneğin bir yerde “yas” yazıp başka yerde “Yas” yazarsanız, Java bunu farklı değişkenler olarak görür ve hata alırsınız. Bu yüzden isimlendirme yaparken tutarlı olmak çok önemlidir.
+
+Şimdi çok önemli bir noktaya geliyoruz: anahtar kelimeler. Java’da bazı özel kelimeler vardır ve bunlara keyword yani anahtar kelime denir. Örneğin “int”, “class”, “public”, “static” gibi. Bu kelimeler Java’nın kendi yapısına aittir ve değişken ismi olarak kullanılamaz. Örneğin “int class = 10;” yazarsanız bu tamamen hatalıdır. Çünkü “class” zaten Java tarafından özel bir anlam taşıyan bir kelimedir.
+
+Bir diğer önemli konu ise anlamlı isimlendirme kullanmaktır. Bu kural teknik bir zorunluluk değildir ama iyi bir yazılımcıyı belli eden en önemli faktörlerden biridir. Örneğin “x = 10” yerine “yas = 10” yazmak çok daha açıklayıcıdır. Ya da “a = 5” yerine “ogrenciSayisi = 5” yazmak, kodu okuyan kişinin direkt ne olduğunu anlamasını sağlar. Özellikle büyük projelerde bu durum hayati önem taşır.
+
+Şimdi küçük bir örnekle pekiştirelim.
+
+Mesela şöyle bir kullanım doğrudur:
+int yas = 25;
+int ogrenciSayisi = 30;
+
+Ama şu kullanımlar hatalıdır:
+int 2yas = 20; → sayı ile başlıyor
+int ogrenci sayisi = 5; → boşluk içeriyor
+int class = 10; → anahtar kelime kullanılmış
+
+Bu tür hatalar derleme aşamasında direkt karşımıza çıkar.
+
+Son olarak şunu söylemek çok önemli: Değişken isimlendirme sadece bir kural değil, aynı zamanda bir yazılım kültürüdür. Temiz kod yazmak, sürdürülebilir projeler geliştirmek ve profesyonel görünmek için bu kurallara dikkat etmek zorundayız.
+
+Eğer bu kuralları doğru uygularsanız, yazdığınız kod hem sizin için hem de başkaları için çok daha anlaşılır, okunabilir ve kaliteli olacaktır.

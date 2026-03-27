@@ -1,0 +1,30 @@
+In Java, variable naming rules are one of the most fundamental concepts that every developer must understand. These rules are not just about making the code work correctly, but also about making it readable, maintainable, and professional. Because in real-world software development, code is rarely written for just one person — it is read, modified, and maintained by many developers over time.
+
+Let’s break down these rules step by step.
+
+First of all, a variable name must start with a letter, an underscore (_) or a dollar sign ($). It cannot start with a number. For example, a variable like “age” or “_age” is perfectly valid, but something like “2age” is completely invalid and will cause a compilation error. This is a strict syntax rule in Java.
+
+The second rule is that variable names cannot contain spaces. So you cannot write something like “student count”. Instead, Java developers typically use a naming convention called camelCase. In camelCase, the first word starts with a lowercase letter, and each following word starts with an uppercase letter. For example, “studentCount”, “totalPrice”, or “userName”. This convention is widely accepted and makes code much easier to read.
+
+Another very important concept is case sensitivity. Java is a case-sensitive language, which means “age”, “Age”, and “AGE” are all considered completely different variables. This can sometimes lead to errors if you are not consistent. For example, if you declare a variable as “age” and later try to use “Age”, Java will treat it as a different variable and throw an error.
+
+Now let’s talk about keywords. Java has reserved words such as “int”, “class”, “public”, and “static”. These keywords are part of the language itself and cannot be used as variable names. For example, writing “int class = 10;” is invalid because “class” is a reserved keyword.
+
+Another key principle is using meaningful and descriptive variable names. This is not enforced by the compiler, but it is a critical best practice. Instead of writing something like “x = 10”, it is much better to write “age = 10”. Or instead of “a = 5”, using “studentCount = 5” makes your code much clearer and easier to understand, especially in large projects.
+
+Let’s look at a quick example.
+
+This is valid:
+int age = 25;
+int studentCount = 30;
+
+And these are invalid:
+int 2age = 20; → cannot start with a number
+int student count = 5; → spaces are not allowed
+int class = 10; → keyword cannot be used
+
+These kinds of errors will be caught during compilation.
+
+To sum up, variable naming is not just a rule — it’s part of writing clean and professional code. Following these conventions helps you write code that is easier to read, easier to maintain, and much more scalable in real-world applications.
+
+If you follow these rules consistently, you will not only avoid errors but also become a better and more professional Java developer.
