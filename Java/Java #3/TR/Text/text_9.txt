@@ -1,0 +1,10 @@
+Değişken başlatma, bir değişken tanımlandığında ya da kullanılmadan önce ona bir değer atanması işlemidir. 
+Java’da bir değişken kullanılmadan önce mutlaka veri tipi ve adı ile tanımlanmalıdır. Örneğin int yas; ifadesi sadece değişkeni oluşturur, 
+ancak henüz bir değer içermez. Bu değişkene yas = 20; şeklinde bir değer atandığında başlatma işlemi gerçekleşmiş olur. Bazı durumlarda 
+tanımlama ve başlatma aynı satırda yapılabilir; örneğin double fiyat = 19.99; ifadesi hem değişkeni tanımlar hem de başlangıç değerini atar.
+
+Java’da bazı değişken türleri, özellikle sınıf seviyesinde tanımlanan değişkenler, veri tipine bağlı olarak otomatik varsayılan değerler 
+alabilir. Ancak metot içinde tanımlanan yerel değişkenler için bu durum geçerli değildir; bu tür değişkenler kullanılmadan önce mutlaka
+ başlatılmalıdır, aksi halde derleme hatası oluşur. Genel olarak süreç şu şekildedir: önce değişken tanımlanır, ardından değer atanır 
+ve son olarak program içinde kullanılır. Örneğin başlatılmış bir değişken System.out.println(yas); gibi bir ifade ile ekrana yazdırılabilir. 
+Doğru başlatma yapılması, programın hatasız çalışması ve verilerin anlamlı olması açısından oldukça önemlidir.
