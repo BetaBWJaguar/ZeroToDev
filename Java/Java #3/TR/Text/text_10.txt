@@ -1,0 +1,35 @@
+Wrapper sınıfları, Java’da primitive veri tiplerinin nesne (object) olarak kullanılmasını sağlar.
+
+Java’da iki temel veri yapısı vardır: primitive tipler ve nesneler.
+Primitive tipler hızlı ve basittir ancak metod içermezler ve koleksiyonlar (örneğin ArrayList) içinde doğrudan kullanılamazlar.
+Bu noktada wrapper sınıfları devreye girer.
+
+Wrapper sınıfları, primitive değerleri nesneye dönüştürerek daha esnek bir kullanım sağlar.
+Bu sayede bu değerler koleksiyonlarda kullanılabilir, metodlara nesne olarak gönderilebilir ve hazır metodlardan faydalanılabilir.
+
+Yaygın primitive → wrapper dönüşümleri:
+int → Integer
+double → Double
+char → Character
+boolean → Boolean
+
+İki önemli kavram vardır: autoboxing ve unboxing.
+
+Autoboxing, primitive bir değerin otomatik olarak wrapper sınıfına dönüştürülmesidir.
+Örneğin bir int değerin Integer’a atanması otomatik olarak gerçekleşir.
+
+Unboxing ise bunun tersidir; wrapper nesnesinin tekrar primitive tipe dönüştürülmesidir.
+
+Wrapper sınıfları ayrıca veri dönüştürme, karşılaştırma ve işlem yapma gibi birçok faydalı metod sunar.
+Örneğin String ifadeleri sayıya çevirme veya güvenli karşılaştırmalar yapma gibi işlemler bu sınıflar sayesinde kolaylaşır.
+
+Örnek:
+int number = 10
+Integer wrapperNumber = number
+
+double price = 19.99
+Double wrapperPrice = price
+
+Bu dönüşümler autoboxing sayesinde otomatik olarak gerçekleşir.
+
+Özetle wrapper sınıfları, Java’da primitive veri tipleri ile nesne tabanlı programlama arasında bir köprü görevi görerek kodun daha esnek ve güçlü olmasını sağlar.

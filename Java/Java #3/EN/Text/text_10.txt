@@ -1,0 +1,37 @@
+Wrapper classes allow primitive data types to be used as objects in Java.
+
+Java has two main data representations:
+primitive types and objects.
+Primitive types are fast and simple, but they do not have methods and cannot be used directly in collections like ArrayList.
+This is where wrapper classes come into play.
+
+Wrapper classes convert primitive values into object representations.
+This allows them to be used in collections, passed to methods that expect objects, and benefit from built-in utility methods.
+
+Common primitive to wrapper conversions:
+int to Integer
+double to Double
+char to Character
+boolean to Boolean
+
+There are two important concepts:
+autoboxing and unboxing.
+
+Autoboxing is the automatic conversion from a primitive type to its corresponding wrapper class.
+For example, assigning an int to an Integer happens automatically.
+
+Unboxing is the reverse process, converting a wrapper object back into a primitive value.
+
+Wrapper classes also provide useful methods for parsing, comparison, and data manipulation.
+For example, converting strings to numbers or comparing values safely.
+
+Example:
+int number equals 10
+Integer wrapperNumber equals number
+
+double price equals 19.99
+Double wrapperPrice equals price
+
+These conversions happen automatically thanks to autoboxing.
+
+In summary, wrapper classes bridge the gap between primitive data types and object-oriented programming in Java, making your code more flexible and compatible with modern Java features.
