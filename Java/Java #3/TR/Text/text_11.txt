@@ -1,0 +1,67 @@
+Bugün Java programlamanın en temel konularından biri olan Tür Dönüşümü, yani diğer adıyla Type Casting konusunu ele alıyoruz.
+
+Tür dönüşümü, Java’da bir veri tipini başka bir veri tipine dönüştürme işlemidir. Programlama sırasında farklı veri tipleriyle çalışırken bu dönüşümler oldukça sık karşımıza çıkar. Özellikle sayısal işlemlerde, farklı tipler arasında uyum sağlamak için tür dönüşümü kritik bir rol oynar.
+
+Java’da tür dönüşümü iki ana başlık altında incelenir:
+örtük dönüşüm, yani otomatik dönüşüm ve
+açık dönüşüm, yani manuel dönüşüm.
+
+İlk olarak örtük dönüşümden, yani implicit casting konusundan başlayalım.
+
+Örtük dönüşüm, Java tarafından otomatik olarak gerçekleştirilir. Programcı herhangi bir ekstra işlem yapmadan, Java bu dönüşümü kendi kendine halleder. Bu dönüşüm türünde, daha küçük veri tipleri daha büyük veri tiplerine dönüştürülür.
+
+Örneğin bir int değeri, long, float ya da double tipine dönüştürülebilir. Bu dönüşüm şu şekilde ilerler:
+
+byte → short → int → long → float → double
+
+Bu süreçte veri kaybı yaşanmadığı için Java bu işlemi güvenli kabul eder ve otomatik olarak gerçekleştirir. Yani burada programcıya ekstra bir yük düşmez.
+
+Şimdi gelelim açık dönüşüme, yani explicit casting konusuna.
+
+Açık dönüşüm, programcı tarafından manuel olarak yapılır. Bu tür dönüşümde, daha büyük veri tipleri daha küçük veri tiplerine dönüştürülür. Ancak burada önemli bir risk vardır: veri kaybı.
+
+Örneğin bir double değeri int tipine dönüştürdüğümüzde, ondalık kısmı kaybolur. Bu nedenle Java, bu tür dönüşümlerde programcının bilinçli bir şekilde işlem yapmasını ister ve zorunlu olarak cast operatörü kullanılmasını ister.
+
+Bu dönüşüm sırası şu şekildedir:
+
+double → float → long → int → short → byte
+
+Görüldüğü gibi her adımda veri tipi küçülür ve hassasiyet azalır.
+
+Şimdi bu iki dönüşüm türünü daha iyi anlamak için bir örnek üzerinden ilerleyelim.
+
+Bir sınıf tanımlıyoruz: TurDonusumuOrnek. Bu sınıfın main metodunda hem örtük hem de açık dönüşümü birlikte görüyoruz.
+
+İlk olarak örtük dönüşüm yapıyoruz.
+
+Bir int değişken tanımlıyoruz:
+
+int sayi = 25;
+
+Daha sonra bu değeri bir double değişkene atıyoruz:
+
+double sonuc = sayi;
+
+Burada Java otomatik olarak dönüşümü gerçekleştirir. Herhangi bir ek işlem yapmamıza gerek yoktur. Sonuç ekrana yazdırıldığında 25.0 olarak görülür. Yani tam sayı, ondalıklı sayıya sorunsuz bir şekilde dönüşmüştür.
+
+Şimdi açık dönüşüme bakalım.
+
+Bir double değişken tanımlıyoruz:
+
+double fiyat = 49.99;
+
+Bu değeri bir int değişkene dönüştürmek istiyoruz. Bu noktada manuel dönüşüm yapmamız gerekir:
+
+int yeniFiyat = (int) fiyat;
+
+Burada (int) ifadesi ile Java’ya açıkça dönüşüm yapılacağını söylüyoruz. Ancak bu işlem sırasında .99 kısmı kaybolur ve sonuç 49 olur.
+
+Bu örnek bize açıkça şunu gösterir:
+
+Örtük dönüşüm güvenlidir, otomatik gerçekleşir ve veri kaybı olmaz.
+
+Açık dönüşüm ise programcı kontrolündedir ve veri kaybı riski taşır.
+
+Sonuç olarak, Java’da tür dönüşümünü doğru anlamak ve doğru yerde kullanmak, daha güvenli ve hatasız kod yazmamızı sağlar. Özellikle büyük projelerde veri tipleri arasında geçiş yaparken bu konu kritik hale gelir.
+
+Java öğrenme sürecinizde tür dönüşümünü iyi kavrarsanız, veri yönetimi ve performans açısından çok daha sağlam bir temel oluşturmuş olursunuz.

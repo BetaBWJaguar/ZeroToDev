@@ -1,0 +1,65 @@
+We are diving into one of the most fundamental concepts in Java programming: Type Casting.
+
+Type casting is the process of converting one data type into another. In Java, this concept plays a crucial role when we need to work with different types of numerical data, especially when combining values or assigning them across variables of different types.
+
+At its core, Java type casting is divided into two main categories: implicit casting, also known as automatic casting, and explicit casting, also known as manual casting.
+
+Let’s start with implicit casting, also referred to as widening casting.
+
+Implicit casting happens automatically by Java, without requiring any intervention from the programmer. This type of casting occurs when we convert a smaller data type into a larger data type. Since the target type can safely hold the value of the original type, Java performs this conversion seamlessly.
+
+For example, when we convert an int into a long, or a long into a float, and eventually into a double, Java handles everything behind the scenes. The data flows from smaller to larger types like this:
+
+byte → short → int → long → float → double
+
+Because there is no risk of data loss in this process, Java allows it automatically. This makes implicit casting safe and efficient.
+
+Now, let’s move on to explicit casting, also known as narrowing casting.
+
+Unlike implicit casting, explicit casting must be done manually by the programmer. This type of casting is used when converting a larger data type into a smaller one. Since this process can potentially lead to data loss or precision issues, Java requires us to explicitly define the conversion.
+
+For example, when converting a double into an int, the decimal part is removed. This means some information is lost during the conversion. Because of this risk, Java forces us to use a cast operator.
+
+The narrowing sequence looks like this:
+
+double → float → long → int → short → byte
+
+Here, each step reduces the size and precision of the data type.
+
+Let’s now look at a practical example to better understand both types of casting.
+
+We define a class called TypeCastingExample, and inside the main method, we demonstrate both implicit and explicit casting.
+
+First, we perform implicit casting.
+
+We declare an integer variable:
+
+int number = 25;
+
+Then, we assign this integer value to a double variable:
+
+double result = number;
+
+At this point, Java automatically converts the integer into a double. No special syntax is required. When we print the result, the output becomes 25.0, showing that the value has been successfully converted into a floating-point number.
+
+Next, we demonstrate explicit casting.
+
+We declare a double variable:
+
+double price = 49.99;
+
+Now, we want to convert this double value into an integer. Since this is a narrowing operation, we must explicitly define the conversion using parentheses:
+
+int newPrice = (int) price;
+
+Here, the decimal part .99 is discarded, and the value becomes 49. When we print this value, we clearly see that the precision has been reduced.
+
+This example highlights the key difference between implicit and explicit casting:
+
+Implicit casting is safe, automatic, and involves widening conversions.
+
+Explicit casting is manual, potentially unsafe, and involves narrowing conversions.
+
+Understanding when and how to use type casting is essential for writing efficient and bug-free Java programs. It allows developers to control how data is transformed and ensures compatibility between different data types.
+
+As you continue your journey in Java, mastering type casting will help you handle numerical operations more effectively and avoid unexpected behaviors in your code.
