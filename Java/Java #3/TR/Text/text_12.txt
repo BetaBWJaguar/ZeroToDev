@@ -1,0 +1,33 @@
+Implicit Casting yani Otomatik Dönüşüm, Java’da veri tipleri arasında en temel ve en önemli konulardan biridir. Bu kavramı anlamak, veri kaybı yaşamadan güvenli ve doğru kod yazabilmenin temelini oluşturur.
+
+Implicit casting, Java’nın daha küçük bir veri tipini daha büyük bir veri tipine otomatik olarak dönüştürmesi durumunda gerçekleşir. Bu işlem sırasında geliştiricinin herhangi bir ekstra kod yazmasına gerek yoktur. Java derleyicisi bu dönüşümü kendisi yapar çünkü bu işlem güvenli olarak kabul edilir.
+
+Bu konunun arkasındaki temel mantık şudur:
+Eğer bir veri tipi, başka bir veri tipinin tüm değerlerini herhangi bir veri kaybı olmadan saklayabiliyorsa, Java bu dönüşümü otomatik olarak gerçekleştirir.
+
+Örneğin bir int değeri düşünelim. int veri tipi 32 bitlik bir alan kullanır. Bu değeri double veri tipine atadığımızda, double çok daha geniş bir aralığa sahip olduğu için bu değeri rahatlıkla saklayabilir. Bu nedenle Java bu dönüşümü otomatik olarak yapar.
+
+Bu tür dönüşüme aynı zamanda Genişletme Dönüşümü (Widening Casting) adı verilir. Çünkü veri, daha dar bir tipten daha geniş bir tipe aktarılmaktadır.
+
+Java’da implicit casting belirli bir sıraya göre gerçekleşir:
+
+byte → short → int → long → float → double
+
+Bu sıralamada her bir veri tipi, kendisinden önce gelen veri tipini güvenli şekilde saklayabilecek kapasiteye sahiptir.
+
+Implicit casting’in en büyük avantajlarından biri, derleyici tarafından otomatik olarak yapılmasıdır. Bu sayede hata yapma ihtimali azalır ve kod daha sade, daha okunabilir hale gelir. Geliştiricinin manuel bir işlem yapmasına gerek yoktur.
+
+Basit bir örnekle açıklayalım:
+
+Bir int değişkenine 25 değeri atanır. Daha sonra bu değer bir double değişkene aktarılır. Java bu işlemi otomatik olarak gerçekleştirir ve sonuç 25.0 olarak saklanır.
+
+Bu örnek, Java’nın veri tipleri arasında nasıl güvenli ve sorunsuz geçiş yaptığını açıkça göstermektedir.
+
+Özetle implicit casting:
+
+Otomatiktir
+Güvenlidir
+Veri kaybı oluşturmaz
+Derleyici tarafından yönetilir
+
+Java programlamada implicit casting, farklı veri tipleriyle çalışmayı kolaylaştıran ve geliştiricinin işini büyük ölçüde basitleştiren önemli bir mekanizmadır
