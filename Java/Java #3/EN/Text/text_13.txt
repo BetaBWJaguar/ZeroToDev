@@ -1,0 +1,25 @@
+In Java, explicit casting refers to the manual conversion of a larger data type 
+into a smaller data type. Unlike implicit casting, which happens automatically, 
+explicit casting must be performed by the programmer because there is a risk of losing data or precision during the conversion process.
+
+This type of casting is also known as narrowing casting. It is called “narrowing” 
+because we move from a data type that can store more information, like a double, to one that 
+can store less, such as an int or byte.
+
+Java does not allow this conversion automatically. The reason is simple: smaller data types may not be able to 
+hold all the values from the larger type. For example, when converting from double to int, the decimal part is 
+completely removed, which results in a loss of precision.
+
+To perform explicit casting, we use a casting operator, which is the target data type written in parentheses 
+before the value. For example, if we have a double value like 49.99 and we convert it into an int, we write it 
+as: int newPrice = (int) price. After this conversion, the value becomes 49, and the decimal part is lost.
+
+The general flow of explicit casting follows a downward hierarchy: double to float, float to long, long to int, 
+int to short, and finally short to byte. At each step, the storage capacity decreases, and the possibility of data loss increases.
+
+There are a few key points to remember. First, explicit casting is always done manually by the programmer. Second, 
+it is used when converting larger numeric types into smaller ones. Third, it requires a specific syntax using parentheses. 
+And finally, it may cause data loss or overflow if the value exceeds the limits of the target type.
+
+In summary, explicit casting gives developers control over type conversion, but it must be used carefully to avoid unexpected 
+results due to precision loss or data truncation.

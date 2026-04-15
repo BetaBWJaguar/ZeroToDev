@@ -1,0 +1,24 @@
+Java’da açık tür dönüşümü, yani explicit casting, daha büyük bir veri tipinin daha küçük bir veri tipine programcı 
+tarafından manuel olarak dönüştürülmesi işlemidir. Bu dönüşüm, veri kaybı ya da hassasiyet kaybı riski 
+bulunduğunda kullanılır ve bu nedenle Java tarafından otomatik olarak gerçekleştirilmez.
+
+Bu işlem aynı zamanda daraltma dönüşümü, yani narrowing casting olarak da adlandırılır. 
+Daraltma denmesinin sebebi, daha fazla veri saklayabilen bir türden, daha az veri 
+saklayabilen bir türe geçiş yapılmasıdır. Örneğin double veri tipi, int veri tipine göre 
+daha geniş bir aralığı ve ondalık kısmı saklayabilir. Ancak int veri tipine dönüştürüldüğünde bu ondalık kısım tamamen kaybolur.
+
+Java bu dönüşümü otomatik yapmaz, çünkü küçük veri tipleri büyük veri tiplerinin içerdiği 
+tüm değerleri saklayamayabilir. Bu da veri kaybına veya yanlış sonuçlara yol açabilir. 
+Bu yüzden programcı, dönüşümü bilinçli bir şekilde kendisi gerçekleştirmelidir.
+
+Açık tür dönüşümü yapmak için parantez içerisinde hedef veri tipi belirtilir. Örneğin double 
+türünde 49.99 değerine sahip bir değişkeni int türüne çevirmek istediğimizde, 
+int newPrice = (int) price şeklinde bir kullanım yaparız. Bu işlem sonucunda değer 49 olur ve ondalık kısmı tamamen silinir.
+
+Bu dönüşümün genel akışı double’dan başlayarak float, long, int, short ve byte şeklinde ilerler. 
+Her adımda veri tipi küçülür ve veri kaybı ihtimali artar. Özellikle büyük sayılar küçük 
+veri tiplerine dönüştürüldüğünde taşma, yani overflow durumu da meydana gelebilir.
+
+Özetle, açık tür dönüşümü programcıya veri tipleri üzerinde daha fazla kontrol sağlar. 
+Ancak bu kontrol beraberinde dikkatli kullanım gerektirir. Çünkü yanlış yapılan bir dönüşüm, 
+veri kaybına, hassasiyetin azalmasına veya beklenmeyen sonuçlara neden olabilir.
