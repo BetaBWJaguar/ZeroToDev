@@ -1,0 +1,13 @@
+Now, let’s explore type casting inside expressions, which is something that happens very frequently in Java, especially during arithmetic operations.
+
+When we perform calculations in Java, the language automatically handles type conversion behind the scenes. This means we usually don’t need to manually cast values while doing operations like addition, subtraction, or multiplication. Java promotes smaller data types into larger ones to ensure the operation is performed safely and accurately.
+
+For example, if we combine different data types in an expression, Java follows a promotion hierarchy. This hierarchy goes from byte to short, short to int, int to long, long to float, and finally float to double. In any expression, the result will always match the largest data type involved.
+
+Let’s break this down with some examples. If we add an integer and a double, the integer is automatically converted into a double, and the result will also be a double. Similarly, if we add a float and a long, the long is converted into a float, and the result becomes a float. Another important case is when we add two short or byte values. Even though both operands are small types, Java automatically converts them into integers before performing the operation. So the result is always an int.
+
+This behavior exists because smaller data types like byte and short are not efficient for arithmetic operations, so Java promotes them to int by default.
+
+Let’s look at a simple code example. We define an integer variable with the value 10 and a double variable with the value 5.5. When we add them together, Java automatically converts the integer into a double, and the result becomes a double value. In another example, we define two byte variables and add them together. Even though both are byte, Java converts them into int, and the result must be stored in an int variable.
+
+In summary, Java automatically promotes smaller types to larger ones during expressions, operations follow the largest data type, and in most cases, no manual casting is required. Understanding this behavior helps us avoid unexpected type errors and write more efficient code.

@@ -1,0 +1,9 @@
+Today, we are going to understand one of the most important concepts in Java: implicit and explicit casting. Knowing the difference between these two helps us prevent data loss and ensures that type conversions are done correctly and safely.
+
+Let’s start with implicit casting, also known as widening. This happens when we convert a smaller data type into a larger data type. For example, converting an integer into a double. This process is done automatically by Java, so we don’t need to write any special syntax. Since we are moving to a larger data type, no data is lost during this conversion. The general flow of implicit casting follows this order: byte to short, short to int, int to long, long to float, and finally float to double.
+
+Now let’s talk about explicit casting, also known as narrowing. This is the opposite of implicit casting. Here, we convert a larger data type into a smaller one. For example, converting a double into an integer. Unlike implicit casting, this process is not automatic. We must manually specify the conversion using parentheses. Because we are reducing the size of the data type, there is a risk of data loss. The general flow of explicit casting goes from double to float, float to long, long to int, int to short, and short to byte.
+
+Let’s look at a simple example. Suppose we define an integer variable with the value 25. If we assign this value to a double variable, Java automatically converts it. This is implicit casting. On the other hand, if we have a double value like 49.99 and we want to store it in an integer variable, we must explicitly cast it using (int). In this case, the decimal part is lost, and the value becomes 49.
+
+In summary, implicit casting is automatic, safe, and does not cause data loss, while explicit casting is manual and may lead to data loss if not handled carefully. Understanding when and how to use these conversions is essential for writing clean and reliable Java code.

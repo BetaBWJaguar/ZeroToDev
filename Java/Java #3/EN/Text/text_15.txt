@@ -1,0 +1,13 @@
+Now, let’s talk about data loss and precision loss, which are very important concepts when working with type casting in Java.
+
+When we convert a value from a larger data type to a smaller one, especially using explicit casting, we may lose some part of the data. This is because smaller data types simply cannot store as much information as larger ones. As a result, this process can lead to incorrect or unexpected outcomes if we are not careful.
+
+One of the most common cases of data loss happens when we convert decimal numbers into integer types. For example, if we take a double value like 9.78 and cast it into an integer, the result becomes 9. The decimal part is completely removed. It’s important to understand that this is not rounding. Java does not round the value—it simply cuts off everything after the decimal point.
+
+Similarly, if we have a float value such as 123456.789 and convert it into an integer, the result becomes 123456. Again, the decimal portion is lost entirely. This demonstrates precision loss, where the exact value cannot be preserved in the smaller data type.
+
+Another important point is that smaller data types may not be able to store very large values at all, which can lead to overflow or incorrect results.
+
+Let’s look at a simple example. We define a double variable with the value 9.78 and then explicitly cast it to an integer. When we print both values, we can clearly see that the original value contains decimals, while the converted value does not. The same behavior occurs when converting a float to an integer.
+
+In summary, data loss and precision loss mainly occur during explicit, or narrowing, casting. Decimal values are truncated, not rounded, and smaller data types may fail to represent the full value. That’s why developers must be very careful when performing these conversions to avoid unexpected results.
