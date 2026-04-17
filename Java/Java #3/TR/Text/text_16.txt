@@ -1,0 +1,16 @@
+Bu bölümde Java’da ifadeler içerisinde gerçekleşen tür dönüşümünü, yani otomatik tür yükseltmeyi inceliyoruz. Java, matematiksel veya mantıksal işlemler sırasında veri tiplerini otomatik olarak dönüştürerek işlemlerin doğru ve güvenli bir şekilde yapılmasını sağlar.
+
+Java’da birden fazla veri tipi içeren bir ifade yazıldığında, sistem bu veri tiplerini kendi içinde uyumlu hale getirir. Bunun için küçük veri tiplerini daha büyük veri tiplerine doğru yükseltir. Bu sürece type promotion, yani tür yükseltme denir. Bu sayede geliştiricinin çoğu durumda manuel dönüşüm yapmasına gerek kalmaz.
+
+Tür yükseltme işlemi belirli bir sıraya göre gerçekleşir. Bu sıralama şu şekildedir:
+byte → short → int → long → float → double
+
+Yani bir işlemde farklı veri tipleri varsa, Java tüm değerleri en büyük veri tipine uygun hale getirir ve işlemi o veri tipi üzerinden gerçekleştirir. Bu yüzden işlemin sonucu da her zaman en büyük veri tipine göre belirlenir.
+
+Örneğin bir int ile double toplandığında, int değeri otomatik olarak double’a dönüştürülür ve sonuç double olur. Aynı şekilde float ile long işlem yaptığında sonuç float olur. Dikkat edilmesi gereken ilginç bir durum ise şudur: byte ve short gibi küçük veri tipleri kendi aralarında işlem yapsalar bile, sonuç otomatik olarak int tipine yükseltilir. Yani short + short işlemi bile int sonucunu verir.
+
+Bir örnek üzerinden inceleyelim. Elimizde int a = 10 ve double b = 5.5 değerleri olsun. Bu iki değeri topladığımızda, Java a değişkenini otomatik olarak double’a çevirir ve işlem sonucunda double tipinde bir sonuç elde ederiz. Bu tamamen otomatik gerçekleşir ve ekstra bir casting yazmamıza gerek yoktur.
+
+Benzer şekilde, byte x = 5 ve byte y = 10 değerlerini topladığımızda, her ne kadar iki değişken de byte olsa da, Java bu değerleri önce int tipine yükseltir ve sonucu int olarak üretir. Bu yüzden sonucu byte değil, int değişkende saklamak gerekir.
+
+Sonuç olarak, Java’da ifadeler içinde tür dönüşümü tamamen otomatik bir mekanizmadır ve işlemler her zaman en büyük veri tipine göre yapılır. Bu durum kod yazımını kolaylaştırırken, veri tiplerinin nasıl değiştiğini anlamak da doğru sonuçlar elde etmek açısından büyük önem taşır.

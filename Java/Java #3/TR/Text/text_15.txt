@@ -1,0 +1,13 @@
+Bu bölümde Java’da tür dönüşümü sırasında karşılaşabileceğimiz en önemli problemlerden biri olan veri kaybı ve hassasiyet kaybı konusunu ele alıyoruz. Özellikle büyük veri tiplerinden daha küçük veri tiplerine geçiş yapılırken bu durum oldukça kritik hale gelir.
+
+Tür dönüşümü sırasında, eğer daha geniş bir veri tipinden daha dar bir veri tipine geçiş yapıyorsak, yani explicit (daraltma) casting kullanıyorsak, bazı verilerin kaybolması kaçınılmaz olabilir. Bunun temel nedeni, küçük veri tiplerinin büyük veri tiplerinin taşıyabildiği tüm bilgiyi saklayamamasıdır.
+
+En yaygın karşılaşılan durumlardan biri, ondalıklı sayıların tam sayıya dönüştürülmesidir. Örneğin bir double veya float değerini int tipine çevirdiğimizde, sayının ondalık kısmı tamamen silinir. Burada çok önemli bir nokta var: Java bu işlemi yaparken yuvarlama yapmaz, doğrudan kesme işlemi gerçekleştirir. Yani 9.78 değeri 10’a yuvarlanmaz, doğrudan 9 olur. Bu da hassasiyet kaybına yol açar.
+
+Bir diğer önemli konu ise büyük değerlerin küçük veri tiplerine sığmamasıdır. Eğer değer, hedef veri tipinin kapasitesini aşarsa, bu durumda taşma (overflow) meydana gelebilir ve tamamen hatalı sonuçlar elde edilebilir. Bu yüzden özellikle büyük sayılarla çalışırken dönüşüm işlemlerine dikkat edilmelidir.
+
+Örneğin elimizde double türünde 9.78 değeri olduğunu düşünelim. Bu değeri (int) ile dönüştürdüğümüzde sonuç 9 olur. Aynı şekilde float türünde 123456.789 gibi bir değeri int’e çevirdiğimizde sonuç 123456 olur. Her iki durumda da ondalık kısım tamamen kaybolur ve veri tam olarak korunamaz.
+
+Kod üzerinden baktığımızda, bir double değeri (int) ile dönüştürdüğümüzde Java yalnızca tam kısmı alır ve geri kalan kısmı yok sayar. Aynı durum float için de geçerlidir. Bu durum özellikle finansal hesaplamalar, bilimsel işlemler veya hassas veri gerektiren uygulamalarda ciddi problemlere yol açabilir.
+
+Sonuç olarak, veri kaybı ve hassasiyet kaybı yalnızca explicit casting sırasında ortaya çıkar ve bu durum geliştiricinin kontrolündedir. Bu yüzden tür dönüşümü yaparken her zaman şu soruyu sormak gerekir: “Bu dönüşümde veri kaybı yaşar mıyım?” Eğer cevap evetse, alternatif yöntemler düşünülmeli veya daha uygun veri tipleri tercih edilmelidir.

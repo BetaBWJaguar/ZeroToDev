@@ -1,0 +1,11 @@
+Bugün Java’da tür dönüşümleri konusunu inceliyoruz. Özellikle örtük (implicit) ve açık (explicit) tür dönüşümü arasındaki farkları anlamak, hem veri kaybını önlemek hem de daha güvenli ve doğru kod yazmak açısından oldukça önemlidir.
+
+Öncelikle örtük tür dönüşümünden (implicit casting) başlayalım. Bu dönüşüm türü, küçük veri tiplerinden daha büyük veri tiplerine geçişte kullanılır ve Java tarafından otomatik olarak gerçekleştirilir. Yani geliştirici olarak ekstra bir işlem yapmanıza gerek yoktur. Örneğin bir int değerini double tipine atadığınızda, Java bu dönüşümü kendisi yapar. Bunun sebebi, daha büyük veri tiplerinin küçük veri tiplerini rahatlıkla kapsayabilmesidir. Bu yüzden bu tür dönüşümlerde veri kaybı yaşanmaz ve oldukça güvenlidir. Örtük dönüşüm akışına baktığımızda sıralama şu şekildedir:
+byte → short → int → long → float → double
+
+Şimdi gelelim açık tür dönüşümüne (explicit casting). Bu dönüşüm, büyük veri tiplerinden daha küçük veri tiplerine geçerken kullanılır. Ancak burada dikkat edilmesi gereken önemli bir nokta vardır: Bu işlem otomatik yapılmaz, geliştirici tarafından manuel olarak belirtilmesi gerekir. Yani dönüşüm yapılırken veri tipini parantez içinde açıkça yazmanız gerekir. Örneğin bir double değeri int tipine çevirmek istediğinizde (int) şeklinde belirtmeniz gerekir. Bu tür dönüşümlerde veri kaybı yaşanabilir. Çünkü daha büyük veri tipindeki hassasiyet veya ondalık kısım, küçük veri tipine sığmayabilir ve kesilir. Açık dönüşüm akışı ise şu şekildedir:
+double → float → long → int → short → byte
+
+Bir örnek üzerinden daha net anlayalım. Diyelim ki elimizde bir int değer var ve bunu double’a atıyoruz. Bu durumda Java otomatik olarak dönüşümü yapar ve hiçbir veri kaybı olmaz. Ancak bir double değeri int’e çevirdiğimizde, örneğin 49.99 değeri 49 olarak saklanır ve ondalık kısmı kaybolur. İşte bu yüzden açık dönüşümlerde dikkatli olmak gerekir.
+
+Sonuç olarak, örtük dönüşüm güvenli ve otomatik bir süreçtir, veri kaybı riski yoktur. Açık dönüşüm ise daha kontrollü ama riskli bir işlemdir; mutlaka bilinçli kullanılmalıdır. Java’da doğru tür dönüşümünü seçmek, uygulamanın doğruluğu ve veri bütünlüğü açısından kritik bir rol oynar.
