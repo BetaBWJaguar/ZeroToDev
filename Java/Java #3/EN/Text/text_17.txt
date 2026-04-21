@@ -1,0 +1,7 @@
+Unicode is a universal character encoding standard that enables Java to represent text from different languages consistently across all platforms. It allows almost all languages, symbols, and special characters in the world to be defined within a single system, ensuring that text appears the same regardless of the operating system or environment.
+
+In the Unicode system, every character is assigned a unique identity. This means each letter, symbol, or sign has its own distinct representation, preventing conflicts or misinterpretation across different systems. Older encoding systems like ASCII and ISO were limited in the number of characters they could support, but Unicode eliminates these limitations by providing a truly global standard.
+
+Java directly uses the Unicode system and typically stores characters using the UTF-16 encoding format. This makes Java highly reliable for developing applications that support multiple languages. When a character is used in a program, it is first represented according to the Unicode standard, then stored in memory, and finally displayed correctly on the screen.
+
+Thanks to this structure, developers can build applications without worrying about language compatibility issues. Unicode plays a fundamental role in modern software development, and Java’s built-in support for it makes the language powerful and globally adaptable.

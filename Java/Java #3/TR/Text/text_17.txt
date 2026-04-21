@@ -1,0 +1,7 @@
+Unicode, Java’nın farklı dillerdeki metinleri tüm platformlarda tutarlı ve doğru bir şekilde temsil etmesini sağlayan evrensel bir karakter kodlama standardıdır. Günümüzde dünya üzerindeki neredeyse tüm dillerin, sembollerin ve özel karakterlerin tek bir sistem altında tanımlanmasını mümkün kılar. Bu sayede bir metin ister Türkçe ister Japonca ister Arapça olsun, her yerde aynı şekilde görüntülenebilir ve işlenebilir.
+
+Unicode sistemi, her karaktere benzersiz bir kimlik verir. Yani her harf, sembol veya işaret sistem içinde tek ve eşsiz bir değere sahiptir. Bu durum, karakterlerin karışmasını veya farklı sistemlerde yanlış görünmesini engeller. Eski kodlama sistemleri olan ASCII ve ISO yalnızca sınırlı sayıda karakteri destekleyebilirken, Unicode bu sınırlamayı ortadan kaldırarak neredeyse tüm dünya dillerini kapsayan evrensel bir çözüm sunar.
+
+Java programlama dili de Unicode sistemini doğrudan kullanır. Java’da karakterler genellikle UTF-16 adı verilen bir formatta saklanır. Bu da Java’nın çok dilli uygulamalar geliştirmek için güçlü ve güvenilir bir altyapı sunduğu anlamına gelir. Bir karakter yazıldığında, önce Unicode sistemine uygun şekilde temsil edilir, ardından bellekte saklanır ve son olarak ekrana doğru şekilde yazdırılır.
+
+Bu yapı sayesinde geliştiriciler, farklı dillerle çalışırken herhangi bir uyumsuzluk yaşamadan uygulama geliştirebilirler. Unicode, modern yazılım dünyasında küresel iletişimin temel taşlarından biridir ve Java’nın bu sistemi desteklemesi, onu dünya çapında kullanılan güçlü bir programlama dili haline getirir.
