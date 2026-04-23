@@ -1,0 +1,13 @@
+Unicode and String Structure in Java is a fundamental concept that explains how text is represented and processed inside a Java program. In Java, every piece of text, known as a String, is not just a simple sequence of characters as we see it, but actually a structured sequence of Unicode characters. Each of these characters is stored using UTF-16 encoding, which allows Java to support a wide range of global languages and symbols.
+
+At its core, a String in Java is essentially a combination of multiple char values. Each char represents a single Unicode code unit, not necessarily a full visible character. Java internally uses Unicode with UTF-16 encoding, meaning that every character is mapped to a specific code point. However, it is important to understand that the length() method in Java does not always return the number of visible characters. Instead, it returns the number of UTF-16 code units, which can sometimes differ.
+
+This becomes especially important when dealing with special characters such as emojis or certain rare symbols. These characters may require two char values, known as surrogate pairs, to be fully represented. As a result, a single visible character might actually occupy two positions in a String, which can affect operations like iteration, indexing, and length calculation.
+
+The process of how a String works in Java can be understood step by step. First, a text is defined as a String. Then, this String is broken down into Unicode characters. These characters are encoded using UTF-16 and stored internally as a sequence, often represented as a char array. This data is then stored in memory and later retrieved and printed to the screen when needed.
+
+For example, consider the text "Hi 😊". At first glance, it appears to contain three characters: H, i, and a smiling emoji. However, internally, Java processes this as H, i, and the emoji represented by two char units. This means the total length returned by length() would be 4, not 3. This highlights the difference between logical characters and their internal representation.
+
+In practical usage, Java allows you to iterate through a String using methods like charAt(), which retrieves individual UTF-16 code units. While this works well for most standard characters, developers need to be cautious when handling characters that span multiple code units, as improper handling can lead to unexpected results.
+
+In summary, Java Strings are built on top of Unicode and UTF-16 encoding, making them highly capable of handling international text. However, understanding the internal structure—especially the difference between characters and code units—is essential for writing robust and accurate text-processing applications.

@@ -1,0 +1,11 @@
+Unicode Kaçış Dizileri, Java’da karakterlerin evrensel bir biçimde temsil edilmesini sağlayan önemli bir yapıdır. Java’da bazı karakterler klavyede doğrudan bulunmasa bile, bu karakterler kaçış dizileri kullanılarak kolayca yazılabilir. Bu sayede tüm Unicode karakterleri kod içerisinde güvenli ve standart bir şekilde temsil edilebilir.
+
+Java’da Unicode karakterler \uXXXX formatında yazılır. Buradaki XXXX kısmı hexadecimal yani onaltılık sayı sistemine aittir ve 0–9 ile A–F arasındaki değerleri içerir. Her Unicode karakterin kendine ait benzersiz bir kod noktası bulunur ve bu sayede karakterler birbirinden ayrılır.
+
+Bu sürecin çalışma mantığı oldukça basittir. Öncelikle bir karakter, Unicode kod noktası ile tanımlanır. Daha sonra bu kod noktası Java’da kaçış dizisine yani \uXXXX formatına dönüştürülür. Bu değer Java içerisinde char veri tipi olarak saklanır ve program çalıştığında gerçek karakter olarak ekrana yazdırılır.
+
+Örneğin, \u0041 ifadesi ‘A’ karakterine, \u00E7 ifadesi ‘ç’ karakterine, \u0131 ifadesi ‘ı’ karakterine ve \u2665 ifadesi kalp sembolüne karşılık gelir. Bu örnekler, Unicode kaçış dizilerinin farklı dil ve sembolleri nasıl temsil edebildiğini açıkça gösterir.
+
+Java’da char veri tipi Unicode standardını ve UTF-16 kodlamasını kullanır. Bu yapı sayesinde yalnızca İngilizce değil, Türkçe ve dünyanın birçok farklı diline ait karakterler de desteklenir. Bu özellik, Java’yı çok dilli uygulamalar geliştirmek için oldukça güçlü bir hale getirir.
+
+Özetle, Unicode kaçış dizileri Java’da karakterlerin evrensel ve güvenli bir şekilde temsil edilmesini sağlar, farklı dillerdeki karakterleri destekler ve yazılım geliştirme sürecinde esneklik sunar.
