@@ -1,0 +1,18 @@
+Java’da kullanıcıdan veri alırken en sık yapılan hatalardan biri, Scanner sınıfının nextInt() ve nextLine() metotlarının birlikte kullanımında 
+ortaya çıkar. Bu durum özellikle yeni başlayanlar için kafa karıştırıcı olabilir çünkü program beklenmedik şekilde boş veri okuyabilir. 
+Bunun temel sebebi, nextInt() metodunun sadece sayıyı okuması ve kullanıcı Enter’a bastığında oluşan satır sonu (newline) karakterini buffer’da 
+bırakmasıdır. Ardından gelen nextLine() metodu bu buffer’da kalan newline karakterini doğrudan okur 
+ve kullanıcıdan yeni bir veri almadan boş bir string döndürür.
+
+Programın çalışma akışına baktığımızda, önce program başlar ve bir Scanner 
+nesnesi oluşturulur. Kullanıcıdan bir sayı alınır (nextInt() ile) ve bu işlem 
+sırasında Enter karakteri buffer’da kalır. Daha sonra nextLine() çağrıldığında, 
+aslında kullanıcıdan yeni bir giriş beklenmez; buffer’da kalan bu Enter karakteri 
+okunur ve sonuç olarak boş bir veri elde edilir. Bu da programın hatalı çalışmasına 
+neden olur.
+
+Bu problem oldukça yaygın bir hatadır ve çözümü oldukça basittir. nextLine() metodunu 
+kullanmadan önce buffer temizlenmelidir. Bunun için nextInt() işleminden sonra fazladan 
+bir nextLine() çağrısı yapılarak buffer’daki newline karakteri temizlenir. Böylece bir sonraki 
+nextLine() çağrısı gerçekten kullanıcıdan veri alır ve program doğru şekilde çalışmaya devam eder. 
+Bu yaklaşım, Java’da kullanıcıdan güvenilir veri almak için temel ve önemli bir pratiktir.

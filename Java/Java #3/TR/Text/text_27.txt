@@ -1,0 +1,15 @@
+Bu slaytta Java’da kullanıcıdan alınan verilerin doğruluğunu kontrol etme sürecine, yani input validation kavramına daha detaylı bir şekilde bakıyoruz.
+
+Gerçek dünyada kullanıcıların her zaman doğru veri girmesini beklemek oldukça risklidir. Bir kullanıcı sayı istenen bir yerde harf girebilir, boş bırakabilir ya da tamamen geçersiz bir değer yazabilir. Eğer bu durumları kontrol etmezsek, program ya hatalı çalışır ya da tamamen çöker. İşte bu yüzden, sağlam bir uygulama geliştirmek istiyorsak kullanıcıdan gelen veriyi her zaman doğrulamamız gerekir.
+
+Programın akışını adım adım düşündüğümüzde, ilk olarak uygulama başlar ve kullanıcıdan veri almak için bir Scanner nesnesi oluşturulur. Daha sonra kullanıcıdan örneğin bir yaş bilgisi istenir. Ancak burada kritik nokta şudur: Bu veri doğrudan alınmaz, önce kontrol edilir. Java’da bu kontrol işlemi genellikle hasNextInt() gibi metotlarla yapılır. Bu metot, kullanıcının girdiği değerin gerçekten bir tam sayı olup olmadığını kontrol eder.
+
+Eğer kullanıcı doğru formatta bir veri girdiyse, yani gerçekten bir sayı girdiyse, nextInt() metodu çağrılır ve veri güvenli bir şekilde alınır. Bu durumda program akışına sorunsuz bir şekilde devam eder. Ancak kullanıcı hatalı bir giriş yaptıysa, örneğin harf veya özel karakter girdiyse, hasNextInt() false döner. Bu noktada program veri almak yerine kullanıcıya bir uyarı verir. Örneğin “Hatalı giriş! Lütfen geçerli bir sayı girin.” gibi bir mesaj gösterilir.
+
+Fakat burada önemli bir detay daha vardır. Hatalı veri sadece reddedilmez, aynı zamanda buffer’dan temizlenmelidir. Bunun için genellikle next() veya nextLine() kullanılır. Aksi halde aynı hatalı veri sürekli okunur ve program sonsuz bir döngüye girer. Yani validation sadece kontrol değil, aynı zamanda hatalı veriyi yönetme sürecidir.
+
+Bu işlemler genellikle bir while(true) döngüsü içinde gerçekleştirilir. Kullanıcı doğru veriyi girene kadar program aynı soruyu sormaya devam eder. Doğru veri girildiğinde ise break komutu ile döngü sonlandırılır ve program normal akışına döner. Bu yapı sayesinde uygulama hem güvenli hem de dayanıklı hale gelir.
+
+Bu yaklaşımın bir diğer önemli avantajı da kullanıcı deneyimini artırmasıdır. Kullanıcı hatalı bir giriş yaptığında programın çökmesi yerine, kullanıcıya neyin yanlış olduğu açıkça söylenir ve tekrar deneme şansı verilir. Bu da uygulamayı daha profesyonel ve kullanıcı dostu hale getirir.
+
+Sonuç olarak input validation, sadece bir kontrol mekanizması değil, aynı zamanda güvenli, hataya dayanıklı ve kullanıcı odaklı yazılım geliştirmenin temel taşlarından biridir. Java’da Scanner ile birlikte kullanılan bu yöntemler, özellikle kullanıcıdan veri alınan tüm uygulamalarda vazgeçilmez bir yapı oluşturur.
