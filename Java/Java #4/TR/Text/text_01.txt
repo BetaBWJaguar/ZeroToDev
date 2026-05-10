@@ -1,0 +1,12 @@
+Java'da değişkenler, bir programın çalışması sırasında verileri saklamak, değiştirmek ve yönetmek için kullanılan isimlendirilmiş bellek alanlarıdır. Java'nın kuralcı yapısı gereği, program içinde kullanılacak her değişkenin mutlaka belirli bir veri tipiyle tanımlanması gerekir. 
+Bu veri tipi zorunluluğu, hem değişkenin bellekte ne kadar yer kaplayacağını hem de hangi türde bir değeri güvenle saklayabileceğini belirlediği için oldukça kritiktir. 
+Örneğin, tam sayılar için int, ondalıklı sayılar için double ve metinsel ifadeler için String gibi farklı veri tipleri kullanılır.
+
+Bu yapı sayesinde programlar, farklı veri türlerini hafızada düzenli bir şekilde tutarak çalışma esnasında büyük bir esneklik kazanır.
+Bir değişkene ait yaşam döngüsü ve program içindeki kullanım akışı belirli bir standart üzerinden ilerler. Program çalışmaya başladığında 
+öncelikle değişkenin veri tipi ve adı belirtilerek tanımlama (declaration) işlemi gerçekleştirilir. 
+
+Ardından bu değişkene işlenecek olan değer atanır ve son aşamada bu değişken, ekrana yazdırma veya hesaplama yapma gibi görevler için kullanılır. 
+Örnek bir kod yapısına bakıldığında; int age = 21; veya String name = "Java"; şeklinde tanımlanan değişkenler bellekte yerini aldıktan sonra, System.out.println() gibi komutlar aracılığıyla kolayca ekrana yazdırılabilir. 
+Tanımlamadan başlayıp kullanıma kadar uzanan bu adım adım akış, Java'da verilerin kontrollü, 
+düzenli ve hatasız bir şekilde yönetilmesini sağlar.
