@@ -1,0 +1,20 @@
+Java'da tarih ve saat bilgileri varsayılan olarak bilgisayarların kolayca işleyebileceği standart ve teknik bir formatta tutulur. 
+Ancak bu verilerin son kullanıcıya (örneğin bir faturada, bir bilette veya bir arayüzde) gösterilmesi gerektiğinde, herkesin alışkın 
+olduğu okunaklı ve estetik görünümlere ihtiyaç duyarız. İşte bu noktada DateTimeFormatter sınıfı devreye girer. Bu sınıf, programlarımızda 
+tuttuğumuz ham tarih ve saat nesnelerini kullanıcı dostu, esnek ve anlaşılır metinsel ifadelere dönüştürmek için kullanılan en temel araçtır. 
+Tarih-saat çıktısının okunabilirliğini artırmak, profesyonel bir uygulamanın kullanıcı deneyimi açısından en önemli adımlarından biridir.
+
+
+DateTimeFormatter'ın sunduğu en büyük avantaj, geliştiricilere özel format desenleri (pattern) oluşturma özgürlüğü vermesidir. 
+Gün için "dd", ayın ismini yazıyla belirtmek için "MMMM", yıl için "yyyy" ve saat-dakika için "HH:mm" gibi semboller kullanılarak sınırsız kombinasyonda çıktılar elde edilebilir. 
+Bu esnek yapı, daha önce ele aldığımız LocalDateTime, LocalDate veya ZonedDateTime gibi modern zaman sınıflarıyla kusursuz bir uyum içinde çalışır. 
+Sınıfın bir diğer kritik yeteneği ise "Yerel (Locale) tabanlı formatlama" desteğidir. Bu özellik sayesinde, aynı tarih verisini tamamen farklı dillere ve bölgesel standartlara göre 
+formatlamak mümkün hale gelir; örneğin ay isimleri seçilen ülkenin diline göre otomatik olarak metne dönüştürülür.
+
+
+Bu sistemin bir program içerisindeki çalışma akışı son derece mantıksal bir sırayı takip eder. Uygulama bir tarih verisini göstermeye ihtiyaç duyduğunda, öncelikle 
+ham bir tarih-saat nesnesi oluşturulur. Slayttaki kod örneği incelendiğinde bu sürecin ne kadar güçlü olduğu net bir şekilde görülmektedir: LocalDateTime.now() ile 
+sistemden o anki zaman alınır. Ardından, iki farklı DateTimeFormatter tanımlanır. Birincisi Türkiye standartlarına uygun olarak "dd MMMM yyyy HH:mm" deseni ve Türkçe 
+Locale bilgisiyle; ikincisi ise Amerikan standartlarına uygun olarak "MMMM dd, yyyy hh:mm a" (AM/PM gösterimiyle) deseni ve US Locale bilgisiyle hazırlanır. Formatter nesneleri 
+bu ham veriyi işleyerek okunaklı metinler üretir ve son aşamada System.out.println() komutlarıyla sonuçlar ekrana yazdırılır. Tanımlamadan başlayıp biçimlendirmeye uzanan bu akış, 
+tek bir sistem saatinin dünyanın farklı yerlerindeki kullanıcılara kendi dillerinde ve alıştıkları formatta sunulmasını sağlar.

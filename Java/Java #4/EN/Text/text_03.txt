@@ -1,0 +1,13 @@
+In this slide, we discuss how we manage date and time operations in Java independently of regions, without getting into the complexity of timezones. 
+Global time conversions are not always needed in a program; sometimes we just need to focus on exact data like a standard birthday, an alarm time, or an invoice date. 
+For such needs, Java offers three core classes, the features of which are outlined on the left side of the slide: LocalDate, which holds only year, month, and day information; 
+LocalTime, which contains only hour, minute, and second data; and LocalDateTime, which combines these two to provide both date and time information in a single structure. 
+The common and most important feature of these three classes is that they do not contain any timezone information. Because they do not involve extra calculations like daylight 
+saving time transitions or time differences between countries, they provide a much simpler, more flexible, and higher-performance usage compared to classes like ZonedDateTime.
+
+
+The usage flow within a program also proceeds in parallel with the simplicity offered by these structures. As detailed in the middle of the slide and in the code example on the right, 
+the process begins with selecting the data type (class) that suits the requirement. Then, using methods like LocalDate.now(), LocalTime.now(), or LocalDateTime.now() found in the 
+code block, the system's current values are directly assigned to variables in memory. When necessary, formatting operations are performed on this raw data to make it easily readable 
+for the user, and the result is printed to the screen using commands like System.out.println(). In summary, if calculating a geographical time difference is not required for the data 
+in the project, this step-by-step flow—extending from definition to usage—provides the programmer with the ability to manage data in a controlled, organized, and highly efficient manner.

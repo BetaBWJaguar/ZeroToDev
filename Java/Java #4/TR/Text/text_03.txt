@@ -1,0 +1,17 @@
+Bu slaytta, Java'da tarih ve saat işlemlerini saat dilimi (timezone) karmaşasına girmeden, bölgesel bağımsız olarak nasıl yönettiğimizi ele alıyoruz.
+Bir programda her zaman global zaman dönüşümlerine ihtiyaç duyulmaz; bazen sadece standart bir doğum günü, bir alarm saati veya bir fatura tarihi gibi n
+et verilere odaklanmamız gerekir. İşte bu tür ihtiyaçlar için Java, slaytın sol tarafında özellikleri belirtilen üç temel sınıfı sunar: 
+Sadece yıl, ay ve gün bilgisini tutan LocalDate, sadece saat, dakika ve saniye verilerini barındıran LocalTime ve bu ikisini birleştirerek 
+hem tarih hem de saat bilgisini tek bir yapıda sunan LocalDateTime. Bu üç sınıfın ortak ve en önemli özelliği, içlerinde hiçbir saat dilimi bilgisi barındırmamalarıdır. 
+Yaz saati geçişleri veya ülkeler arası zaman farkları gibi ekstra hesaplamalar içermedikleri için, ZonedDateTime gibi sınıflara göre çok daha basit, esnek ve yüksek performanslı 
+bir kullanım sağlarlar.
+
+
+
+Program içerisindeki kullanım akışı da bu yapıların sunduğu sadelikle paralel olarak ilerler. Slaytın ortasında ve 
+sağındaki kod örneğinde detaylandırıldığı gibi süreç, ihtiyaca uygun olan veri tipinin (sınıfın) seçilmesiyle başlar. 
+Ardından, kod bloğunda yer alan LocalDate.now(), LocalTime.now() veya LocalDateTime.now() gibi metotlar kullanılarak 
+o anki sistemin güncel değerleri doğrudan bellekteki değişkenlere atanır. Gerekli durumlarda bu ham veriler üzerinde formatlama 
+işlemleri yapılarak kullanıcının rahat okuyabileceği şekle getirilir ve System.out.println() gibi komutlarla sonuç ekrana yazdırılır. 
+Özetle, eğer projedeki verilerde coğrafi bir saat farkı hesabı yapılması gerekmiyorsa, tanımlamadan kullanıma kadar uzanan bu adım adım 
+akış, programcıya verileri kontrollü, düzenli ve en hızlı şekilde yönetme imkanı sunar.
