@@ -1,0 +1,20 @@
+Modern yazılım geliştirmede uygulamalar; kullanıcı girişleri, web formları veya API'ler gibi dış veri kaynaklarıyla sürekli etkileşim halindedir. Bu senaryolarda tarih ve saat bilgileri 
+sisteme neredeyse her zaman düz, yapılandırılmamış metinler (String) olarak ulaşır. Ancak programlama açısından bakıldığında düz metinler oldukça kısıtlıdır; bir metin dizisine 
+matematiksel olarak gün ekleyemezsiniz veya hangi tarihin önce geldiğini belirlemek için iki metni güvenilir bir şekilde karşılaştıramazsınız. Bu temel kısıtlamayı aşmak için Java 
+"parsing" (ayrıştırma/çözümleme) adı verilen bir işlem kullanır. Parsing, ham ve metin tabanlı bir tarih değerini alıp; uygulamanın üzerinde işlem yapabileceği, 
+hesaplayabileceği ve yönetebileceği yapılandırılmış, tam işlevsel bir tarih-saat nesnesine dönüştürme sürecidir.
+
+Bu dönüşümün arkasındaki temel mekanizma, "desen" (pattern) olarak bilinen katı dönüştürme kurallarının tanımlanmasına dayanır. Bir sistem "28/04/2026" gibi bir metnin neyi 
+temsil ettiğini içgüdüsel olarak anlayamayacağı için, metnin tam olarak nasıl okunması ve yorumlanması gerektiğini belirten bir şablon sunmamız gerekir. İşte bu noktada 
+DateTimeFormatter sınıfı devreye girer. Belirlenen desen kesin bir şablon görevi görür; formatter'a (biçimlendiriciye) hangi karakterlerin günü, hangilerinin ayı ve hangilerinin 
+yılı temsil ettiğini net bir şekilde söyler. Bu ayrıştırma işleminin son derece katı kurallara bağlı olduğunu anlamak kritiktir. Formatter, verilen deseni istisnasız bir şekilde 
+takip eder. Eğer gelen metnin yapısı desenle kusursuz bir şekilde eşleşirse dönüşüm başarılı olur. Ancak eksik bir ayırıcı veya beklenmeyen bir karakter formatı gibi ufak bir 
+uyuşmazlık dahi olursa, sistem metni yorumlayamaz ve programda bir hata (exception) meydana gelir.
+
+Bir program içerisinde tarihin ayrıştırılması süreci, slaytın orta ve sağ bölümlerinde açıkça gösterildiği gibi oldukça mantıksal ve sıralı bir iş akışını takip eder. Süreç, 
+ham metin verisinin sisteme girmesiyle başlar; bu durum kodda String dateText = "28/04/2026"; şeklinde temsil edilmiştir. Sistemin bu metni anlayabilmesi için öncelikle bir 
+dönüştürme kuralının hazırlanması gerekir ve bu, DateTimeFormatter.ofPattern("dd/MM/yyyy") ile bir formatter tanımlanarak yapılır. Kural belirlendikten sonra, 
+asıl yorumlama işlemi LocalDate.parse() metodu kullanılarak gerçekleştirilir. Bu metot, ham metni tamamen bizim belirlediğimiz kurala bağlı kalarak okur. Başarılı 
+bir yorumlamanın ardından geçerli, yapılandırılmış bir LocalDate nesnesi oluşturulur ve bellekteki bir değişkene atanır. Bu noktadan itibaren veri artık anlamsız 
+bir metin dizisi olmaktan çıkar; uygulamanın ihtiyaç duyabileceği her türlü karmaşık işlem, karşılaştırma veya hesaplama için hazır, tamamen kullanılabilir bir nesne 
+haline gelir ve süreç, sonucun System.out.println() ile konsola başarıyla yazdırılmasıyla tamamlanır.
