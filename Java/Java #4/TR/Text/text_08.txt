@@ -1,0 +1,16 @@
+Değerli dinleyiciler, programlama dünyasında sadece verileri tanımlamak yetmez; 
+bu veriler üzerinde hesaplamalar yapmak, kararlar almak ve onları birbirleriyle kıyaslamak zorundayız. 
+İşte Java'da tüm bu aksiyonları gerçekleştirmemizi sağlayan özel sembollere "Operatör", 
+işlem gören verilere ise "Operand" diyoruz. Örneğin; x + 5 
+gibi basit bir ifadede artı (+) işareti operatör, x ve 5 ise operandlardır.
+
+Slaytımızın sol tarafında Java'da en sık başvurduğumuz dört temel operatör ailesini görüyoruz: Matematiksel hesaplamaları yapan Aritmetik, 
+iki değeri kıyaslayıp true/false dönen İlişkisel, karar mekanizmalarını birbirine bağlayan Mantıksal ve elde edilen sonuçları değişkene kaydeden Atama operatörleri. 
+Ortadaki akış diyagramının da özetlediği gibi; bu operatörler verileri hafızadan alır, araya girip işlemi hesaplar, çıkan sonucu = operatörü ile yeni bir değişkene yazar ve 
+nihayetinde veriyi kullanıma hazır hale getirir.
+
+Şimdi tüm bu teorinin sağ taraftaki kod bloğunda nasıl hayat bulduğuna bakalım. Programımız, atama operatörünü kullanarak a'ya 15, b'ye 4 değerini vererek başlıyor. 
+Ardından aritmetik operatörler devreye giriyor; sayılar toplanıyor ve % (modülüs) operatörüyle 15'in 4'e bölümünden kalan sayı (yani 3) bulunuyor. Bir alt satırda ilişkisel 
+operatörle program "a, b'den büyük mü?" diye sorup true cevabını alıyor. Son olarak mantıksal operatörler bölümünde (a > 10) && (b % 2 == 0) ifadesiyle iki koşul aynı anda 
+test ediliyor: "a 10'dan büyük MÜ, VE b çift sayı MI?". Her iki şart da sağlandığı için sonuç true olarak atanıyor ve en sonda tüm bu hesaplamalar ekrana yazdırılarak işlem döngüsü 
+tamamlanıyor.

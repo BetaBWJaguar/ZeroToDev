@@ -1,0 +1,14 @@
+Dear listeners, in the programming world, just defining data is not enough; we must perform calculations on this data, make decisions, and compare them with each other. 
+In Java, the special symbols that allow us to perform all these actions are called "Operators", and the data being processed are called "Operands". For example, in a simple 
+expression like x + 5, the plus (+) sign is the operator, while x and 5 are the operands.
+
+On the left side of our slide, we see the four fundamental operator families we use most frequently in Java: Arithmetic operators that perform mathematical calculations, 
+Relational operators that compare two values and return true/false, Logical operators that connect decision mechanisms, and Assignment operators that save the obtained results into 
+variables. As summarized by the flow diagram in the middle, these operators take data from memory, step in to evaluate the operation, write the resulting output to a new variable 
+using the = operator, and ultimately make the data ready for use.
+
+Now let's see how all this theory comes to life in the code block on the right. Our program starts by assigning the value 15 to a and 4 to b using the assignment operator. Then, 
+the arithmetic operators step in; the numbers are added, and by using the % (modulus) operator, the remainder of dividing 15 by 4 (which is 3) is found. In the next line, using a 
+relational operator, the program asks, "Is a greater than b?" and receives a true response. Finally, in the logical operators section, two conditions are tested simultaneously with 
+the expression (a > 10) && (b % 2 == 0): "IS a greater than 10, AND IS b an even number?". Since both conditions are met, the result is assigned as true, and at the very end, all 
+these calculations are printed to the screen, successfully completing the operation cycle.
